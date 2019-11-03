@@ -1,0 +1,226 @@
+\section{Samples} \label{sec:samples}
+
+The analysis described in this note is performed using data collected in 2017 and 2018 by
+CMS at 13 TeV and corresponds to an integrated luminosity of 41.5 and 59.7 fb$^{-1}$ respectively.
+The MC simulation samples for the background processes
+have been produced in the \texttt{Fall17} and \texttt{Autumn18} campaigns. Further details
+are given in the following sub-sections.
+
+\subsection{Data Samples}
+
+The datasets listed in Tab.~\ref{tab:DataSamples} are used to
+select events in the signal and the control regions.
+
+\begin{table}[ht!]
+    \centering
+    \small
+    \def\arraystretch{1.5}
+    \caption{List of datasets used to select events in the signal and control regions. Datasets for both years correspond to the \texttt{Nano1June2019} campaign, otherwise known as \texttt{v5}. For the 2017 data, the \texttt{31Mar2018} reconstruction is used for all periods. For 2018 data, the \texttt{17Sep2018} reconstruction is used for runs A to C, and the \texttt{22Jan2019} reconstruction is used for run D.}
+    \begin{tabular}{l l p{8cm}}
+        \hline
+        \hline
+        Year                  & Dataset name                       & Events selected for                                                     \\
+        \hline
+        \hline
+        both                  & {/MET/Run201*/NANOAOD}             & Signal , single muon, double muon control regions                 \\\hline
+        \multirow{2}{*}{2017} & {/SingleElectron/Run2017*/NANOAOD} & Single electron, double electron control regions                        \\
+                              & {/SinglePhoton/Run2017*/NANOAOD}   & Single photon control region                                            \\\hline
+        2018                  & {/EGamma/Run2018*/NANOAOD}         & Single electron, double electron control, single photon control regions \\
+        \hline
+        \hline
+    \end{tabular}
+
+    \label{tab:DataSamples}
+\end{table}
+
+Events for the signal regions are collected using a set of dedicated
+triggers designed to select events with large \ptmiss and large \mht based on
+the online particle flow (PF) algorithm. In these dedicated trigger algorithms,
+identified PF muons are removed from the event before the
+\ptmiss~and the \mht~objects are calculated. With this definition, the signal trigger paths can also be used to select single and double muon events for the W and Z control regions, respectively.
+
+Electron events for the W and Z regions are selected using a single electron trigger. To ensure the trigger efficiency also for high-\pt electrons, the single electron trigger is used in combination with a single photon trigger~\cite{CMS-EGM-TWIKI-HLT}. The same photon trigger is used to select events for the photon control region.
+
+The full list of triggers used, along with the L1 seeds and the associated primary datasets are shown in Table~\ref{tab:triggers}.
+
+\begin{table}[h]
+    \centering
+    \def\arraystretch{1.5}
+
+    \small
+    \caption{HLT paths and the associated L1 seeds used in the analysis for the 2017 and 2018 datasets. The HLT paths ending in ``\_HT60'' are backup triggers introduced  to mitigate noise rate problems in 2017. Their inclusion is not strictly necessary for 2018, but is done for consistency.}
+
+    \footnotesize
+    \begin{tabular}{l l c c}
+        \hline\hline
+        Year                   & HLT path                                                  & L1 seed                         & Primary dataset               \\\hline\hline
+        \multirow{5}{*}{2017}  & HLT\_PFMETNoMu120\_PFMHTNoMu120\_IDTight                  & \texttt{L1\_ETMHF70}            & MET                           \\
+                               & HLT\_PFMETNoMu120\_PFMHTNoMu120\_IDTight\_PFHT60          & \texttt{L1\_ETMHF80\_HTT60er }  & MET                           \\\cline{2-4}
+                               & HLT\_Ele35\_WPTight\_Gsf                                  & \texttt{L1\_SingleEG24}         & SingleElectron                \\\cline{2-4}
+                               & \multirow{3}{*}{HLT\_Photon200}                           & \texttt{L1\_SingleEG30}         & \multirow{3}{*}{SinglePhoton} \\
+                               &                                                           & \texttt{L1\_SingleJet170}       &                               \\
+                               &                                                           & \texttt{L1\_SingleTau100er2p1}  &                               \\\hline\hline
+
+        \multirow{11}{*}{2018} & \multirow{2}{*}{HLT\_PFMETNoMu120\_PFMHTNoMu120\_IDTight} & \texttt{L1\_ETMHF100}           & \multirow{3}{*}{MET}          \\
+                               &                                                           & \texttt{L1\_ETM150}             &                               \\
+                               & HLT\_PFMETNoMu120\_PFMHTNoMu120\_IDTight\_PFHT60          & \texttt{L1\_ETMHF90\_HTT60er}   &                               \\\cline{2-4}
+                               & \multirow{3}{*}{HLT\_Ele32\_WPTight\_Gsf}                 & \texttt{L1\_SingleIsoEG24er2p1} & \multirow{3}{*}{EGamma}       \\
+                               &                                                           & \texttt{L1\_SingleEG26er2p5}    &                               \\
+                               &                                                           & \texttt{L1\_SingleEG60}         &                               \\\cline{2-4}
+
+                               & \multirow{5}{*}{HLT\_Photon200}                           & \texttt{L1\_SingleEG34er2p5}    & \multirow{5}{*}{EGamma}       \\
+                               &                                                           & \texttt{L1\_SingleJet160er2p5}  &                               \\
+                               &                                                           & \texttt{L1\_SingleJet180}       &                               \\
+                               &                                                           & \texttt{L1\_SingleTau120er2p1}  &                               \\
+                               &                                                           & \texttt{L1\_SingleEG60}         &                               \\\hline
+
+        \hline\hline %--------------------------------------------------------------------------------------------------------------------------      \
+    \end{tabular}
+
+    \label{tab:triggers}
+\end{table}
+
+\subsection{Background Samples}
+
+Simulation datasets for the background processes are listed in
+Table~\ref{tab:BackgroundSamples} and~\ref{tab:BackgroundSamples_2}. These following physics processes considered:
+
+\begin{description}
+\item[\Zvvjets]: This process yields the largest irreducible background in the analysis. Simulated samples for this background have been produced at leading
+order (LO) in QCD using the aMC@NLO generator in several bins of \Ht.
+
+\item[\Wjets]: The second largest source of background in this analysis. The contribution of this background can be reduced by rejecting events with charged lepton candidates (electron/muon/tau). However, this process becomes irreducible in the case where the charged leptons are outside of the detector acceptance.
+Simulation samples for this background have been generated at LO in QCD using the aMC@NLO generator in several bins \Ht.
+
+\item[\Zlljets]: As in the case of \Wlv, the contribution of this background is reduced by rejecting events with charged leptons. Signal-like events are produced in the case where the charged leptons from the Z boson decay are not reconstructed. Similarly to the \Wjets case, .
+Simulation samples for this process have been generated at LO in QCD using the aMC@NLO generator in bins of \Ht.
+
+\item[Top:] Top-quark decays (both \ttbar and single top) also contribute background events to this analysis. In these processes, the W boson produced in a top-quark decay further decays leptonically, which produces genuine \ptmiss in the event. Next-to-leading order (NLO) \ttbar simulation samples have been produced with the aMC@NLO generator. Single-top events have been generated with the Powheg generator at NLO.
+
+\item[Dibosons:] Decays of diboson pairs (WW, WZ, ZZ) also constitute background processes. Typically, one of the bosons decays leptonically (\Wlv,\Zvv) while the other boson decays hadronically, thus producing jets and \ptmiss~in the final state. Simulated samples for WW, WZ and ZZ production have been generated at LO with Pythia~8.
+
+\item[QCD Multijet:] QCD multijet events typically do not have large genuine \ptmiss. However, given the large cross section with which these events are produced, even a small fraction of events with jet mismeasurement results in a non-zero contribution of this process as background in the analysis. Simulated QCD samples have been generated at LO in QCD using the MadGraph generator in several bins of \Ht.
+
+\end{description}
+
+\begin{table}[ht!]
+\centering
+\scriptsize
+    \def\arraystretch{1.3}
+\begin{tabular}{l|r|c}
+\hline
+\hline
+Dataset name                                                                  &  Cross section (pb)          & Order in QCD \\
+\hline
+\hline
+WJetsToLNu\_HT-70To100\_TuneCP5\_13TeV-madgraphMLM-pythia8                        &   1296         & LO  \\
+WJetsToLNu\_HT-100To200\_TuneCP5\_13TeV-madgraphMLM-pythia8                       &   1392         & LO  \\
+WJetsToLNu\_HT-200To400\_TuneCP5\_13TeV-madgraphMLM-pythia8                       &    410.2       & LO  \\
+WJetsToLNu\_HT-400To600\_TuneCP5\_13TeV-madgraphMLM-pythia8                       &     57.95      & LO  \\
+WJetsToLNu\_HT-600To800\_TuneCP5\_13TeV-madgraphMLM-pythia8                       &     12.98      & LO  \\
+WJetsToLNu\_HT-800To1200\_TuneCP5\_13TeV-madgraphMLM-pythia8                      &      5.39      & LO  \\
+WJetsToLNu\_HT-1200To2500\_TuneCP5\_13TeV-madgraphMLM-pythia8                     &      1.08      & LO  \\
+WJetsToLNu\_HT-2500ToInf\_TuneCP5\_13TeV-madgraphMLM-pythia8                      &      0.008098  & LO  \\
+\hline
+ZJetsToNuNu\_HT-100To200\_13TeV-madgraph                                         &    305.3       & LO  \\
+ZJetsToNuNu\_HT-200To400\_13TeV-madgraph                                         &     91.86      & LO  \\
+ZJetsToNuNu\_HT-400To600\_13TeV-madgraph                                         &     13.13      & LO  \\
+ZJetsToNuNu\_HT-600To800\_13TeV-madgraph                                         &      3.242     & LO  \\
+ZJetsToNuNu\_HT-800To1200\_13TeV-madgraph                                        &      1.501     & LO  \\
+ZJetsToNuNu\_HT-1200To2500\_13TeV-madgraph                                       &      0.3431    & LO  \\
+ZJetsToNuNu\_HT-2500ToInf\_13TeV-madgraph                                        &      0.005146  & LO  \\
+\hline
+DYJetsToLL\_M-50\_HT-70to100\_TuneCP5\_13TeV-madgraphMLM-pythia8                   &    146.9       & LO  \\
+DYJetsToLL\_M-50\_HT-100to200\_TuneCP5\_13TeV-madgraphMLM-pythia8                  &    160.9       & LO  \\
+DYJetsToLL\_M-50\_HT-200to400\_TuneCP5\_13TeV-madgraphMLM-pythia8                  &     48.68      & LO  \\
+DYJetsToLL\_M-50\_HT-400to600\_TuneCP5\_13TeV-madgraphMLM-pythia8                  &      6.998     & LO  \\
+DYJetsToLL\_M-50\_HT-600to800\_TuneCP5\_13TeV-madgraphMLM-pythia8                  &      1.745     & LO  \\
+DYJetsToLL\_M-50\_HT-800to1200\_TuneCP5\_13TeV-madgraphMLM-pythia8                 &      0.8077    & LO  \\
+DYJetsToLL\_M-50\_HT-1200to2500\_TuneCP5\_13TeV-madgraphMLM-pythia8                &      0.1923    & LO  \\
+DYJetsToLL\_M-50\_HT-2500toInf\_TuneCP5\_13TeV-madgraphMLM-pythia8                 &      0.003477  & LO  \\
+\hline
+GJets\_HT-40To100\_TuneCP5\_13TeV-madgraphMLM-pythia8                             &  18640         & LO  \\
+GJets\_HT-100To200\_TuneCP5\_13TeV-madgraphMLM-pythia8                            &   8641         & LO  \\
+GJets\_HT-200To400\_TuneCP5\_13TeV-madgraphMLM-pythia8                            &   2196         & LO  \\
+GJets\_HT-400To600\_TuneCP5\_13TeV-madgraphMLM-pythia8                            &    258.4       & LO  \\
+GJets\_HT-600ToInf\_TuneCP5\_13TeV-madgraphMLM-pythia8                            &     85.23      & LO  \\
+\hline
+\hline
+\end{tabular}
+\caption{Simulated datasets for the modelling of single electroweak boson backgrounds. All datasets are accessed at the NanoAOD data tier from the \texttt{v5} campaign, also known as \texttt{1Jun19}.}
+\label{tab:BackgroundSamples}
+\end{table}
+
+
+
+\begin{table}[ht!]
+\centering
+\scriptsize
+    \def\arraystretch{1.3}
+\begin{tabular}{l|r|c}
+\hline
+\hline
+Dataset name                                                                  &  Cross section (pb)          & Order in QCD \\
+\hline
+\hline
+
+\hline
+TTJets\_TuneCP5\_13TeV-amcatnloFXFX-pythia8                                      &    831.76      & NLO \\
+\hline
+ST\_t-channel\_top\_4f\_inclusiveDecays\_TuneCP5\_13TeV-powhegV2-madspin-pythia8     &    137.458     & NLO \\
+
+ST\_t-channel\_antitop\_4f\_inclusiveDecays\_TuneCP5\_13TeV-powhegV2-madspin-pythia8 &     83.0066    & NLO \\
+ST\_tW\_top\_5f\_inclusiveDecays\_TuneCP5\_*\_13TeV-powheg-pythia8                      &     35.85      & NLO \\
+ST\_tW\_antitop\_5f\_inclusiveDecays\_TuneCP5\_*\_13TeV-powheg-pythia8        &     35.85      & NLO \\
+\hline
+WW\_TuneCP5\_13TeV-pythia8                                                       &     75.91      & LO  \\
+WZ\_TuneCP5\_13TeV-pythia8                                                       &     27.56      & LO  \\
+ZZ\_TuneCP5\_13TeV-pythia8                                                       &     12.14      & LO  \\
+\hline
+QCD\_HT1000to1500\_TuneCP5\_13TeV-madgraph-pythia8                                &   1095         & LO  \\
+QCD\_HT1000to1500\_TuneCP5\_13TeV-madgraph-pythia8                                &   1095         & LO  \\
+QCD\_HT100to200\_TuneCP5\_13TeV-madgraph-pythia8                                  &      2.369e+07 & LO  \\
+QCD\_HT1500to2000\_TuneCP5\_13TeV-madgraph-pythia8                                &     99.27      & LO  \\
+QCD\_HT2000toInf\_TuneCP5\_13TeV-madgraph-pythia8                                 &     20.25      & LO  \\
+QCD\_HT200to300\_TuneCP5\_13TeV-madgraph-pythia8                                  &      1.554e+06 & LO  \\
+QCD\_HT300to500\_TuneCP5\_13TeV-madgraph-pythia8                                  & 324300         & LO  \\
+QCD\_HT300to500\_TuneCP5\_13TeV-madgraph-pythia8                                  & 324300         & LO  \\
+QCD\_HT500to700\_TuneCP5\_13TeV-madgraph-pythia8                                  &  29990         & LO  \\
+QCD\_HT50to100\_TuneCP5\_13TeV-madgraphMLM-pythia8                                &      1.85e+08  & LO  \\
+QCD\_HT700to1000\_TuneCP5\_13TeV-madgraph-pythia8                                 &   6374         & LO  \\
+QCD\_HT700to1000\_TuneCP5\_13TeV-madgraph-pythia8                                 &   6374         & LO  \\
+
+\hline
+\hline
+\end{tabular}
+\caption{Simulated datasets for the modelling of subleading background processes. All datasets are accessed at the NanoAOD data tier from the \texttt{v5} campaign, also known as \texttt{1Jun19}.}
+\label{tab:BackgroundSamples_2}
+\end{table}
+
+The MC samples produced using \MGvATNLO, and \POWHEG
+generators are interfaced with \PYTHIA using the CP5 tune~\cite{Sirunyan:2019dfx}
+for the fragmentation, hadronization, and underlying event description.
+In the case of the \MGvATNLO samples, jets from the matrix element calculations
+are matched to the parton shower description following the MLM~\cite{Mangano:2006rw} (FxFx~\cite{Frederix:2012ps})
+prescription to match jets from matrix element calculations and parton shower description for LO (NLO) samples.
+The NNPDF 3.1 NNLO~\cite{Ball:2017nwa}
+parton distribution functions (PDFs) are used in all generated samples.
+The propagation of all final-state particles through the CMS detector
+is simulated with the \GEANT4 software~\cite{Agostinelli:2002hh}.
+The simulated events include the effects of pileup, with the multiplicity of reconstructed primary
+vertices matching that in data. The average number of pileup interactions per proton bunch crossing
+is found to be 32 for both the 2017 and 2018 data samples used in this analysis (assuming a total inelastic proton-proton cross-section).
+
+\subsection{Signal simulation samples}
+
+{\color{red} In this section we should add description of the models, feynman diagrams, important model parameters}
+
+{\color{red} {\bf DMSimp Models}}
+
+{\color{red} {\bf t-channel Model}}
+
+{\color{red} {\bf ADD Model}}
+
+{\color{red} {\bf Leptoquark Model}}
+
+{\color{red} {\bf Higgs Invisible Model}}

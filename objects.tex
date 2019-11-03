@@ -1,0 +1,285 @@
+\section{Physics objects} \label{sec:objects}
+
+\subsection{Jets}
+\label{sec:objects_ak4}
+In this analysis, jets are reconstructed by clustering PF candidates
+using the infrared and collinear safe anti-\kt algorithm~\cite{Cacciari:2008gp}. Jets clustered
+with distance parameters of 0.4 and referred to as AK4 jets.
+The reconstructed vertex with the largest value of summed physics-object $\pt^2$ is taken to
+be the primary $\Pp\Pp$ interaction vertex. The physics objects are those returned by a
+jet finding algorithm~\cite{Cacciari:2008gp,Cacciari:2011ma} applied to all charged PF candidates
+associated with the vertex, plus the corresponding associated missing transverse momentum.
+
+Jet momentum is determined as the vector sum of all particle momenta in the jet,
+and is found from simulation to be within 5 to 10\% of the true momentum over the full \pt
+spectrum and detector acceptance. An offset correction is applied to jet energies to take
+into account the contribution from additional proton-proton interactions within the
+same or nearby bunch crossings (pileup). Jet energy corrections are derived from simulation,
+and are confirmed with {\it in situ} measurements of the energy balance in dijet, multijet,
+$\gamma$+jet, and leptonic Z+jet events~\cite{Khachatryan:2016kdb}. The \texttt{Fall17\_17Nov2017\_V32} and \texttt{Autumn18\_V8}
+versions of the jet energy corrections are used for the 2017 and 2018 data sets, respectively.
+
+The AK4 jets used in this analysis is further required to have a \pt larger than 30 GeV
+and $|\eta| < 2.5$. Such jets are also required to pass loose jet identification criteria.
+Lastly, to suppress the contributions due to non-collision backgrounds, the following
+requirements are applied on the leading AK4 jet:
+\begin{itemize}
+\item Charged hadron energy fraction $> 0.1$
+\item Neutral hadron energy fraction $< 0.8$
+\end{itemize}
+
+The effect of these cleaning requirements are demonstrated in the jet $\phi$ distribution of
+the signal region events in Fig.~\ref{fig:jetcleaning}.
+
+\begin{figure}[htbp]
+  \centering
+        \includegraphics[width=0.45\textwidth]{fig/placeholder.png}
+  \caption{Leading AK4 jet $\phi$ distribution before and after applying the jet cleaning
+requirements in the signal region.}
+  \label{fig:jetcleaning}
+\end{figure}
+
+
+\subsubsection{b-tagged jets}
+
+{\color{red} Update the b-tagging working point when the new tagging working points are defined}
+In this analysis b jets with $\pt > 20$~\GeV and $|\eta| < 2.4$ are identified
+using the ``DeepCSV'' algorithm~\cite{Sirunyan:2017ezt},
+adopting a working point (medium) corresponding to correctly identifying a b jet with a
+probability of 80\%, and misidentifying a light-flavor jet with a probability of 10\%.
+Events with identified b jets are rejected to reduce the contamination from top quark processes.
+
+\subsubsection{V-tagged jets}
+
+{\color{red} Update the V-tagging working point when the new tagging working points are defined}
+
+\subsection{Missing transverse momentum and recoil}
+
+The vector \ptvecmiss is defined as the imbalance in the transverse
+momentum of all particles that interact with the detectors.
+Due to momentum conservation in the plane transverse to the beam axis, \ptvecmiss
+corresponds to the transverse momentum that is carried by undetected particles such as neutrinos.
+Practically, \ptvecmiss is computed as the negative of the vectorial sum of transverse
+momenta of all PF candidates and is therefore also referred to as PF \ptvecmiss. The magnitude of the \ptvecmiss is referred to as \ptmiss.
+
+Minimum energy thresholds in the calorimeters, inefficiencies
+in the tracker, nonlinearity of the response of the calorimeter
+for hadronic particles can lead to an over- or underestimation of \ptmiss.
+The bias on the \ptmiss measurement is reduced by propagating the effect of the jet energy
+corrections introduced in section~\ref{sec:objects_ak4} according to
+
+\begin{equation}
+\ptvecmiss(\mathrm{corr})
+=\ptvecmiss - \sum_\mathrm{jets} (\vec{p}_\mathrm{T,jet}({\mathrm{corr}})-\vec{p}_\mathrm{T,jet}),
+\label{eq:Type1MET}
+\end{equation}
+where the ``corr'' refers to the scale energy corrected measurements
+of the related objects.
+
+This ``type-I'' correction for \ptvecmiss uses jet energy scale corrections
+for all corrected jets with $\pt>15\GeV$ that have less than $0.9$
+of their energy deposited in the ECAL. Furthermore, if a muon is found in a
+jet, its 4-momentum is subtracted from the 4-momentum of the jet
+when performing the correction and is added back to a corrected object.
+
+Since signal events in this analysis contain only jets and no other reconstructed candidates,
+\ptmiss is equivalent to the total hadronic momentum in the event. For the leading backgrounds, this also corresponds to the transverse momentum of the W or Z boson. To mimic this behavior in in the control regions of this analysis, the transverse
+momentum of the hadronic recoil $\vec{U}$, defined as the vectorial sum of the transverse
+momenta of all particles except the vector boson (or its decay products), is used.
+The variable is  computed as
+\begin{equation}
+  \vec{U} = \ptvecmiss + \sum _{i\;\in\;\textrm{leptons, photons}}\vec{p}^{i}_{T}}
+\end{equation}
+
+where the sum takes into account the leptons and photons used to define the respective control region.
+The uncertainty of \ptmiss has a strong dependence on the
+event topology. Therefore, the uncertainty on \ptmiss is often factorized into its components of
+jets, leptons and unclustered energy. Each sub-component is then varied
+within its scale and resolution uncertainty. In this analysis, the largest
+contribution on the final \ptmiss uncertainty comes from the variations of the
+jet energy scale correction and the magnitude of the uncertainty is estimated
+to be 4\% for the \Zvvjets~events. {\color{red} Up to date?}
+
+Anomalous high-\ptmiss events can appear due to various phenomena.
+In the ECAL, spurious deposits may appear due to particles striking
+sensors in the ECAL photodetectors, or from real showers with non-collision
+origins such as those caused by beam halo particles. ECAL dead cells can cause real
+energy to be missed, again leading to a spurious imbalance.
+In the HCAL, spurious energy can arise due to  noise in the hybrid
+photodiode and readout box  electronics, as well as
+direct particle interactions with  the light guides and
+photomultiplier tubes of the forward calorimeter. A number of filters has been developed by the POG/DPG groups to identify and supress anomalous high
+\ptmiss events~\cite{CMS-JME-TWIKI-FILTER}. The recommended filters are listed in Tab.~\ref{tab:metfilters} and are applied in the analysis.
+
+\begin{table}[ht!]
+    \centering
+    \small
+    \def\arraystretch{1.5}
+    \caption{The \ptmiss filters recommended by the JME POG~\cite{CMS-JME-TWIKI-FILTER}. The recommendations apply to both 2017 and 2018. Except for the bad super cluster filter (``ee badSC''), all filters are applied both in data and simulation.}
+    \begin{tabular}{l l c }
+        \hline
+        \hline
+                                           &                                                                     \\
+        Filter                             & Name in NanoAOD                          & Applied in data (MC)     \\\hline
+        primary vertex filter              & Flag\_goodVertices                       & \checkmark  (\checkmark) \\
+        beam halo filter                   & Flag\_globalSuperTightHalo2016Filter     & \checkmark  (\checkmark) \\
+        HBHE noise filter                  & Flag\_HBHENoiseFilter                    & \checkmark  (\checkmark) \\
+        HBHEiso noise filter               & Flag\_HBHENoiseIsoFilter                 & \checkmark  (\checkmark) \\
+        ECAL TP filter                     & Flag\_EcalDeadCellTriggerPrimitiveFilter & \checkmark  (\checkmark) \\
+        Bad PF Muon Filter                 & Flag\_BadPFMuonFilter                    & \checkmark  (\checkmark) \\
+        ee badSC noise filter              & Flag\_eeBadScFilter                      & \checkmark  (\times)     \\
+        ECAL bad calibration filter update & Flag\_ecalBadCalibFilterV2               & \checkmark  (\checkmark) \\
+        \hline
+    \end{tabular}
+
+    \label{tab:metfilters}
+\end{table}
+
+
+To further miminize the contribution of anomalous high-\ptmiss events
+(specifically due to spurious charged hadrons) in this analysis, a
+quantity based on the relative ratio of calorimetry based \ptmiss and
+PF based \ptmiss is employed. Examples of the distribution in
+single muon and single electron control region can be found in
+Fig.~\ref{fig:calomet_pfmet}, which are produced after requiring the
+whole set of the standard \ptmiss filters provided by the POG.
+%The selection of events with the resulting value of $< 0.5$ is adopted in this analysis.
+
+\begin{figure}[htbp]
+  \centering
+        \includegraphics[width=0.45\textwidth]{fig/placeholder.png}
+        \includegraphics[width=0.45\textwidth]{fig/placeholder.png}
+  \caption{The difference between calorimeter-based and PF MET relative to the hadronic recoil
+in data and simulated events passing the analysis selection for the single muon (left) and
+single electron (right) control regions. Events with values of $< 0.5$ is considered in
+the analysis.}
+  \label{fig:calomet_pfmet}
+\end{figure}
+
+\subsection{Leptons}
+
+\subsubsection{Electrons}
+
+Electrons within the geometrical acceptance of $|\eta| < 2.5$
+are reconstructed by associating tracks reconstructed
+in the silicon detector with clusters of energy in the ECAL~\cite{Khachatryan:2015hwa}.
+Well-identified electron candidates are required to satisfy
+additional identification criteria based on the shower
+shape of the energy deposit in the ECAL and the consistency of the
+electron track with the primary vertex~\cite{TRK-11-001}. Electron candidates
+that are identified as coming from photon conversions in
+the detector material are removed. An isolation variable is calculated based on the sum of the energies of the PF candidates within a cone of $\Delta R < 0.3$ around the electron. The mean energy deposit in the isolation cone of the electron coming from pileup is estimated following the method described in Ref.~\cite{Khachatryan:2015hwa} and subtracted from the isolation sum. In this note, `veto'~\cite{CMS-EGM-TWIKI-ELEID} electrons with a
+minimum $\pt$ of 10~\GeV are selected with an average efficiency of 95\% and their presence is used as a condition to reject events, whereas `tight'~\cite{CMS-EGM-TWIKI-ELEID} electrons with a minimum $\pt$ of 40~\GeV and an average efficiency of 70\% are used to select the events
+in the control regions. Full selection criteria are shown in Table~\ref{tab:ElectronIDTight}.
+
+\begin{table}[htb]
+    \centering
+    \small
+    \def\arraystretch{1.5}
+    \caption{Tight and veto electron identification criteria.}
+
+    \begin{tabular}{ l c c}
+        \hline\hline
+        Variable                                                & Selection Tight                              & Selection Veto                             \\
+                                                                & Barrel (Endcaps)                             & Barrel (Endcap)                            \\
+        \hline
+        \hline
+        \multirow{2}{*}{Full 5x5 $\sigma_{i\eta i\eta}$}        & $< 0.0104  $                                 & $< 0.0126   $                              \\
+                                                                & ($< 0.0353   $)                              & ($< 0.0457   $)                            \\\cline{2-3}
+        \multirow{2}{*}{$|\Delta \eta_{in}|$}                   & $< 0.00255  $                                & $< 0.00463  $                              \\
+                                                                & ($< 0.00501  $)                              & ($< 0.00814   $)                           \\\cline{2-3}
+        \multirow{2}{*}{$|\Delta \phi_{in}|$}                   & $< 0.022   $                                 & $< 0.148    $                              \\
+                                                                & ($< 0.0236   $)                              & ($< 0.19    $)                             \\\cline{2-3}
+        \multirow{2}{*}{H/E}                                    & $< 0.026+1.15/E_{SC}+0.0324\rho/E_{SC}  $    & $< 0.05+1.16/E_{SC}+0.0324\rho/E_{SC}   $  \\
+                                                                & ($< 0.0188+2.06/E_{SC}+0.183*\rho/E_{SC}  $) & ($< 0.05+2.54/E_{SC}+0.183\rho/E_{SC}   $) \\\cline{2-3}
+        \multirow{2}{*}{Relative isolation ($\rho$ correction)} & $< 0.0287+0.506/pT  $                        & $< 0.198+0.506/\pt   $                     \\
+                                                                & ($< 0.0445+0.963/\pt  $)                     & ($< 0.203+0.963/\pt   $)                   \\\cline{2-3}
+        \multirow{2}{*}{1/E - 1/p}                              & $< 0.159   $                                 & $< 0.209    $                              \\
+                                                                & ($< 0.0197   $)                              & ($< 0.132    $)                            \\\cline{2-3}
+        \multirow{2}{*}{$|\mathrm{d_{xy}(vtx)}|$}               & $< 0.050   $                                 & $< 0.050 $                                 \\
+                                                                & ($< 0.100   $)                               & ($< 0.100   $)                             \\\cline{2-3}
+        \multirow{2}{*}{$|\mathrm{d_{z}(vtx)}|$}                & $< 0.100   $              & $< 0.100 $            \\
+                                                                & ($< 0.200   $)                               & ($< 0.200   $)                             \\\cline{2-3}
+        \multirow{2}{*}{Expected Inner Missing Hits}            & $<= 1$                                       & $<= 2 $                                    \\
+                                                                & ($<= 1$)                                     & ($<= 3$)                                   \\\cline{2-3}
+        \multirow{2}{*}{Pass conversion veto}                   & Yes                                          & Yes                                        \\
+                                                                & (Yes)                                        & (Yes)                                      \\
+        \hline\hline
+    \end{tabular}
+    \label{tab:ElectronIDTight}
+\end{table}
+
+
+
+\subsubsection{Muons}
+
+Muons within the geometrical acceptance of $|\eta| < 2.4$ are reconstructed by combining information from the silicon tracker and the muon system~\cite{Chatrchyan:2012xi}. The muons are required to pass set of quality criteria based on the number of spatial points measured in the tracker and in the muon system, the fit quality of the muon track and its consistency with the primary vertex of the event. Similar to electron case, the isolation requirements for muons are also based on the sum of the energies of the PF candidates, but a different cone size of a $\Delta R < 0.4$ is used. The muon isolation variable is corrected for pileup effects by subtracting half of the sum of the transverse momenta of charged particles that are inside the isolation cone and not associated with the primary vertex. In this note, ``loose''~\cite{CMS-MUO-TWIKI-IDLOOSE} muons with $\pt>10~\GeV$ are selected with an average efficiency of 98\% and are used as a condition to reject events,
+whereas ``tight''~\cite{CMS-MUO-TWIKI-IDTIGHT} muons with $\pt>20~\GeV$ are selected with an average efficiency of 95\% and are
+used to select events in the control samples. A full list of tight identification criteria is given here:
+
+\begin{itemize}
+\item Muon reconstructed as a global muon
+\item Muon reconstructed as a particle flow muon
+\item Normalized $\chi^2$ of the global track less than 10
+\item At least one muon chamber hit included in the global track fit
+\item Muon segments in at least two muon stations
+\item Transverse impact parameter w.r.t. the primary vertex less than $2$ mm.
+\item Longitudinal impact parameter w.r.t. the primary vertex less than $5$ mm.
+\item At least one pixel hit
+\item Hits on at least 5 tracker layers
+\item $\Delta\beta$ relative isolation less than 0.15
+\end{itemize}
+
+\subsubsection{Taus}
+
+Hadronically decaying $\tau$ leptons are required to pass identification criteria
+using the hadron-plus-strips algorithm~\cite{Khachatryan:2015dfa}. The algorithm
+identifies a jet as an hadronically decaying tau lepton candidate if a subset of the
+particles assigned to the jet is consistent with the decay products of a $\tau$ candidate.
+Candidate $\tau$ jets are reuired to pass both the ``DecayModeNewDMs'' and ``DecayMode'' identifiers.
+
+In addition, $\tau$ candidates are required to be isolated from other activity in the
+event. The isolation requirement is computed by summing the \pt of the charged PF
+candidates and PF photon candidates within an isolation cone of $\Delta R = 0.5 (0.3)$,
+around the tau candidate direction. The charged and photon candidates associated with the
+tau candidate are removed from this sum and further described in Ref.~\cite{Khachatryan:2015dfa}.
+The ``VLoose\_IsolationMVArun2v1DBnewDMwLT'' isolation working point~\cite{taupog_twiki} is employed in this analysis
+for tau candidates with \pt larger than 18~\GeV within $|\eta| < 2.3$.
+
+
+\subsection{Photons}
+
+Photon candidates are reconstructed from energy deposits in the ECAL using algorithms
+that constrain the clusters to the size and shape expected from a photon~\cite{CMS:EGM-14-001}.
+The identification of the candidates is based on shower-shape and isolation variables.
+For isolated photons, scalar sums of the \pt of PF candidates within a cone of $\Delta R < 0.3$
+around the photon candidate are required to be below the bounds defined. Only the PF candidates
+that do not overlap with the EM shower of the candidate photon are included in the isolation sums.
+The photon candidates used in this analysis are required to have a minimum transverse momentum of 15~\GeV and to
+be within $|\eta| < 2.5$ passing the `loose'~\cite{CMS-EGM-TWIKI-GAMID} identification criteria in.
+The full identification criteria is also given in Table~\ref{tab:PhotonIDLoose}.
+
+\begin{table}[htb!]
+\centering
+\small
+\def\arraystretch{1.2}
+\begin{tabular}{l c}
+\hline
+Variable                                   &  Selection       \\
+                                           &  Barrel (Endcap)  \\
+\hline
+\hline
+Full 5x5 $\sigma_{i\eta i\eta}$            & $< 0.0106 $ ($< 0.0272 $)    \\
+H/E                                        & $<  0.04596 $ ($< 0.0590 $)    \\
+charged hadron isolation                   & $< 1.694 $  ($< 2.089 $)     \\
+neutral hadron isolation                   & $< 24.032 (19.722) + 0.01512(0.0117)\times p_T+2.259(2.3)\times 10^{-5} \times {p_T}^2$ \\
+photon isolation                           & $< 2.876 (4.162) + 0.004017(0.0037)\times p_T$  \\
+Conversion safe electron veto              & Yes (Yes)           \\
+\hline
+\end{tabular}
+\caption{Loose photon identification criteria.}
+\label{tab:PhotonIDLoose}
+\end{table}
+
+\subsubsection{Photon purity studies}
+{\color{red} To be added.}
