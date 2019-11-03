@@ -15,6 +15,9 @@
 %To mark authors as primary, use the \author* form
 \address[inst1]{Boston University (US)}
 \author*[inst1]{Alp Akpinar}
+\author*[inst1]{Zeynep Demiragli}
+\author*[inst1]{Andreas Albert}
+\author*[inst1]{Siqi Yuan}
 
 % >> Date
 % The date is in yyyy/mm/dd format. Today has been
@@ -37,7 +40,7 @@
 % No curly braces {} except for TeX in the PDFtitle.
 \hypersetup{%
 pdfauthor={Alp Akpinar},%
-pdftitle={Search for VBF Higgs bosons decaying to invisible particles at 13 TeV with 2017 data},%
+pdftitle={Run-II VBFHinv BU},%
 pdfsubject={CMS},%
 pdfkeywords={CMS, physics, your topics}}
 
@@ -49,7 +52,19 @@ pdfkeywords={CMS, physics, your topics}}
 %% If you include other TeX files, be sure to use "\input{filename}" rather than "\input filename".
 %% The latter works for you, but our parser looks for the braces and will break when uploading the document.
 %%%%%%%%%%%%%%%
-
+\input{commands.tex}
+\tableofcontents
+\newpage
+\input{introduction.tex}
+\input{dataset.tex}
+\input{objects.tex}
+\input{reweighting.tex}
+\input{selection.tex}
+\clearpage
+\input{signalextraction.tex}
+\clearpage
+\input{results.tex}
+\clearpage
 % >> acknowledgments (for journal papers only)
 % The latest version of the acknowledgments will be included from https://twiki.cern.ch/twiki/bin/viewauth/CMS/Internal/PubAcknow as of the date of submission. Modify to match either US or UK English spelling for centre/center, programme/program. For PRL use the short version, for JINST normally use the long version. All others take the middle length version other than exceptional cases.
 \begin{acknowledgments}
