@@ -30,7 +30,7 @@ The effect of this requirement is demonstrated in the sub-leading jet $\eta$ dis
 
 \begin{figure}[htbp]
   \centering
-        \includegraphics[width=0.45\textwidth]{fig/ak4_eta1_puidcomparison.png}
+        \includegraphics[width=0.45\textwidth]{fig/datamc/ak4_eta1_puidcomparison.png}
   \caption{Subleading AK4 jet $\eta$ distribution with and without pileup ID requirement in the single electron control region.}
   \label{fig:pileupid}
 \end{figure}
@@ -58,8 +58,9 @@ requirements in the signal region.}
 {\color{red} Update the b-tagging working point when the new tagging working points are defined}
 In this analysis b jets with $\pt > 20$~\GeV and $|\eta| < 2.4$ are identified
 using the ``DeepCSV'' algorithm~\cite{Sirunyan:2017ezt},
-adopting a working point (medium) corresponding to correctly identifying a b jet with a
+adopting a working point (medium) corresponding to correctly identifying a b-jet with a
 probability of 80\%, and misidentifying a light-flavor jet with a probability of 10\%.
+This working point corresponds to the value of DeepCSV tagger to be greater than 0.4941.
 Events with identified b jets are rejected to reduce the contamination from top quark processes.
 
 \subsubsection{V-tagged jets}
@@ -96,7 +97,9 @@ jet, its 4-momentum is subtracted from the 4-momentum of the jet
 when performing the correction and is added back to a corrected object.
 
 Since signal events in this analysis contain only jets and no other reconstructed candidates,
-\ptmiss is equivalent to the total hadronic momentum in the event. For the leading backgrounds, this also corresponds to the transverse momentum of the W or Z boson. To mimic this behavior in in the control regions of this analysis, the transverse
+\ptmiss is equivalent to the total hadronic momentum in the event. For the leading backgrounds, 
+this also corresponds to the transverse momentum of the W or Z boson. 
+To mimic this behavior in in the control regions of this analysis, the transverse
 momentum of the hadronic recoil $\vec{U}$, defined as the vectorial sum of the transverse
 momenta of all particles except the vector boson (or its decay products), is used.
 The variable is  computed as
@@ -121,7 +124,8 @@ energy to be missed, again leading to a spurious imbalance.
 In the HCAL, spurious energy can arise due to  noise in the hybrid
 photodiode and readout box  electronics, as well as
 direct particle interactions with  the light guides and
-photomultiplier tubes of the forward calorimeter. A number of filters has been developed by the POG/DPG groups to identify and supress anomalous high
+photomultiplier tubes of the forward calorimeter. 
+A number of filters has been developed by the POG/DPG groups to identify and supress anomalous high
 \ptmiss events~\cite{CMS-JME-TWIKI-FILTER}. The recommended filters are listed in Tab.~\ref{tab:metfilters} and are applied in the analysis.
 
 \begin{table}[ht!]
@@ -153,7 +157,7 @@ To further miminize the contribution of anomalous high-\ptmiss events
 (specifically due to spurious charged hadrons) in this analysis, a
 quantity based on the relative ratio of calorimetry based \ptmiss and
 PF based \ptmiss is employed. Examples of the distribution in
-single muon and single electron control region can be found in
+single muon and single electron control regions can be found in
 Fig.~\ref{fig:calomet_pfmet}, which are produced after requiring the
 whole set of the standard \ptmiss filters provided by the POG.
 %The selection of events with the resulting value of $< 0.5$ is adopted in this analysis.
