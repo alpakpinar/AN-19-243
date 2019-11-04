@@ -1,10 +1,14 @@
 \section{Physics objects} \label{sec:objects}
 
+All physics objects are used to identify signal-like events, to suppress backgrounds and to define control regions
+for background estimation. For the object definitions, we mostly follow the CMS POG endorsed recommendations. The physics 
+objects and the selection requirements are described below.
+
 \subsection{Jets}
 \label{sec:objects_ak4}
 In this analysis, jets are reconstructed by clustering PF candidates
-using the infrared and collinear safe anti-\kt algorithm~\cite{Cacciari:2008gp}. Jets clustered
-with distance parameters of 0.4 and referred to as AK4 jets.
+using the infrared and collinear safe anti-\kt algorithm~\cite{Cacciari:2008gp}. Jets are clustered
+with a distance parameter of 0.4 and are referred to as AK4 jets.
 The reconstructed vertex with the largest value of summed physics-object $\pt^2$ is taken to
 be the primary $\Pp\Pp$ interaction vertex. The physics objects are those returned by a
 jet finding algorithm~\cite{Cacciari:2008gp,Cacciari:2011ma} applied to all charged PF candidates
@@ -19,8 +23,18 @@ and are confirmed with {\it in situ} measurements of the energy balance in dijet
 $\gamma$+jet, and leptonic Z+jet events~\cite{Khachatryan:2016kdb}. The \texttt{Fall17\_17Nov2017\_V32} and \texttt{Autumn18\_V8}
 versions of the jet energy corrections are used for the 2017 and 2018 data sets, respectively.
 
-The AK4 jets used in this analysis is further required to have a \pt larger than 30 GeV
-and $|\eta| < 2.5$. Such jets are also required to pass loose jet identification criteria.
+The AK4 jets used in this analysis are required to pass loose jet identification criteria.
+In addition, all the jets with \pt smaller than $50 GeV$ must pass the medium pileup ID criteria. This additional constraint
+on all AK4 jets is found to improve the modeling of jet distributions, especially in the horn regions near $|\eta| = 2.9$. 
+The effect of this requirement is demonstrated in the sub-leading jet $\eta$ distribution in Fig.~\ref{fig:pileupid}.
+
+\begin{figure}[htbp]
+  \centering
+        \includegraphics[width=0.45\textwidth]{fig/ak4_eta1_puidcomparison.png}
+  \caption{Subleading AK4 jet $\eta$ distribution with and without pileup ID requirement in the single electron control region.}
+  \label{fig:pileupid}
+\end{figure}
+
 Lastly, to suppress the contributions due to non-collision backgrounds, the following
 requirements are applied on the leading AK4 jet:
 \begin{itemize}
@@ -38,7 +52,6 @@ the signal region events in Fig.~\ref{fig:jetcleaning}.
 requirements in the signal region.}
   \label{fig:jetcleaning}
 \end{figure}
-
 
 \subsubsection{b-tagged jets}
 
