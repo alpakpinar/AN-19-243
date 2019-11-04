@@ -4,9 +4,25 @@
 \subsection{Signal region selection}
 \label{sec:selection_sr}
 Signal region events are selected using triggers with thresholds of 120\GeV on both \ptmisstrig~and \mhttrig.
-The \ptmisstrig~corresponds to the magnitude of the vector \ptvec sum of all the PF candidates reconstructed at the trigger level, while the \mhttrig~is computed as the magnitude of the vector \ptvec sum of jets with $\pt > 20\GeV$ and $|\eta| < 5.0$ reconstructed at the trigger level. The energy fraction attributed to neutral hadrons in these jets is required to be smaller than 0.9. This requirement suppresses anomalous events with jets originating from detector noise. To be able to use the same triggers for selecting events in the muon control samples used for background prediction, muon candidates are not included in the \ptmisstrig~nor \mhttrig~computation. The trigger efficiency is measured to be $96\%$ for events passing the analysis selection for $\ptmiss > 250\GeV$ and becomes more than $99\%$ efficient for events with $\ptmiss > 350\GeV$.
+The \ptmisstrig~corresponds to the magnitude of the vector \ptvec sum of all the PF candidates reconstructed at the trigger level, 
+while the \mhttrig~is computed as the magnitude of the vector \ptvec sum of jets with $\pt > 20\GeV$ and $|\eta| < 5.0$ reconstructed 
+at the trigger level. The energy fraction attributed to neutral hadrons in these jets is required to be smaller than 0.9. 
+This requirement suppresses anomalous events with jets originating from detector noise. 
+To be able to use the same triggers for selecting events in the muon control samples used for background prediction, muon candidates are not included in the \ptmisstrig~nor \mhttrig~computation. 
+The trigger efficiency is measured to be $96\%$ for events passing the analysis selection for $\ptmiss > 250\GeV$ and becomes more than $99\%$ efficient for events with $\ptmiss > 350\GeV$.
 
-Candidate events are required to have $\ptmiss > 250\GeV$. In the monojet category, the highest $p_{\rm T}$ (leading) AK4 jet in the event is required to have $ \pt > 100\GeV$ and $|\eta| < 2.4$, whereas in the mono-$\PV$ category, the leading AK8 jet is required to have $ \pt > 250\GeV$ and $|\eta| < 2.4$. In both categories, the leading jet is also required to have at least 10\% of its energy coming from charged particles and less than 80\% of its energy attributed to neutral hadrons as discussed in section~\ref{sec:objects}. This selection helps to remove events originating from beam-induced backgrounds. In addition, the analysis employs various event filters to reduce events with large misreconstructed \ptmiss~\cite{Sirunyan:2019kia} originating from noncollision backgrounds.
+Candidate events are required to have $\ptmiss > 250\GeV$. 
+The leading AK4 jet in the signal event is required to have $ \pt > 80\GeV $ and $|\eta| < 4.7$, and the subleading AK4 jet is 
+required to have $ \pt > 40\GeV$ and $|\eta| < 4.7$. In addition, if the leading jet is within the tracker range, $|\eta| < 2.5$,
+it is required to have at least 10\% of its energy coming from charged particles and less than 80 \% of its energy attributed to 
+neutral hadrons, as discussed in section~\ref{sec:objects}. This selection helps to remove events originating from beam-induced backgrounds. 
+In addition, the analysis employs various event filters to reduce events with large misreconstructed \ptmiss~\cite{Sirunyan:2019kia} originating from noncollision backgrounds.
+
+For the VBF signal events, two leading jets in opposite hemispheres are expected, with large dijet mass. Furthermore, these jets are 
+expected to have large rapidity seperation and small azimuthal seperation. Therefore, this analysis employs several requirements on 
+quantities like dijet mass
+employs two requirements
+$\eta_1 \times \eta_2 < 0$.
 
 The main background processes in this search are the \Zvvjets and \Wlvjets processes. The \Zvvjets process is an irreducible background and constitutes the largest background in the search. In contrast, the background from \Wlvjets is suppressed by imposing a veto on events containing one or more loose muons or electrons with $ \pt >10\GeV$, or hadronically decaying $\tau$ leptons with $\pt>18\GeV$. Events that contain a loose, isolated photon with $\pt>15\GeV$ and $|\eta| < 2.5$ are also rejected. This helps to suppress electroweak (EW) backgrounds in which a photon is radiated from the initial state.
 To reduce the contamination from top quark backgrounds, events are rejected if they contain a b tagged jet with $\pt > 20\GeV$ and $|\eta| < 2.4$. These jets are identified using the DeepCSV algorithm~\cite{CMS_NOTE_2018-323,Sirunyan:2017ezt}, adopting the ``medium'' working point, which corresponds to correctly identifying a jet originating from a bottom quark with a probability of 80\% and misidentifying a jet originating from a charm quark (light-flavor jet) with a probability of 12 (2)\%. Lastly, QCD multijet background with \ETm arising from mismeasurements of the jet momenta is suppressed by requiring the minimum
