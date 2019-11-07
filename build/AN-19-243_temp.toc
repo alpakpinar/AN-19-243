@@ -1,0 +1,43 @@
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}% 
+\contentsline {section}{\numberline {2}Samples}{2}{section.2}% 
+\contentsline {subsection}{\numberline {2.1}Data Samples}{2}{subsection.2.1}% 
+\contentsline {subsection}{\numberline {2.2}Background Samples}{3}{subsection.2.2}% 
+\contentsline {subsection}{\numberline {2.3}Signal simulation samples}{5}{subsection.2.3}% 
+\contentsline {section}{\numberline {3}Physics objects}{6}{section.3}% 
+\contentsline {subsection}{\numberline {3.1}Jets}{6}{subsection.3.1}% 
+\contentsline {subsubsection}{\numberline {3.1.1}b-tagged jets}{7}{subsubsection.3.1.1}% 
+\contentsline {subsubsection}{\numberline {3.1.2}V-tagged jets}{7}{subsubsection.3.1.2}% 
+\contentsline {subsection}{\numberline {3.2}Missing transverse momentum and recoil}{8}{subsection.3.2}% 
+\contentsline {subsection}{\numberline {3.3}Leptons}{9}{subsection.3.3}% 
+\contentsline {subsubsection}{\numberline {3.3.1}Electrons}{9}{subsubsection.3.3.1}% 
+\contentsline {subsubsection}{\numberline {3.3.2}Muons}{10}{subsubsection.3.3.2}% 
+\contentsline {subsubsection}{\numberline {3.3.3}Taus}{11}{subsubsection.3.3.3}% 
+\contentsline {subsection}{\numberline {3.4}Photons}{11}{subsection.3.4}% 
+\contentsline {subsubsection}{\numberline {3.4.1}Photon purity studies}{11}{subsubsection.3.4.1}% 
+\contentsline {section}{\numberline {4}Reweighting of simulated events}{12}{section.4}% 
+\contentsline {subsection}{\numberline {4.1}Trigger efficiency reweighting}{12}{subsection.4.1}% 
+\contentsline {subsubsection}{\numberline {4.1.1}\ensuremath {\ensuremath {p_{\mathrm {T}}}\xspace ^\text {miss}}\xspace +\ensuremath {H_{\mathrm {T}}^{\text {miss}}}\xspace triggers}{12}{subsubsection.4.1.1}% 
+\contentsline {subsubsection}{\numberline {4.1.2}Photon trigger}{14}{subsubsection.4.1.2}% 
+\contentsline {subsubsection}{\numberline {4.1.3}Electron trigger}{14}{subsubsection.4.1.3}% 
+\contentsline {subsection}{\numberline {4.2}Pileup reweighting}{15}{subsection.4.2}% 
+\contentsline {subsection}{\numberline {4.3}Lepton and photon identification/reconstruction efficiency reweighting}{15}{subsection.4.3}% 
+\contentsline {subsection}{\numberline {4.4}Higher-order reweighting}{16}{subsection.4.4}% 
+\contentsline {subsection}{\numberline {4.5}Generator-level boson construction}{17}{subsection.4.5}% 
+\contentsline {subsubsection}{\numberline {4.5.1}EW NLO}{18}{subsubsection.4.5.1}% 
+\contentsline {subsubsection}{\numberline {4.5.2}QCD NLO}{18}{subsubsection.4.5.2}% 
+\contentsline {subsubsection}{\numberline {4.5.3}QCD NNLO}{21}{subsubsection.4.5.3}% 
+\contentsline {section}{\numberline {5}Event selection}{21}{section.5}% 
+\contentsline {subsection}{\numberline {5.1}Signal region selection}{21}{subsection.5.1}% 
+\contentsline {subsection}{\numberline {5.2}Single muon control region selection}{28}{subsection.5.2}% 
+\contentsline {subsection}{\numberline {5.3}Single electron control region selection}{33}{subsection.5.3}% 
+\contentsline {subsection}{\numberline {5.4}Double muon control region selection}{38}{subsection.5.4}% 
+\contentsline {subsection}{\numberline {5.5}Double electron control region selection}{43}{subsection.5.5}% 
+\contentsline {subsection}{\numberline {5.6}Photon control region}{48}{subsection.5.6}% 
+\contentsline {section}{\numberline {6}Signal extraction strategy}{52}{section.6}% 
+\contentsline {subsection}{\numberline {6.1}Multijet background estimation}{52}{subsection.6.1}% 
+\contentsline {subsection}{\numberline {6.2}EW background estimation and fitting procedure}{54}{subsection.6.2}% 
+\contentsline {subsection}{\numberline {6.3}Systematic Uncertainties}{60}{subsection.6.3}% 
+\contentsline {subsubsection}{\numberline {6.3.1}Uncertainties in the transfer factors}{60}{subsubsection.6.3.1}% 
+\contentsline {subsubsection}{\numberline {6.3.2}Uncertainties assigned to the MC based processes}{62}{subsubsection.6.3.2}% 
+\contentsline {subsection}{\numberline {6.4}Control sample validation}{64}{subsection.6.4}% 
+\contentsline {section}{\numberline {7}Results}{70}{section.7}% 
