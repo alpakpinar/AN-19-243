@@ -45,7 +45,6 @@ Warning--I didn't find a database entry for "pileup_twiki"
 Warning--I didn't find a database entry for "CMS-MUO-TWIKI-SF"
 Warning--I didn't find a database entry for "Sirunyan:2019kia"
 Warning--I didn't find a database entry for "CMS_NOTE_2018-323"
-Warning--I didn't find a database entry for "Thaler:2010tr"
 Warning--I didn't find a database entry for "AN-10-204"
 Warning--I didn't find a database entry for "Denner:2009gj"
 Warning--I didn't find a database entry for "Denner:2011vu"
@@ -63,7 +62,7 @@ Warning--I didn't find a database entry for "Khachatryan:2016txa"
 Warning--I didn't find a database entry for "Khachatryan:2016tgp"
 You've used 0 entries,
             2558 wiz_defined-function locations,
-            731 strings with 6587 characters,
+            729 strings with 6561 characters,
 and the built_in function-call counts, 31 in all, are:
 = -- 0
 > -- 0
@@ -102,4 +101,4 @@ warning$ -- 0
 while$ -- 0
 width$ -- 0
 write$ -- 6
-(There were 58 warnings)
+(There were 57 warnings)
