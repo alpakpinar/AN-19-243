@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.12)  9 NOV 2019 15:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.12)  10 NOV 2019 21:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -688,7 +688,7 @@ LaTeX Font Info:    Font shape `U/fsy/m/n' will be
 LaTeX Font Info:    Font shape `U/fsy/m/n' will be
 (Font)              scaled to size 8.99994pt on input line 85.
 <789FIG cms_draft_an 0>
-<cms_draft_an.pdf, id=121, 455.24379pt x 102.42967pt>
+<cms_draft_an.pdf, id=133, 455.24379pt x 102.42967pt>
 File: cms_draft_an.pdf Graphic file (type pdf)
 <use cms_draft_an.pdf>
 Package pdftex.def Info: cms_draft_an.pdf  used on input line 85.
@@ -719,7 +719,7 @@ Overfull \hbox (16.25952pt too wide) in paragraph at lines 85--85
  []
 
 <789FIG BigDraft 0>
-<BigDraft.pdf, id=122, 597.50829pt x 845.0471pt>
+<BigDraft.pdf, id=134, 597.50829pt x 845.0471pt>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf  used on input line 85.
@@ -751,6 +751,20 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.1 ...mmand{\PV}{\ensuremath{\mathrm{V}}\xspace}}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \ptmiss already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.55 ...nsuremath{p_{\mathrm{T}}^{\mathrm{miss}}}}
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1335,25 +1349,359 @@ File: BigDraft.pdf Graphic file (type pdf)
 Package pdftex.def Info: BigDraft.pdf  used on input line 236.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 [4])
-<567INP objects.tex>
+<567INP trigger.tex>
 
-(/Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/objects.tex
+(/Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/trigger.tex
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6 ..., one can also select dimuon (Z \rightarrow
+                                                   \mu \mu)
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.8 
+    
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
 <789FIG BigDraft 0>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 6.
+Package pdftex.def Info: BigDraft.pdf  used on input line 8.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 [5]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.9 ...l regions include dielectron (Z \rightarrow
+                                                   ee) and single electron (...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-Package natbib Warning: Citation `Cacciari:2008gp' on page 6 undefined on input
+! Missing $ inserted.
+<inserted text> 
+                $
+l.12 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (609.01689pt too wide) in paragraph at lines 9--12
+[]\OT1/ppl/m/n/10.95 The re-main-ing con-trol re-gions in-clude di-elec-tron (Z
+ $\OMS/zplm/m/n/10.95 ! \U/fsy/m/i/10.95 ee\OT1/zplm/m/n/10.95 )\U/fsy/m/i/10.9
+5 andsingleelectron\OT1/zplm/m/n/10.95 (\U/fsy/m/i/10.95 W \OMS/zplm/m/n/10.95 
+! \U/fsy/m/i/10.95 e^^W\OT1/zplm/m/n/10.95 )\U/fsy/m/i/10.95 regions\OT1/ppl/m/
+n/10.95 .\U/fsy/m/i/10.95 Inthesetwocontrolregions\OT1/ppl/m/n/10.95 , \U/fsy/m
+/i/10.95 eventsareselectedusingtheSingleElectrontrigger\OT1/ppl/m/n/10.95 .\U/f
+sy/m/i/10.95 ThefulllistoftriggersusedinthisanalysisaregiveninTab\OT1/ppl/m/n/1
+0.95 . [][]2[].$ 
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 29.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 29.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 29.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 29.
+
+<789FIG BigDraft 0>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf>
+Package pdftex.def Info: BigDraft.pdf  used on input line 48.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+[6]
+<789FIG fig/efficiency/trigger/met/mjj/data_mc_comparison_1m_2017_one_jet_forwa
+rd_one_jet_central.png 0>
+<fig/efficiency/trigger/met/mjj/data_mc_comparison_1m_2017_one_jet_forward_one_
+jet_central.png, id=272, 505.89pt x 505.89pt>
+File: fig/efficiency/trigger/met/mjj/data_mc_comparison_1m_2017_one_jet_forward
+_one_jet_central.png Graphic file (type png)
+<use fig/efficiency/trigger/met/mjj/data_mc_comparison_1m_2017_one_jet_forward_
+one_jet_central.png>
+Package pdftex.def Info: fig/efficiency/trigger/met/mjj/data_mc_comparison_1m_2
+017_one_jet_forward_one_jet_central.png  used on input line 75.
+(pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
+<789FIG fig/efficiency/trigger/met/mjj/data_mc_comparison_1m_2017_two_central_j
+ets.png 0>
+<fig/efficiency/trigger/met/mjj/data_mc_comparison_1m_2017_two_central_jets.png
+, id=274, 505.89pt x 505.89pt>
+File: fig/efficiency/trigger/met/mjj/data_mc_comparison_1m_2017_two_central_jet
+s.png Graphic file (type png)
+<use fig/efficiency/trigger/met/mjj/data_mc_comparison_1m_2017_two_central_jets
+.png>
+Package pdftex.def Info: fig/efficiency/trigger/met/mjj/data_mc_comparison_1m_2
+017_two_central_jets.png  used on input line 76.
+(pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
+<789FIG fig/efficiency/trigger/met/mjj/data_mc_comparison_1m_2017_two_forward_j
+ets.png 0>
+<fig/efficiency/trigger/met/mjj/data_mc_comparison_1m_2017_two_forward_jets.png
+, id=275, 505.89pt x 505.89pt>
+File: fig/efficiency/trigger/met/mjj/data_mc_comparison_1m_2017_two_forward_jet
+s.png Graphic file (type png)
+<use fig/efficiency/trigger/met/mjj/data_mc_comparison_1m_2017_two_forward_jets
+.png>
+Package pdftex.def Info: fig/efficiency/trigger/met/mjj/data_mc_comparison_1m_2
+017_two_forward_jets.png  used on input line 77.
+(pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
+<789FIG fig/efficiency/trigger/met/mjj/data_mc_comparison_1m_2018_one_jet_forwa
+rd_one_jet_central.png 1>
+<fig/efficiency/trigger/met/mjj/data_mc_comparison_1m_2018_one_jet_forward_one_
+jet_central.png, id=276, 505.89pt x 505.89pt>
+File: fig/efficiency/trigger/met/mjj/data_mc_comparison_1m_2018_one_jet_forward
+_one_jet_central.png Graphic file (type png)
+<use fig/efficiency/trigger/met/mjj/data_mc_comparison_1m_2018_one_jet_forward_
+one_jet_central.png>
+Package pdftex.def Info: fig/efficiency/trigger/met/mjj/data_mc_comparison_1m_2
+018_one_jet_forward_one_jet_central.png  used on input line 86.
+(pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
+<789FIG fig/efficiency/trigger/met/mjj/data_mc_comparison_1m_2018_two_central_j
+ets.png 1>
+<fig/efficiency/trigger/met/mjj/data_mc_comparison_1m_2018_two_central_jets.png
+, id=277, 505.89pt x 505.89pt>
+File: fig/efficiency/trigger/met/mjj/data_mc_comparison_1m_2018_two_central_jet
+s.png Graphic file (type png)
+<use fig/efficiency/trigger/met/mjj/data_mc_comparison_1m_2018_two_central_jets
+.png>
+Package pdftex.def Info: fig/efficiency/trigger/met/mjj/data_mc_comparison_1m_2
+018_two_central_jets.png  used on input line 87.
+(pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
+<789FIG fig/efficiency/trigger/met/mjj/data_mc_comparison_1m_2018_two_forward_j
+ets.png 1>
+<fig/efficiency/trigger/met/mjj/data_mc_comparison_1m_2018_two_forward_jets.png
+, id=278, 505.89pt x 505.89pt>
+File: fig/efficiency/trigger/met/mjj/data_mc_comparison_1m_2018_two_forward_jet
+s.png Graphic file (type png)
+<use fig/efficiency/trigger/met/mjj/data_mc_comparison_1m_2018_two_forward_jets
+.png>
+Package pdftex.def Info: fig/efficiency/trigger/met/mjj/data_mc_comparison_1m_2
+018_two_forward_jets.png  used on input line 88.
+(pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
+<789FIG fig/efficiency/trigger/met/mjj/data_mc_comparison_2m_2017_one_jet_forwa
+rd_one_jet_central.png 2>
+<fig/efficiency/trigger/met/mjj/data_mc_comparison_2m_2017_one_jet_forward_one_
+jet_central.png, id=279, 505.89pt x 505.89pt>
+File: fig/efficiency/trigger/met/mjj/data_mc_comparison_2m_2017_one_jet_forward
+_one_jet_central.png Graphic file (type png)
+<use fig/efficiency/trigger/met/mjj/data_mc_comparison_2m_2017_one_jet_forward_
+one_jet_central.png>
+Package pdftex.def Info: fig/efficiency/trigger/met/mjj/data_mc_comparison_2m_2
+017_one_jet_forward_one_jet_central.png  used on input line 97.
+(pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
+<789FIG fig/efficiency/trigger/met/mjj/data_mc_comparison_2m_2017_two_central_j
+ets.png 2>
+<fig/efficiency/trigger/met/mjj/data_mc_comparison_2m_2017_two_central_jets.png
+, id=280, 505.89pt x 505.89pt>
+File: fig/efficiency/trigger/met/mjj/data_mc_comparison_2m_2017_two_central_jet
+s.png Graphic file (type png)
+<use fig/efficiency/trigger/met/mjj/data_mc_comparison_2m_2017_two_central_jets
+.png>
+Package pdftex.def Info: fig/efficiency/trigger/met/mjj/data_mc_comparison_2m_2
+017_two_central_jets.png  used on input line 98.
+(pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
+<789FIG fig/efficiency/trigger/met/mjj/data_mc_comparison_2m_2017_two_forward_j
+ets.png 2>
+<fig/efficiency/trigger/met/mjj/data_mc_comparison_2m_2017_two_forward_jets.png
+, id=281, 505.89pt x 505.89pt>
+File: fig/efficiency/trigger/met/mjj/data_mc_comparison_2m_2017_two_forward_jet
+s.png Graphic file (type png)
+<use fig/efficiency/trigger/met/mjj/data_mc_comparison_2m_2017_two_forward_jets
+.png>
+Package pdftex.def Info: fig/efficiency/trigger/met/mjj/data_mc_comparison_2m_2
+017_two_forward_jets.png  used on input line 99.
+(pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
+<789FIG fig/efficiency/trigger/met/mjj/data_mc_comparison_2m_2018_one_jet_forwa
+rd_one_jet_central.png 3>
+<fig/efficiency/trigger/met/mjj/data_mc_comparison_2m_2018_one_jet_forward_one_
+jet_central.png, id=282, 505.89pt x 505.89pt>
+File: fig/efficiency/trigger/met/mjj/data_mc_comparison_2m_2018_one_jet_forward
+_one_jet_central.png Graphic file (type png)
+<use fig/efficiency/trigger/met/mjj/data_mc_comparison_2m_2018_one_jet_forward_
+one_jet_central.png>
+Package pdftex.def Info: fig/efficiency/trigger/met/mjj/data_mc_comparison_2m_2
+018_one_jet_forward_one_jet_central.png  used on input line 108.
+(pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
+<789FIG fig/efficiency/trigger/met/mjj/data_mc_comparison_2m_2018_two_central_j
+ets.png 3>
+<fig/efficiency/trigger/met/mjj/data_mc_comparison_2m_2018_two_central_jets.png
+, id=283, 505.89pt x 505.89pt>
+File: fig/efficiency/trigger/met/mjj/data_mc_comparison_2m_2018_two_central_jet
+s.png Graphic file (type png)
+<use fig/efficiency/trigger/met/mjj/data_mc_comparison_2m_2018_two_central_jets
+.png>
+Package pdftex.def Info: fig/efficiency/trigger/met/mjj/data_mc_comparison_2m_2
+018_two_central_jets.png  used on input line 109.
+(pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
+<789FIG fig/efficiency/trigger/met/mjj/data_mc_comparison_2m_2018_two_forward_j
+ets.png 3>
+<fig/efficiency/trigger/met/mjj/data_mc_comparison_2m_2018_two_forward_jets.png
+, id=284, 505.89pt x 505.89pt>
+File: fig/efficiency/trigger/met/mjj/data_mc_comparison_2m_2018_two_forward_jet
+s.png Graphic file (type png)
+<use fig/efficiency/trigger/met/mjj/data_mc_comparison_2m_2018_two_forward_jets
+.png>
+Package pdftex.def Info: fig/efficiency/trigger/met/mjj/data_mc_comparison_2m_2
+018_two_forward_jets.png  used on input line 110.
+(pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
+<789FIG fig/efficiency/trigger/met/recoil/data_mc_comparison_1m_2017_one_jet_fo
+rward_one_jet_central.png 4>
+<fig/efficiency/trigger/met/recoil/data_mc_comparison_1m_2017_one_jet_forward_o
+ne_jet_central.png, id=285, 505.89pt x 505.89pt>
+File: fig/efficiency/trigger/met/recoil/data_mc_comparison_1m_2017_one_jet_forw
+ard_one_jet_central.png Graphic file (type png)
+<use fig/efficiency/trigger/met/recoil/data_mc_comparison_1m_2017_one_jet_forwa
+rd_one_jet_central.png>
+Package pdftex.def Info: fig/efficiency/trigger/met/recoil/data_mc_comparison_1
+m_2017_one_jet_forward_one_jet_central.png  used on input line 119.
+(pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
+<789FIG fig/efficiency/trigger/met/recoil/data_mc_comparison_1m_2017_two_centra
+l_jets.png 4>
+<fig/efficiency/trigger/met/recoil/data_mc_comparison_1m_2017_two_central_jets.
+png, id=286, 505.89pt x 505.89pt>
+File: fig/efficiency/trigger/met/recoil/data_mc_comparison_1m_2017_two_central_
+jets.png Graphic file (type png)
+<use fig/efficiency/trigger/met/recoil/data_mc_comparison_1m_2017_two_central_j
+ets.png>
+Package pdftex.def Info: fig/efficiency/trigger/met/recoil/data_mc_comparison_1
+m_2017_two_central_jets.png  used on input line 120.
+(pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
+<789FIG fig/efficiency/trigger/met/recoil/data_mc_comparison_1m_2017_two_forwar
+d_jets.png 4>
+<fig/efficiency/trigger/met/recoil/data_mc_comparison_1m_2017_two_forward_jets.
+png, id=287, 505.89pt x 505.89pt>
+File: fig/efficiency/trigger/met/recoil/data_mc_comparison_1m_2017_two_forward_
+jets.png Graphic file (type png)
+<use fig/efficiency/trigger/met/recoil/data_mc_comparison_1m_2017_two_forward_j
+ets.png>
+Package pdftex.def Info: fig/efficiency/trigger/met/recoil/data_mc_comparison_1
+m_2017_two_forward_jets.png  used on input line 121.
+(pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
+<789FIG fig/efficiency/trigger/met/recoil/data_mc_comparison_1m_2018_one_jet_fo
+rward_one_jet_central.png 5>
+<fig/efficiency/trigger/met/recoil/data_mc_comparison_1m_2018_one_jet_forward_o
+ne_jet_central.png, id=288, 505.89pt x 505.89pt>
+File: fig/efficiency/trigger/met/recoil/data_mc_comparison_1m_2018_one_jet_forw
+ard_one_jet_central.png Graphic file (type png)
+<use fig/efficiency/trigger/met/recoil/data_mc_comparison_1m_2018_one_jet_forwa
+rd_one_jet_central.png>
+Package pdftex.def Info: fig/efficiency/trigger/met/recoil/data_mc_comparison_1
+m_2018_one_jet_forward_one_jet_central.png  used on input line 130.
+(pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
+<789FIG fig/efficiency/trigger/met/recoil/data_mc_comparison_1m_2018_two_centra
+l_jets.png 5>
+<fig/efficiency/trigger/met/recoil/data_mc_comparison_1m_2018_two_central_jets.
+png, id=289, 505.89pt x 505.89pt>
+File: fig/efficiency/trigger/met/recoil/data_mc_comparison_1m_2018_two_central_
+jets.png Graphic file (type png)
+<use fig/efficiency/trigger/met/recoil/data_mc_comparison_1m_2018_two_central_j
+ets.png>
+Package pdftex.def Info: fig/efficiency/trigger/met/recoil/data_mc_comparison_1
+m_2018_two_central_jets.png  used on input line 131.
+(pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
+<789FIG fig/efficiency/trigger/met/recoil/data_mc_comparison_1m_2018_two_forwar
+d_jets.png 5>
+<fig/efficiency/trigger/met/recoil/data_mc_comparison_1m_2018_two_forward_jets.
+png, id=290, 505.89pt x 505.89pt>
+File: fig/efficiency/trigger/met/recoil/data_mc_comparison_1m_2018_two_forward_
+jets.png Graphic file (type png)
+<use fig/efficiency/trigger/met/recoil/data_mc_comparison_1m_2018_two_forward_j
+ets.png>
+Package pdftex.def Info: fig/efficiency/trigger/met/recoil/data_mc_comparison_1
+m_2018_two_forward_jets.png  used on input line 132.
+(pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
+<789FIG fig/efficiency/trigger/met/recoil/data_mc_comparison_2m_2017_one_jet_fo
+rward_one_jet_central.png 6>
+<fig/efficiency/trigger/met/recoil/data_mc_comparison_2m_2017_one_jet_forward_o
+ne_jet_central.png, id=291, 505.89pt x 505.89pt>
+File: fig/efficiency/trigger/met/recoil/data_mc_comparison_2m_2017_one_jet_forw
+ard_one_jet_central.png Graphic file (type png)
+<use fig/efficiency/trigger/met/recoil/data_mc_comparison_2m_2017_one_jet_forwa
+rd_one_jet_central.png>
+Package pdftex.def Info: fig/efficiency/trigger/met/recoil/data_mc_comparison_2
+m_2017_one_jet_forward_one_jet_central.png  used on input line 141.
+(pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
+<789FIG fig/efficiency/trigger/met/recoil/data_mc_comparison_2m_2017_two_centra
+l_jets.png 6>
+<fig/efficiency/trigger/met/recoil/data_mc_comparison_2m_2017_two_central_jets.
+png, id=292, 505.89pt x 505.89pt>
+File: fig/efficiency/trigger/met/recoil/data_mc_comparison_2m_2017_two_central_
+jets.png Graphic file (type png)
+<use fig/efficiency/trigger/met/recoil/data_mc_comparison_2m_2017_two_central_j
+ets.png>
+Package pdftex.def Info: fig/efficiency/trigger/met/recoil/data_mc_comparison_2
+m_2017_two_central_jets.png  used on input line 142.
+(pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
+<789FIG fig/efficiency/trigger/met/recoil/data_mc_comparison_2m_2017_two_forwar
+d_jets.png 6>
+<fig/efficiency/trigger/met/recoil/data_mc_comparison_2m_2017_two_forward_jets.
+png, id=293, 505.89pt x 505.89pt>
+File: fig/efficiency/trigger/met/recoil/data_mc_comparison_2m_2017_two_forward_
+jets.png Graphic file (type png)
+<use fig/efficiency/trigger/met/recoil/data_mc_comparison_2m_2017_two_forward_j
+ets.png>
+Package pdftex.def Info: fig/efficiency/trigger/met/recoil/data_mc_comparison_2
+m_2017_two_forward_jets.png  used on input line 143.
+(pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
+<789FIG fig/efficiency/trigger/met/recoil/data_mc_comparison_2m_2018_one_jet_fo
+rward_one_jet_central.png 7>
+<fig/efficiency/trigger/met/recoil/data_mc_comparison_2m_2018_one_jet_forward_o
+ne_jet_central.png, id=294, 505.89pt x 505.89pt>
+File: fig/efficiency/trigger/met/recoil/data_mc_comparison_2m_2018_one_jet_forw
+ard_one_jet_central.png Graphic file (type png)
+<use fig/efficiency/trigger/met/recoil/data_mc_comparison_2m_2018_one_jet_forwa
+rd_one_jet_central.png>
+Package pdftex.def Info: fig/efficiency/trigger/met/recoil/data_mc_comparison_2
+m_2018_one_jet_forward_one_jet_central.png  used on input line 152.
+(pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
+<789FIG fig/efficiency/trigger/met/recoil/data_mc_comparison_2m_2018_two_centra
+l_jets.png 7>
+<fig/efficiency/trigger/met/recoil/data_mc_comparison_2m_2018_two_central_jets.
+png, id=295, 505.89pt x 505.89pt>
+File: fig/efficiency/trigger/met/recoil/data_mc_comparison_2m_2018_two_central_
+jets.png Graphic file (type png)
+<use fig/efficiency/trigger/met/recoil/data_mc_comparison_2m_2018_two_central_j
+ets.png>
+Package pdftex.def Info: fig/efficiency/trigger/met/recoil/data_mc_comparison_2
+m_2018_two_central_jets.png  used on input line 153.
+(pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
+<789FIG fig/efficiency/trigger/met/recoil/data_mc_comparison_2m_2018_two_forwar
+d_jets.png 7>
+<fig/efficiency/trigger/met/recoil/data_mc_comparison_2m_2018_two_forward_jets.
+png, id=296, 505.89pt x 505.89pt>
+File: fig/efficiency/trigger/met/recoil/data_mc_comparison_2m_2018_two_forward_
+jets.png Graphic file (type png)
+<use fig/efficiency/trigger/met/recoil/data_mc_comparison_2m_2018_two_forward_j
+ets.png>
+Package pdftex.def Info: fig/efficiency/trigger/met/recoil/data_mc_comparison_2
+m_2018_two_forward_jets.png  used on input line 154.
+(pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
+)
+<567INP objects.tex>
+
+(/Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/objects.tex
+
+Package natbib Warning: Citation `Cacciari:2008gp' on page 7 undefined on input
  line 10.
 
 
-Package natbib Warning: Citation `Cacciari:2008gp' on page 6 undefined on input
+Package natbib Warning: Citation `Cacciari:2008gp' on page 7 undefined on input
  line 14.
 
 
-Package natbib Warning: Citation `Cacciari:2011ma' on page 6 undefined on input
+Package natbib Warning: Citation `Cacciari:2011ma' on page 7 undefined on input
  line 14.
 
 
@@ -1363,7 +1711,7 @@ Overfull \hbox (7.16801pt too wide) in paragraph at lines 9--16
  []
 
 
-Package natbib Warning: Citation `Khachatryan:2016kdb' on page 6 undefined on i
+Package natbib Warning: Citation `Khachatryan:2016kdb' on page 7 undefined on i
 nput line 23.
 
 Missing character: There is no F in font nullfont!
@@ -1394,14 +1742,102 @@ Missing character: There is no 1 in font nullfont!
 Missing character: There is no 8 in font nullfont!
 Missing character: There is no V in font nullfont!
 Missing character: There is no 8 in font nullfont!
-<789FIG BigDraft 0>
+<789FIG BigDraft 8>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf  used on input line 30.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[6]
-<789FIG fig/datamc/cr_1m_vbf/cr_1m_vbf_ak4_eta1_losf_2017_withpuid.png 0>
-<fig/datamc/cr_1m_vbf/cr_1m_vbf_ak4_eta1_losf_2017_withpuid.png, id=243, 505.89
+[7]
+<789FIG BigDraft 8>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf>
+Package pdftex.def Info: BigDraft.pdf  used on input line 30.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+[8 </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/effi
+ciency/trigger/met/mjj/data_mc_comparison_1m_2017_one_jet_forward_one_jet_centr
+al.png> </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig
+/efficiency/trigger/met/mjj/data_mc_comparison_1m_2017_two_central_jets.png> </
+Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/efficienc
+y/trigger/met/mjj/data_mc_comparison_1m_2017_two_forward_jets.png>]
+<789FIG BigDraft 8>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf>
+Package pdftex.def Info: BigDraft.pdf  used on input line 30.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+[9 </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/effi
+ciency/trigger/met/mjj/data_mc_comparison_1m_2018_one_jet_forward_one_jet_centr
+al.png> </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig
+/efficiency/trigger/met/mjj/data_mc_comparison_1m_2018_two_central_jets.png> </
+Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/efficienc
+y/trigger/met/mjj/data_mc_comparison_1m_2018_two_forward_jets.png>]
+<789FIG BigDraft 8>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf>
+Package pdftex.def Info: BigDraft.pdf  used on input line 30.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+[10 </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/eff
+iciency/trigger/met/mjj/data_mc_comparison_2m_2017_one_jet_forward_one_jet_cent
+ral.png> </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fi
+g/efficiency/trigger/met/mjj/data_mc_comparison_2m_2017_two_central_jets.png> <
+/Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/efficien
+cy/trigger/met/mjj/data_mc_comparison_2m_2017_two_forward_jets.png>]
+<789FIG BigDraft 8>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf>
+Package pdftex.def Info: BigDraft.pdf  used on input line 30.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+[11 </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/eff
+iciency/trigger/met/mjj/data_mc_comparison_2m_2018_one_jet_forward_one_jet_cent
+ral.png> </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fi
+g/efficiency/trigger/met/mjj/data_mc_comparison_2m_2018_two_central_jets.png> <
+/Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/efficien
+cy/trigger/met/mjj/data_mc_comparison_2m_2018_two_forward_jets.png>]
+<789FIG BigDraft 8>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf>
+Package pdftex.def Info: BigDraft.pdf  used on input line 30.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+[12 </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/eff
+iciency/trigger/met/recoil/data_mc_comparison_1m_2017_one_jet_forward_one_jet_c
+entral.png> </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243
+/fig/efficiency/trigger/met/recoil/data_mc_comparison_1m_2017_two_central_jets.
+png> </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/ef
+ficiency/trigger/met/recoil/data_mc_comparison_1m_2017_two_forward_jets.png>]
+<789FIG BigDraft 8>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf>
+Package pdftex.def Info: BigDraft.pdf  used on input line 30.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+[13 </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/eff
+iciency/trigger/met/recoil/data_mc_comparison_1m_2018_one_jet_forward_one_jet_c
+entral.png> </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243
+/fig/efficiency/trigger/met/recoil/data_mc_comparison_1m_2018_two_central_jets.
+png> </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/ef
+ficiency/trigger/met/recoil/data_mc_comparison_1m_2018_two_forward_jets.png>]
+<789FIG BigDraft 8>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf>
+Package pdftex.def Info: BigDraft.pdf  used on input line 30.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+[14 </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/eff
+iciency/trigger/met/recoil/data_mc_comparison_2m_2017_one_jet_forward_one_jet_c
+entral.png> </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243
+/fig/efficiency/trigger/met/recoil/data_mc_comparison_2m_2017_two_central_jets.
+png> </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/ef
+ficiency/trigger/met/recoil/data_mc_comparison_2m_2017_two_forward_jets.png>]
+<789FIG BigDraft 8>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf>
+Package pdftex.def Info: BigDraft.pdf  used on input line 30.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+[15 </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/eff
+iciency/trigger/met/recoil/data_mc_comparison_2m_2018_one_jet_forward_one_jet_c
+entral.png> </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243
+/fig/efficiency/trigger/met/recoil/data_mc_comparison_2m_2018_two_central_jets.
+png> </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/ef
+ficiency/trigger/met/recoil/data_mc_comparison_2m_2018_two_forward_jets.png>]
+<789FIG fig/datamc/cr_1m_vbf/cr_1m_vbf_ak4_eta1_losf_2017_withpuid.png 8>
+<fig/datamc/cr_1m_vbf/cr_1m_vbf_ak4_eta1_losf_2017_withpuid.png, id=369, 505.89
 pt x 505.89pt>
 File: fig/datamc/cr_1m_vbf/cr_1m_vbf_ak4_eta1_losf_2017_withpuid.png Graphic fi
 le (type png)
@@ -1409,8 +1845,8 @@ le (type png)
 Package pdftex.def Info: fig/datamc/cr_1m_vbf/cr_1m_vbf_ak4_eta1_losf_2017_with
 puid.png  used on input line 33.
 (pdftex.def)             Requested size: 204.85844pt x 204.86116pt.
-<789FIG fig/datamc/cr_1m_vbf/cr_1m_vbf_ak4_eta1_losf_2017_withoutpuid.png 0>
-<fig/datamc/cr_1m_vbf/cr_1m_vbf_ak4_eta1_losf_2017_withoutpuid.png, id=245, 505
+<789FIG fig/datamc/cr_1m_vbf/cr_1m_vbf_ak4_eta1_losf_2017_withoutpuid.png 8>
+<fig/datamc/cr_1m_vbf/cr_1m_vbf_ak4_eta1_losf_2017_withoutpuid.png, id=370, 505
 .89pt x 505.89pt>
 File: fig/datamc/cr_1m_vbf/cr_1m_vbf_ak4_eta1_losf_2017_withoutpuid.png Graphic
  file (type png)
@@ -1418,7 +1854,7 @@ File: fig/datamc/cr_1m_vbf/cr_1m_vbf_ak4_eta1_losf_2017_withoutpuid.png Graphic
 Package pdftex.def Info: fig/datamc/cr_1m_vbf/cr_1m_vbf_ak4_eta1_losf_2017_with
 outpuid.png  used on input line 34.
 (pdftex.def)             Requested size: 204.85844pt x 204.86116pt.
-<789FIG fig/placeholder.png 1>
+<789FIG fig/placeholder.png 9>
 
 LaTeX Warning: File `fig/placeholder.png' not found on input line 51.
 
@@ -1454,19 +1890,19 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
-
-Package natbib Warning: Citation `Sirunyan:2017ezt' on page 7 undefined on inpu
-t line 61.
-
-<789FIG BigDraft 2>
+<789FIG BigDraft 10>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 66.
+Package pdftex.def Info: BigDraft.pdf  used on input line 57.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[7 </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/data
-mc/cr_1m_vbf/cr_1m_vbf_ak4_eta1_losf_2017_withpuid.png> </Users/alpakpinar/Desk
-top/Boston_University/CMS/PROJECTS/AN-19-243/fig/datamc/cr_1m_vbf/cr_1m_vbf_ak4
-_eta1_losf_2017_withoutpuid.png>]
+[16 </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/dat
+amc/cr_1m_vbf/cr_1m_vbf_ak4_eta1_losf_2017_withpuid.png> </Users/alpakpinar/Des
+ktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/datamc/cr_1m_vbf/cr_1m_vbf_ak
+4_eta1_losf_2017_withoutpuid.png>]
+
+Package natbib Warning: Citation `Sirunyan:2017ezt' on page 17 undefined on inp
+ut line 61.
+
 ! Extra }, or forgotten $.
 l.108 ...textrm{leptons, photons}}\vec{p}^{i}_{T}}
                                                   
@@ -1477,22 +1913,22 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 
-Package natbib Warning: Citation `CMS-JME-TWIKI-FILTER' on page 8 undefined on 
-input line 130.
+Package natbib Warning: Citation `CMS-JME-TWIKI-FILTER' on page 17 undefined on
+ input line 130.
 
-<789FIG BigDraft 2>
+<789FIG BigDraft 10>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf  used on input line 131.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[8]
+[17]
 
-Package natbib Warning: Citation `CMS-JME-TWIKI-FILTER' on page 9 undefined on 
-input line 136.
+Package natbib Warning: Citation `CMS-JME-TWIKI-FILTER' on page 18 undefined on
+ input line 136.
 
 
-Package natbib Warning: Citation `CMS-JME-TWIKI-FILTER' on page 9 undefined on 
-input line 136.
+Package natbib Warning: Citation `CMS-JME-TWIKI-FILTER' on page 18 undefined on
+ input line 136.
 
 ! Missing $ inserted.
 <inserted text> 
@@ -1518,7 +1954,7 @@ Overfull \hbox (8.17029pt too wide) in paragraph at lines 137--152
  [][] 
  []
 
-<789FIG fig/datamc/cr_1m_vbf/cr_1m_vbf_dpfcalo_2017.png 2>
+<789FIG fig/datamc/cr_1m_vbf/cr_1m_vbf_dpfcalo_2017.png 10>
 
 LaTeX Warning: File `fig/datamc/cr_1m_vbf/cr_1m_vbf_dpfcalo_2017.png' not found
  on input line 168.
@@ -1583,89 +2019,88 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
-<789FIG fig/datamc/cr_1e_vbf/cr_1e_vbf_dpfcalo_2017.png 2>
-<fig/datamc/cr_1e_vbf/cr_1e_vbf_dpfcalo_2017.png, id=267, 505.89pt x 505.89pt>
+<789FIG fig/datamc/cr_1e_vbf/cr_1e_vbf_dpfcalo_2017.png 10>
+<fig/datamc/cr_1e_vbf/cr_1e_vbf_dpfcalo_2017.png, id=392, 505.89pt x 505.89pt>
 File: fig/datamc/cr_1e_vbf/cr_1e_vbf_dpfcalo_2017.png Graphic file (type png)
 <use fig/datamc/cr_1e_vbf/cr_1e_vbf_dpfcalo_2017.png>
 Package pdftex.def Info: fig/datamc/cr_1e_vbf/cr_1e_vbf_dpfcalo_2017.png  used 
 on input line 169.
 (pdftex.def)             Requested size: 204.85844pt x 204.86116pt.
 
-Package natbib Warning: Citation `Khachatryan:2015hwa' on page 9 undefined on i
-nput line 183.
+Package natbib Warning: Citation `Khachatryan:2015hwa' on page 18 undefined on 
+input line 183.
 
 
-Package natbib Warning: Citation `TRK-11-001' on page 9 undefined on input line
- 187.
+Package natbib Warning: Citation `TRK-11-001' on page 18 undefined on input lin
+e 187.
 
 
-Package natbib Warning: Citation `Khachatryan:2015hwa' on page 9 undefined on i
-nput line 191.
+Package natbib Warning: Citation `Khachatryan:2015hwa' on page 18 undefined on 
+input line 191.
 
 
-Package natbib Warning: Citation `CMS-EGM-TWIKI-ELEID' on page 9 undefined on i
-nput line 192.
+Package natbib Warning: Citation `CMS-EGM-TWIKI-ELEID' on page 18 undefined on 
+input line 192.
 
 
-Package natbib Warning: Citation `CMS-EGM-TWIKI-ELEID' on page 9 undefined on i
-nput line 193.
+Package natbib Warning: Citation `CMS-EGM-TWIKI-ELEID' on page 18 undefined on 
+input line 193.
 
-
+<789FIG BigDraft 11>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf>
+Package pdftex.def Info: BigDraft.pdf  used on input line 196.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+[18]
 Overfull \hbox (38.96329pt too wide) in paragraph at lines 203--232
  [][] 
  []
 
 
-Package natbib Warning: Citation `Chatrchyan:2012xi' on page 9 undefined on inp
-ut line 239.
+Package natbib Warning: Citation `Chatrchyan:2012xi' on page 19 undefined on in
+put line 239.
 
 
-Package natbib Warning: Citation `CMS-MUO-TWIKI-IDLOOSE' on page 9 undefined on
- input line 244.
+Package natbib Warning: Citation `CMS-MUO-TWIKI-IDLOOSE' on page 19 undefined o
+n input line 244.
 
 
-Package natbib Warning: Citation `CMS-MUO-TWIKI-IDTIGHT' on page 9 undefined on
- input line 245.
+Package natbib Warning: Citation `CMS-MUO-TWIKI-IDTIGHT' on page 19 undefined o
+n input line 245.
 
-<789FIG BigDraft 3>
+<789FIG BigDraft 11>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 248.
+Package pdftex.def Info: BigDraft.pdf  used on input line 262.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[9]
-
-Package natbib Warning: Citation `Khachatryan:2015dfa' on page 10 undefined on 
-input line 265.
-
-<789FIG BigDraft 3>
-File: BigDraft.pdf Graphic file (type pdf)
-<use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 269.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[10 </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/dat
+[19 </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/dat
 amc/cr_1e_vbf/cr_1e_vbf_dpfcalo_2017.png>]
 
-Package natbib Warning: Citation `Khachatryan:2015dfa' on page 11 undefined on 
+Package natbib Warning: Citation `Khachatryan:2015dfa' on page 20 undefined on 
+input line 265.
+
+
+Package natbib Warning: Citation `Khachatryan:2015dfa' on page 20 undefined on 
 input line 274.
 
 
-Package natbib Warning: Citation `taupog_twiki' on page 11 undefined on input l
+Package natbib Warning: Citation `taupog_twiki' on page 20 undefined on input l
 ine 275.
 
 
-Package natbib Warning: Citation `CMS:EGM-14-001' on page 11 undefined on input
+Package natbib Warning: Citation `CMS:EGM-14-001' on page 20 undefined on input
  line 282.
 
 
-Package natbib Warning: Citation `CMS-EGM-TWIKI-GAMID' on page 11 undefined on 
+Package natbib Warning: Citation `CMS-EGM-TWIKI-GAMID' on page 20 undefined on 
 input line 288.
 
-<789FIG BigDraft 3>
+<789FIG BigDraft 11>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf  used on input line 290.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[11])
+[20])
 <567INP reweighting.tex>
 
 (/Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/reweighting
@@ -1694,12 +2129,12 @@ Missing character: There is no M in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no 2 in font nullfont!
 Missing character: There is no 4 in font nullfont!
-<789FIG BigDraft 3>
+<789FIG BigDraft 11>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf  used on input line 21.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[12]
+[21]
 Missing character: There is no W in font nullfont!
 Missing character: There is no J in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -1711,7 +2146,7 @@ Missing character: There is no J in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no s in font nullfont!
-<789FIG fig/efficiency/trigger/met/data_mc_comparison_1m_2017.pdf 3>
+<789FIG fig/efficiency/trigger/met/data_mc_comparison_1m_2017.pdf 11>
 
 LaTeX Warning: File `fig/efficiency/trigger/met/data_mc_comparison_1m_2017.pdf'
  not found on input line 25.
@@ -1786,7 +2221,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no f in font nullfont!
-<789FIG fig/efficiency/trigger/met/data_mc_comparison_1m_2018.pdf 3>
+<789FIG fig/efficiency/trigger/met/data_mc_comparison_1m_2018.pdf 11>
 
 LaTeX Warning: File `fig/efficiency/trigger/met/data_mc_comparison_1m_2018.pdf'
  not found on input line 26.
@@ -1891,7 +2326,7 @@ Missing character: There is no J in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no s in font nullfont!
-<789FIG fig/efficiency/trigger/met/sf_comparison_2017.pdf 4>
+<789FIG fig/efficiency/trigger/met/sf_comparison_2017.pdf 12>
 
 LaTeX Warning: File `fig/efficiency/trigger/met/sf_comparison_2017.pdf' not fou
 nd on input line 32.
@@ -1958,7 +2393,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no f in font nullfont!
-<789FIG fig/efficiency/trigger/met/sf_comparison_2018.pdf 4>
+<789FIG fig/efficiency/trigger/met/sf_comparison_2018.pdf 12>
 
 LaTeX Warning: File `fig/efficiency/trigger/met/sf_comparison_2018.pdf' not fou
 nd on input line 33.
@@ -2266,12 +2701,12 @@ Missing character: There is no 1 in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no 0 in font nullfont!
-<789FIG BigDraft 5>
+<789FIG BigDraft 13>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf  used on input line 43.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[13]
+[22]
 Missing character: There is no G in font nullfont!
 Missing character: There is no J in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -2300,7 +2735,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 
 Missing character: There is no ç in font zplmr7v!
 <789FIG fig/efficiency/trigger/photon/data_mc_comparison_g_HLT_PFHT1050_2017.pd
-f 5>
+f 13>
 
 LaTeX Warning: File `fig/efficiency/trigger/photon/data_mc_comparison_g_HLT_PFH
 T1050_2017.pdf' not found on input line 50.
@@ -2391,7 +2826,7 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no f in font nullfont!
 <789FIG fig/efficiency/trigger/photon/data_mc_comparison_g_HLT_PFHT1050_2018.pd
-f 5>
+f 13>
 
 LaTeX Warning: File `fig/efficiency/trigger/photon/data_mc_comparison_g_HLT_PFH
 T1050_2018.pdf' not found on input line 51.
@@ -2516,16 +2951,16 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no s in font nullfont!
 
-Package natbib Warning: Citation `pileup_twiki' on page 14 undefined on input l
+Package natbib Warning: Citation `pileup_twiki' on page 23 undefined on input l
 ine 64.
 
-<789FIG BigDraft 6>
+<789FIG BigDraft 14>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf  used on input line 65.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[14]
-<789FIG fig/pileup/pu_weights_2017.pdf 6>
+[23]
+<789FIG fig/pileup/pu_weights_2017.pdf 14>
 
 LaTeX Warning: File `fig/pileup/pu_weights_2017.pdf' not found on input line 68
 .
@@ -2573,7 +3008,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no f in font nullfont!
-<789FIG fig/pileup/pu_weights_2018.pdf 6>
+<789FIG fig/pileup/pu_weights_2018.pdf 14>
 
 LaTeX Warning: File `fig/pileup/pu_weights_2018.pdf' not found on input line 69
 .
@@ -2621,7 +3056,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no f in font nullfont!
-<789FIG fig/pileup/cr_1m_j_npv_nopu_2017.pdf 7>
+<789FIG fig/pileup/cr_1m_j_npv_nopu_2017.pdf 15>
 
 LaTeX Warning: File `fig/pileup/cr_1m_j_npv_nopu_2017.pdf' not found on input l
 ine 79.
@@ -2675,7 +3110,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no f in font nullfont!
-<789FIG fig/pileup/cr_1m_j_npv_2017.pdf 7>
+<789FIG fig/pileup/cr_1m_j_npv_2017.pdf 15>
 
 LaTeX Warning: File `fig/pileup/cr_1m_j_npv_2017.pdf' not found on input line 8
 0.
@@ -2724,7 +3159,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no f in font nullfont!
-<789FIG fig/pileup/cr_1m_j_npv_nopu_2018.pdf 7>
+<789FIG fig/pileup/cr_1m_j_npv_nopu_2018.pdf 15>
 
 LaTeX Warning: File `fig/pileup/cr_1m_j_npv_nopu_2018.pdf' not found on input l
 ine 81.
@@ -2778,7 +3213,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no f in font nullfont!
-<789FIG fig/pileup/cr_1m_j_npv_2018.pdf 7>
+<789FIG fig/pileup/cr_1m_j_npv_2018.pdf 15>
 
 LaTeX Warning: File `fig/pileup/cr_1m_j_npv_2018.pdf' not found on input line 8
 2.
@@ -2827,7 +3262,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no f in font nullfont!
-<789FIG fig/pileup/cr_1m_j_rho_all_nopu_2017.pdf 8>
+<789FIG fig/pileup/cr_1m_j_rho_all_nopu_2017.pdf 16>
 
 LaTeX Warning: File `fig/pileup/cr_1m_j_rho_all_nopu_2017.pdf' not found on inp
 ut line 93.
@@ -2885,7 +3320,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no f in font nullfont!
-<789FIG fig/pileup/cr_1m_j_rho_all_2017.pdf 8>
+<789FIG fig/pileup/cr_1m_j_rho_all_2017.pdf 16>
 
 LaTeX Warning: File `fig/pileup/cr_1m_j_rho_all_2017.pdf' not found on input li
 ne 94.
@@ -2938,7 +3373,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no f in font nullfont!
-<789FIG fig/pileup/cr_1m_j_rho_all_nopu_2018.pdf 8>
+<789FIG fig/pileup/cr_1m_j_rho_all_nopu_2018.pdf 16>
 
 LaTeX Warning: File `fig/pileup/cr_1m_j_rho_all_nopu_2018.pdf' not found on inp
 ut line 95.
@@ -2996,7 +3431,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no f in font nullfont!
-<789FIG fig/pileup/cr_1m_j_rho_all_2018.pdf 8>
+<789FIG fig/pileup/cr_1m_j_rho_all_2018.pdf 16>
 
 LaTeX Warning: File `fig/pileup/cr_1m_j_rho_all_2018.pdf' not found on input li
 ne 96.
@@ -3050,13 +3485,13 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no f in font nullfont!
 
-LaTeX Warning: Reference `sf_muon_iso' on page 15 undefined on input line 117.
+LaTeX Warning: Reference `sf_muon_iso' on page 24 undefined on input line 117.
 
 
-Package natbib Warning: Citation `CMS-MUO-TWIKI-SF' on page 15 undefined on inp
+Package natbib Warning: Citation `CMS-MUO-TWIKI-SF' on page 24 undefined on inp
 ut line 117.
 
-<789FIG fig/efficiency/lepton/ele_eff_reco_2017.pdf 9>
+<789FIG fig/efficiency/lepton/ele_eff_reco_2017.pdf 17>
 
 LaTeX Warning: File `fig/efficiency/lepton/ele_eff_reco_2017.pdf' not found on 
 input line 121.
@@ -3117,7 +3552,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no f in font nullfont!
-<789FIG fig/efficiency/lepton/ele_eff_reco_2017.pdf 9>
+<789FIG fig/efficiency/lepton/ele_eff_reco_2017.pdf 17>
 
 LaTeX Warning: File `fig/efficiency/lepton/ele_eff_reco_2017.pdf' not found on 
 input line 122.
@@ -3178,7 +3613,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no f in font nullfont!
-<789FIG fig/efficiency/lepton/ele_eff_tight_id_2017.pdf 10>
+<789FIG fig/efficiency/lepton/ele_eff_tight_id_2017.pdf 18>
 
 LaTeX Warning: File `fig/efficiency/lepton/ele_eff_tight_id_2017.pdf' not found
  on input line 131.
@@ -3243,7 +3678,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no f in font nullfont!
-<789FIG fig/efficiency/lepton/ele_eff_loose_id_2017.pdf 10>
+<789FIG fig/efficiency/lepton/ele_eff_loose_id_2017.pdf 18>
 
 LaTeX Warning: File `fig/efficiency/lepton/ele_eff_loose_id_2017.pdf' not found
  on input line 132.
@@ -3308,7 +3743,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no f in font nullfont!
-<789FIG fig/efficiency/lepton/ele_eff_tight_id_2018.pdf 10>
+<789FIG fig/efficiency/lepton/ele_eff_tight_id_2018.pdf 18>
 
 LaTeX Warning: File `fig/efficiency/lepton/ele_eff_tight_id_2018.pdf' not found
  on input line 133.
@@ -3373,7 +3808,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no f in font nullfont!
-<789FIG fig/efficiency/lepton/ele_eff_loose_id_2018.pdf 10>
+<789FIG fig/efficiency/lepton/ele_eff_loose_id_2018.pdf 18>
 
 LaTeX Warning: File `fig/efficiency/lepton/ele_eff_loose_id_2018.pdf' not found
  on input line 134.
@@ -3439,9 +3874,9 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no f in font nullfont!
 
-LaTeX Warning: Reference `fig:sfmuon' on page 15 undefined on input line 143.
+LaTeX Warning: Reference `fig:sfmuon' on page 24 undefined on input line 143.
 
-<789FIG fig/efficiency/lepton/muon_eff_tight_id_2017.pdf 11>
+<789FIG fig/efficiency/lepton/muon_eff_tight_id_2017.pdf 19>
 
 LaTeX Warning: File `fig/efficiency/lepton/muon_eff_tight_id_2017.pdf' not foun
 d on input line 147.
@@ -3507,7 +3942,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no f in font nullfont!
-<789FIG fig/efficiency/lepton/muon_eff_loose_id_2017.pdf 11>
+<789FIG fig/efficiency/lepton/muon_eff_loose_id_2017.pdf 19>
 
 LaTeX Warning: File `fig/efficiency/lepton/muon_eff_loose_id_2017.pdf' not foun
 d on input line 148.
@@ -3573,7 +4008,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no f in font nullfont!
-<789FIG fig/efficiency/lepton/muon_eff_tight_id_2018.pdf 11>
+<789FIG fig/efficiency/lepton/muon_eff_tight_id_2018.pdf 19>
 
 LaTeX Warning: File `fig/efficiency/lepton/muon_eff_tight_id_2018.pdf' not foun
 d on input line 149.
@@ -3639,7 +4074,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no f in font nullfont!
-<789FIG fig/efficiency/lepton/muon_eff_loose_id_2018.pdf 11>
+<789FIG fig/efficiency/lepton/muon_eff_loose_id_2018.pdf 19>
 
 LaTeX Warning: File `fig/efficiency/lepton/muon_eff_loose_id_2018.pdf' not foun
 d on input line 150.
@@ -3705,7 +4140,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no f in font nullfont!
-<789FIG fig/efficiency/lepton/muon_eff_tight_iso_2017.pdf 12>
+<789FIG fig/efficiency/lepton/muon_eff_tight_iso_2017.pdf 20>
 
 LaTeX Warning: File `fig/efficiency/lepton/muon_eff_tight_iso_2017.pdf' not fou
 nd on input line 162.
@@ -3772,7 +4207,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no f in font nullfont!
-<789FIG fig/efficiency/lepton/muon_eff_loose_iso_2017.pdf 12>
+<789FIG fig/efficiency/lepton/muon_eff_loose_iso_2017.pdf 20>
 
 LaTeX Warning: File `fig/efficiency/lepton/muon_eff_loose_iso_2017.pdf' not fou
 nd on input line 163.
@@ -3839,7 +4274,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no f in font nullfont!
-<789FIG fig/efficiency/lepton/muon_eff_tight_iso_2018.pdf 12>
+<789FIG fig/efficiency/lepton/muon_eff_tight_iso_2018.pdf 20>
 
 LaTeX Warning: File `fig/efficiency/lepton/muon_eff_tight_iso_2018.pdf' not fou
 nd on input line 164.
@@ -3906,7 +4341,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no f in font nullfont!
-<789FIG fig/efficiency/lepton/muon_eff_loose_iso_2018.pdf 12>
+<789FIG fig/efficiency/lepton/muon_eff_loose_iso_2018.pdf 20>
 
 LaTeX Warning: File `fig/efficiency/lepton/muon_eff_loose_iso_2018.pdf' not fou
 nd on input line 165.
@@ -3973,20 +4408,20 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no f in font nullfont!
-<789FIG BigDraft 13>
+<789FIG BigDraft 21>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf  used on input line 177.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[15]
-<789FIG BigDraft 13>
+[24]
+<789FIG BigDraft 21>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf  used on input line 188.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[16]
+[25]
 
-Package natbib Warning: Citation `DMTheory' on page 17 undefined on input line 
+Package natbib Warning: Citation `DMTheory' on page 26 undefined on input line 
 192.
 
 Missing character: There is no M in font nullfont!
@@ -4015,18 +4450,18 @@ Missing character: There is no 8 in font nullfont!
 Missing character: There is no C in font nullfont!
 Missing character: There is no P in font nullfont!
 Missing character: There is no 5 in font nullfont!
-<789FIG BigDraft 13>
+<789FIG BigDraft 21>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf  used on input line 197.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[17]
-<789FIG BigDraft 13>
+[26]
+<789FIG BigDraft 21>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf  used on input line 199.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[18]
+[27]
 ! Undefined control sequence.
 l.209 \mathtext
                {SF} = a\times \exp(-b\times\pt) + c,
@@ -4037,26 +4472,26 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `sec:lo_vs_nlo' on page 19 undefined on input line 212
+LaTeX Warning: Reference `sec:lo_vs_nlo' on page 28 undefined on input line 212
 .
 
-<789FIG fig/theory/qcdnlo/interpolation_monojet_dy.pdf 13>
-<fig/theory/qcdnlo/interpolation_monojet_dy.pdf, id=365, 361.35pt x 361.35pt>
+<789FIG fig/theory/qcdnlo/interpolation_monojet_dy.pdf 21>
+<fig/theory/qcdnlo/interpolation_monojet_dy.pdf, id=488, 361.35pt x 361.35pt>
 File: fig/theory/qcdnlo/interpolation_monojet_dy.pdf Graphic file (type pdf)
 <use fig/theory/qcdnlo/interpolation_monojet_dy.pdf>
 Package pdftex.def Info: fig/theory/qcdnlo/interpolation_monojet_dy.pdf  used o
 n input line 216.
 (pdftex.def)             Requested size: 223.0721pt x 223.07529pt.
-<789FIG fig/theory/qcdnlo/interpolation_monojet_wjet.pdf 13>
-<fig/theory/qcdnlo/interpolation_monojet_wjet.pdf, id=366, 361.35pt x 361.35pt>
+<789FIG fig/theory/qcdnlo/interpolation_monojet_wjet.pdf 21>
+<fig/theory/qcdnlo/interpolation_monojet_wjet.pdf, id=489, 361.35pt x 361.35pt>
 
 File: fig/theory/qcdnlo/interpolation_monojet_wjet.pdf Graphic file (type pdf)
 <use fig/theory/qcdnlo/interpolation_monojet_wjet.pdf>
 Package pdftex.def Info: fig/theory/qcdnlo/interpolation_monojet_wjet.pdf  used
  on input line 217.
 (pdftex.def)             Requested size: 223.0721pt x 223.07529pt.
-<789FIG fig/theory/ewnlo/nlo_ewk.pdf 14>
-<fig/theory/ewnlo/nlo_ewk.pdf, id=367, 462.52798pt x 346.89601pt>
+<789FIG fig/theory/ewnlo/nlo_ewk.pdf 22>
+<fig/theory/ewnlo/nlo_ewk.pdf, id=490, 462.52798pt x 346.89601pt>
 File: fig/theory/ewnlo/nlo_ewk.pdf Graphic file (type pdf)
 <use fig/theory/ewnlo/nlo_ewk.pdf>
 Package pdftex.def Info: fig/theory/ewnlo/nlo_ewk.pdf  used on input line 229.
@@ -4066,20 +4501,20 @@ Package pdftex.def Info: fig/theory/ewnlo/nlo_ewk.pdf  used on input line 229.
 
 (/Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/selection.t
 ex
-<789FIG BigDraft 15>
+<789FIG BigDraft 23>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf  used on input line 13.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[19]
-<789FIG BigDraft 15>
+[28]
+<789FIG BigDraft 23>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf  used on input line 13.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[20]
+[29]
 
-Package natbib Warning: Citation `Sirunyan:2019kia' on page 21 undefined on inp
+Package natbib Warning: Citation `Sirunyan:2019kia' on page 30 undefined on inp
 ut line 19.
 
 ! Missing $ inserted.
@@ -4103,31 +4538,31 @@ Overfull \hbox (125.89784pt too wide) in paragraph at lines 21--24
 \OT1/ppl/m/n/10.95 imuthal seper-a-tion. There-fore, this anal-y-sis em-ploys s
 ev-eral re-quire-ments on M$[], \OT1/zplm/m/n/10.95 ^^A\U/fsy/m/i/10.95 ^^Q[]an
 d\OT1/zplm/m/n/10.95 ^^A\U/fsy/m/i/10.95 ^^^[]\OT1/ppl/m/n/10.95 , \U/fsy/m/i/1
-0.95 whichcanbefoundinTable [][]\OT1/ppl/m/n/10.95 8[].$ 
+0.95 whichcanbefoundinTable [][]\OT1/ppl/m/n/10.95 9[].$ 
  []
 
-<789FIG BigDraft 15>
+<789FIG BigDraft 23>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf  used on input line 24.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[21]
+[30]
 
-Package natbib Warning: Citation `CMS_NOTE_2018-323' on page 22 undefined on in
+Package natbib Warning: Citation `CMS_NOTE_2018-323' on page 31 undefined on in
 put line 31.
 
 
-Package natbib Warning: Citation `Sirunyan:2017ezt' on page 22 undefined on inp
+Package natbib Warning: Citation `Sirunyan:2017ezt' on page 31 undefined on inp
 ut line 31.
 
-<789FIG BigDraft 15>
+<789FIG BigDraft 23>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf  used on input line 37.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[22]
+[31]
 
-Package natbib Warning: Citation `Thaler:2010tr' on page 23 undefined on input 
+Package natbib Warning: Citation `Thaler:2010tr' on page 32 undefined on input 
 line 41.
 
 ! Extra alignment tab has been changed to \cr.
@@ -4176,12 +4611,12 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-<789FIG BigDraft 15>
+<789FIG BigDraft 23>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf  used on input line 76.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[23 </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/the
+[32 </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/the
 ory/qcdnlo/interpolation_monojet_dy.pdf> </Users/alpakpinar/Desktop/Boston_Univ
 ersity/CMS/PROJECTS/AN-19-243/fig/theory/qcdnlo/interpolation_monojet_wjet.pdf
 
@@ -4195,7 +4630,7 @@ pdfTeX warning: pdflatex (file /Users/alpakpinar/Desktop/Boston_University/CMS/
 PROJECTS/AN-19-243/fig/theory/ewnlo/nlo_ewk.pdf): PDF inclusion: multiple pdfs 
 with page group included in a single page
 >]
-<789FIG fig/placeholder.png 15>
+<789FIG fig/placeholder.png 23>
 
 LaTeX Warning: File `fig/placeholder.png' not found on input line 84.
 
@@ -4231,7 +4666,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
-<789FIG fig/placeholder.png 15>
+<789FIG fig/placeholder.png 23>
 
 LaTeX Warning: File `fig/placeholder.png' not found on input line 85.
 
@@ -4267,7 +4702,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
-<789FIG fig/placeholder.png 15>
+<789FIG fig/placeholder.png 23>
 
 LaTeX Warning: File `fig/placeholder.png' not found on input line 86.
 
@@ -4303,7 +4738,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
-<789FIG fig/placeholder.png 15>
+<789FIG fig/placeholder.png 23>
 
 LaTeX Warning: File `fig/placeholder.png' not found on input line 87.
 
@@ -4339,7 +4774,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
-<789FIG fig/placeholder.png 16>
+<789FIG fig/placeholder.png 24>
 
 LaTeX Warning: File `fig/placeholder.png' not found on input line 97.
 
@@ -4375,7 +4810,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
-<789FIG fig/placeholder.png 16>
+<789FIG fig/placeholder.png 24>
 
 LaTeX Warning: File `fig/placeholder.png' not found on input line 98.
 
@@ -4411,7 +4846,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
-<789FIG fig/placeholder.png 16>
+<789FIG fig/placeholder.png 24>
 
 LaTeX Warning: File `fig/placeholder.png' not found on input line 99.
 
@@ -4447,7 +4882,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
-<789FIG fig/placeholder.png 16>
+<789FIG fig/placeholder.png 24>
 
 LaTeX Warning: File `fig/placeholder.png' not found on input line 100.
 
@@ -4483,7 +4918,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
-<789FIG fig/placeholder.png 17>
+<789FIG fig/placeholder.png 25>
 
 LaTeX Warning: File `fig/placeholder.png' not found on input line 110.
 
@@ -4519,7 +4954,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
-<789FIG fig/placeholder.png 17>
+<789FIG fig/placeholder.png 25>
 
 LaTeX Warning: File `fig/placeholder.png' not found on input line 111.
 
@@ -4555,7 +4990,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
-<789FIG fig/placeholder.png 17>
+<789FIG fig/placeholder.png 25>
 
 LaTeX Warning: File `fig/placeholder.png' not found on input line 112.
 
@@ -4591,7 +5026,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
-<789FIG fig/placeholder.png 17>
+<789FIG fig/placeholder.png 25>
 
 LaTeX Warning: File `fig/placeholder.png' not found on input line 113.
 
@@ -4627,7 +5062,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
-<789FIG fig/placeholder.png 18>
+<789FIG fig/placeholder.png 26>
 
 LaTeX Warning: File `fig/placeholder.png' not found on input line 123.
 
@@ -4663,7 +5098,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
-<789FIG fig/placeholder.png 18>
+<789FIG fig/placeholder.png 26>
 
 LaTeX Warning: File `fig/placeholder.png' not found on input line 124.
 
@@ -4699,7 +5134,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
-<789FIG fig/placeholder.png 18>
+<789FIG fig/placeholder.png 26>
 
 LaTeX Warning: File `fig/placeholder.png' not found on input line 125.
 
@@ -4735,7 +5170,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
-<789FIG fig/placeholder.png 18>
+<789FIG fig/placeholder.png 26>
 
 LaTeX Warning: File `fig/placeholder.png' not found on input line 126.
 
@@ -4771,38 +5206,38 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
-<789FIG BigDraft 19>
+<789FIG BigDraft 27>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf  used on input line 134.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[24]
-<789FIG BigDraft 19>
+[33]
+<789FIG BigDraft 27>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf  used on input line 134.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[25]
-<789FIG BigDraft 19>
+[34]
+<789FIG BigDraft 27>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf  used on input line 134.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[26]
-<789FIG BigDraft 19>
+[35]
+<789FIG BigDraft 27>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf  used on input line 134.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[27]
-<789FIG BigDraft 19>
+[36]
+<789FIG BigDraft 27>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf  used on input line 134.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[28]
-<789FIG fig/datamc/cr_1m_vbf/cr_1m_vbf_recoil_losf_2017.pdf 19>
-<fig/datamc/cr_1m_vbf/cr_1m_vbf_recoil_losf_2017.pdf, id=596, 505.89pt x 505.89
+[37]
+<789FIG fig/datamc/cr_1m_vbf/cr_1m_vbf_recoil_losf_2017.pdf 27>
+<fig/datamc/cr_1m_vbf/cr_1m_vbf_recoil_losf_2017.pdf, id=719, 505.89pt x 505.89
 pt>
 File: fig/datamc/cr_1m_vbf/cr_1m_vbf_recoil_losf_2017.pdf Graphic file (type pd
 f)
@@ -4810,16 +5245,16 @@ f)
 Package pdftex.def Info: fig/datamc/cr_1m_vbf/cr_1m_vbf_recoil_losf_2017.pdf  u
 sed on input line 157.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_1m_vbf/cr_1m_vbf_mjj_losf_2017.pdf 19>
-<fig/datamc/cr_1m_vbf/cr_1m_vbf_mjj_losf_2017.pdf, id=597, 505.89pt x 505.89pt>
+<789FIG fig/datamc/cr_1m_vbf/cr_1m_vbf_mjj_losf_2017.pdf 27>
+<fig/datamc/cr_1m_vbf/cr_1m_vbf_mjj_losf_2017.pdf, id=720, 505.89pt x 505.89pt>
 
 File: fig/datamc/cr_1m_vbf/cr_1m_vbf_mjj_losf_2017.pdf Graphic file (type pdf)
 <use fig/datamc/cr_1m_vbf/cr_1m_vbf_mjj_losf_2017.pdf>
 Package pdftex.def Info: fig/datamc/cr_1m_vbf/cr_1m_vbf_mjj_losf_2017.pdf  used
  on input line 158.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_1m_vbf/cr_1m_vbf_detajj_losf_2017.pdf 19>
-<fig/datamc/cr_1m_vbf/cr_1m_vbf_detajj_losf_2017.pdf, id=598, 505.89pt x 505.89
+<789FIG fig/datamc/cr_1m_vbf/cr_1m_vbf_detajj_losf_2017.pdf 27>
+<fig/datamc/cr_1m_vbf/cr_1m_vbf_detajj_losf_2017.pdf, id=721, 505.89pt x 505.89
 pt>
 File: fig/datamc/cr_1m_vbf/cr_1m_vbf_detajj_losf_2017.pdf Graphic file (type pd
 f)
@@ -4827,8 +5262,8 @@ f)
 Package pdftex.def Info: fig/datamc/cr_1m_vbf/cr_1m_vbf_detajj_losf_2017.pdf  u
 sed on input line 159.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_1m_vbf/cr_1m_vbf_dphijj_losf_2017.pdf 19>
-<fig/datamc/cr_1m_vbf/cr_1m_vbf_dphijj_losf_2017.pdf, id=599, 505.89pt x 505.89
+<789FIG fig/datamc/cr_1m_vbf/cr_1m_vbf_dphijj_losf_2017.pdf 27>
+<fig/datamc/cr_1m_vbf/cr_1m_vbf_dphijj_losf_2017.pdf, id=722, 505.89pt x 505.89
 pt>
 File: fig/datamc/cr_1m_vbf/cr_1m_vbf_dphijj_losf_2017.pdf Graphic file (type pd
 f)
@@ -4836,8 +5271,8 @@ f)
 Package pdftex.def Info: fig/datamc/cr_1m_vbf/cr_1m_vbf_dphijj_losf_2017.pdf  u
 sed on input line 160.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_1m_vbf/cr_1m_vbf_muon_pt_losf_2017.pdf 20>
-<fig/datamc/cr_1m_vbf/cr_1m_vbf_muon_pt_losf_2017.pdf, id=600, 505.89pt x 505.8
+<789FIG fig/datamc/cr_1m_vbf/cr_1m_vbf_muon_pt_losf_2017.pdf 28>
+<fig/datamc/cr_1m_vbf/cr_1m_vbf_muon_pt_losf_2017.pdf, id=723, 505.89pt x 505.8
 9pt>
 File: fig/datamc/cr_1m_vbf/cr_1m_vbf_muon_pt_losf_2017.pdf Graphic file (type p
 df)
@@ -4845,8 +5280,8 @@ df)
 Package pdftex.def Info: fig/datamc/cr_1m_vbf/cr_1m_vbf_muon_pt_losf_2017.pdf  
 used on input line 170.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_1m_vbf/cr_1m_vbf_muon_eta_losf_2017.pdf 20>
-<fig/datamc/cr_1m_vbf/cr_1m_vbf_muon_eta_losf_2017.pdf, id=601, 505.89pt x 505.
+<789FIG fig/datamc/cr_1m_vbf/cr_1m_vbf_muon_eta_losf_2017.pdf 28>
+<fig/datamc/cr_1m_vbf/cr_1m_vbf_muon_eta_losf_2017.pdf, id=724, 505.89pt x 505.
 89pt>
 File: fig/datamc/cr_1m_vbf/cr_1m_vbf_muon_eta_losf_2017.pdf Graphic file (type 
 pdf)
@@ -4854,8 +5289,8 @@ pdf)
 Package pdftex.def Info: fig/datamc/cr_1m_vbf/cr_1m_vbf_muon_eta_losf_2017.pdf 
  used on input line 171.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_1m_vbf/cr_1m_vbf_muon_mt_losf_2017.pdf 20>
-<fig/datamc/cr_1m_vbf/cr_1m_vbf_muon_mt_losf_2017.pdf, id=602, 505.89pt x 505.8
+<789FIG fig/datamc/cr_1m_vbf/cr_1m_vbf_muon_mt_losf_2017.pdf 28>
+<fig/datamc/cr_1m_vbf/cr_1m_vbf_muon_mt_losf_2017.pdf, id=725, 505.89pt x 505.8
 9pt>
 File: fig/datamc/cr_1m_vbf/cr_1m_vbf_muon_mt_losf_2017.pdf Graphic file (type p
 df)
@@ -4863,8 +5298,8 @@ df)
 Package pdftex.def Info: fig/datamc/cr_1m_vbf/cr_1m_vbf_muon_mt_losf_2017.pdf  
 used on input line 172.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_1m_vbf/cr_1m_vbf_recoil_losf_2018.pdf 21>
-<fig/datamc/cr_1m_vbf/cr_1m_vbf_recoil_losf_2018.pdf, id=603, 505.89pt x 505.89
+<789FIG fig/datamc/cr_1m_vbf/cr_1m_vbf_recoil_losf_2018.pdf 29>
+<fig/datamc/cr_1m_vbf/cr_1m_vbf_recoil_losf_2018.pdf, id=726, 505.89pt x 505.89
 pt>
 File: fig/datamc/cr_1m_vbf/cr_1m_vbf_recoil_losf_2018.pdf Graphic file (type pd
 f)
@@ -4872,16 +5307,16 @@ f)
 Package pdftex.def Info: fig/datamc/cr_1m_vbf/cr_1m_vbf_recoil_losf_2018.pdf  u
 sed on input line 181.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_1m_vbf/cr_1m_vbf_mjj_losf_2018.pdf 21>
-<fig/datamc/cr_1m_vbf/cr_1m_vbf_mjj_losf_2018.pdf, id=604, 505.89pt x 505.89pt>
+<789FIG fig/datamc/cr_1m_vbf/cr_1m_vbf_mjj_losf_2018.pdf 29>
+<fig/datamc/cr_1m_vbf/cr_1m_vbf_mjj_losf_2018.pdf, id=727, 505.89pt x 505.89pt>
 
 File: fig/datamc/cr_1m_vbf/cr_1m_vbf_mjj_losf_2018.pdf Graphic file (type pdf)
 <use fig/datamc/cr_1m_vbf/cr_1m_vbf_mjj_losf_2018.pdf>
 Package pdftex.def Info: fig/datamc/cr_1m_vbf/cr_1m_vbf_mjj_losf_2018.pdf  used
  on input line 182.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_1m_vbf/cr_1m_vbf_detajj_losf_2018.pdf 21>
-<fig/datamc/cr_1m_vbf/cr_1m_vbf_detajj_losf_2018.pdf, id=605, 505.89pt x 505.89
+<789FIG fig/datamc/cr_1m_vbf/cr_1m_vbf_detajj_losf_2018.pdf 29>
+<fig/datamc/cr_1m_vbf/cr_1m_vbf_detajj_losf_2018.pdf, id=728, 505.89pt x 505.89
 pt>
 File: fig/datamc/cr_1m_vbf/cr_1m_vbf_detajj_losf_2018.pdf Graphic file (type pd
 f)
@@ -4889,8 +5324,8 @@ f)
 Package pdftex.def Info: fig/datamc/cr_1m_vbf/cr_1m_vbf_detajj_losf_2018.pdf  u
 sed on input line 183.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_1m_vbf/cr_1m_vbf_dphijj_losf_2018.pdf 21>
-<fig/datamc/cr_1m_vbf/cr_1m_vbf_dphijj_losf_2018.pdf, id=606, 505.89pt x 505.89
+<789FIG fig/datamc/cr_1m_vbf/cr_1m_vbf_dphijj_losf_2018.pdf 29>
+<fig/datamc/cr_1m_vbf/cr_1m_vbf_dphijj_losf_2018.pdf, id=729, 505.89pt x 505.89
 pt>
 File: fig/datamc/cr_1m_vbf/cr_1m_vbf_dphijj_losf_2018.pdf Graphic file (type pd
 f)
@@ -4898,8 +5333,8 @@ f)
 Package pdftex.def Info: fig/datamc/cr_1m_vbf/cr_1m_vbf_dphijj_losf_2018.pdf  u
 sed on input line 184.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_1m_vbf/cr_1m_vbf_muon_pt_losf_2018.pdf 22>
-<fig/datamc/cr_1m_vbf/cr_1m_vbf_muon_pt_losf_2018.pdf, id=607, 505.89pt x 505.8
+<789FIG fig/datamc/cr_1m_vbf/cr_1m_vbf_muon_pt_losf_2018.pdf 30>
+<fig/datamc/cr_1m_vbf/cr_1m_vbf_muon_pt_losf_2018.pdf, id=730, 505.89pt x 505.8
 9pt>
 File: fig/datamc/cr_1m_vbf/cr_1m_vbf_muon_pt_losf_2018.pdf Graphic file (type p
 df)
@@ -4907,8 +5342,8 @@ df)
 Package pdftex.def Info: fig/datamc/cr_1m_vbf/cr_1m_vbf_muon_pt_losf_2018.pdf  
 used on input line 194.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_1m_vbf/cr_1m_vbf_muon_eta_losf_2018.pdf 22>
-<fig/datamc/cr_1m_vbf/cr_1m_vbf_muon_eta_losf_2018.pdf, id=608, 505.89pt x 505.
+<789FIG fig/datamc/cr_1m_vbf/cr_1m_vbf_muon_eta_losf_2018.pdf 30>
+<fig/datamc/cr_1m_vbf/cr_1m_vbf_muon_eta_losf_2018.pdf, id=731, 505.89pt x 505.
 89pt>
 File: fig/datamc/cr_1m_vbf/cr_1m_vbf_muon_eta_losf_2018.pdf Graphic file (type 
 pdf)
@@ -4916,8 +5351,8 @@ pdf)
 Package pdftex.def Info: fig/datamc/cr_1m_vbf/cr_1m_vbf_muon_eta_losf_2018.pdf 
  used on input line 195.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_1m_vbf/cr_1m_vbf_muon_mt_losf_2018.pdf 22>
-<fig/datamc/cr_1m_vbf/cr_1m_vbf_muon_mt_losf_2018.pdf, id=609, 505.89pt x 505.8
+<789FIG fig/datamc/cr_1m_vbf/cr_1m_vbf_muon_mt_losf_2018.pdf 30>
+<fig/datamc/cr_1m_vbf/cr_1m_vbf_muon_mt_losf_2018.pdf, id=732, 505.89pt x 505.8
 9pt>
 File: fig/datamc/cr_1m_vbf/cr_1m_vbf_muon_mt_losf_2018.pdf Graphic file (type p
 df)
@@ -4925,18 +5360,18 @@ df)
 Package pdftex.def Info: fig/datamc/cr_1m_vbf/cr_1m_vbf_muon_mt_losf_2018.pdf  
 used on input line 196.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG BigDraft 23>
+<789FIG BigDraft 31>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf  used on input line 203.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[29]
-<789FIG BigDraft 23>
+[38]
+<789FIG BigDraft 31>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf  used on input line 203.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[30 </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/dat
+[39 </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/dat
 amc/cr_1m_vbf/cr_1m_vbf_recoil_losf_2017.pdf> </Users/alpakpinar/Desktop/Boston
 _University/CMS/PROJECTS/AN-19-243/fig/datamc/cr_1m_vbf/cr_1m_vbf_mjj_losf_2017
 .pdf
@@ -4957,12 +5392,12 @@ pdfTeX warning: pdflatex (file /Users/alpakpinar/Desktop/Boston_University/CMS/
 PROJECTS/AN-19-243/fig/datamc/cr_1m_vbf/cr_1m_vbf_dphijj_losf_2017.pdf): PDF in
 clusion: multiple pdfs with page group included in a single page
 >]
-<789FIG BigDraft 23>
+<789FIG BigDraft 31>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf  used on input line 203.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[31 </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/dat
+[40 </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/dat
 amc/cr_1m_vbf/cr_1m_vbf_muon_pt_losf_2017.pdf> </Users/alpakpinar/Desktop/Bosto
 n_University/CMS/PROJECTS/AN-19-243/fig/datamc/cr_1m_vbf/cr_1m_vbf_muon_eta_los
 f_2017.pdf
@@ -4977,12 +5412,12 @@ pdfTeX warning: pdflatex (file /Users/alpakpinar/Desktop/Boston_University/CMS/
 PROJECTS/AN-19-243/fig/datamc/cr_1m_vbf/cr_1m_vbf_muon_mt_losf_2017.pdf): PDF i
 nclusion: multiple pdfs with page group included in a single page
 >]
-<789FIG BigDraft 23>
+<789FIG BigDraft 31>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf  used on input line 203.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[32 </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/dat
+[41 </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/dat
 amc/cr_1m_vbf/cr_1m_vbf_recoil_losf_2018.pdf> </Users/alpakpinar/Desktop/Boston
 _University/CMS/PROJECTS/AN-19-243/fig/datamc/cr_1m_vbf/cr_1m_vbf_mjj_losf_2018
 .pdf
@@ -5003,12 +5438,12 @@ pdfTeX warning: pdflatex (file /Users/alpakpinar/Desktop/Boston_University/CMS/
 PROJECTS/AN-19-243/fig/datamc/cr_1m_vbf/cr_1m_vbf_dphijj_losf_2018.pdf): PDF in
 clusion: multiple pdfs with page group included in a single page
 >]
-<789FIG BigDraft 23>
+<789FIG BigDraft 31>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf  used on input line 203.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[33 </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/dat
+[42 </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/dat
 amc/cr_1m_vbf/cr_1m_vbf_muon_pt_losf_2018.pdf> </Users/alpakpinar/Desktop/Bosto
 n_University/CMS/PROJECTS/AN-19-243/fig/datamc/cr_1m_vbf/cr_1m_vbf_muon_eta_los
 f_2018.pdf
@@ -5023,8 +5458,8 @@ pdfTeX warning: pdflatex (file /Users/alpakpinar/Desktop/Boston_University/CMS/
 PROJECTS/AN-19-243/fig/datamc/cr_1m_vbf/cr_1m_vbf_muon_mt_losf_2018.pdf): PDF i
 nclusion: multiple pdfs with page group included in a single page
 >]
-<789FIG fig/datamc/cr_1e_vbf/cr_1e_vbf_recoil_losf_2017.pdf 23>
-<fig/datamc/cr_1e_vbf/cr_1e_vbf_recoil_losf_2017.pdf, id=1708, 505.89pt x 505.8
+<789FIG fig/datamc/cr_1e_vbf/cr_1e_vbf_recoil_losf_2017.pdf 31>
+<fig/datamc/cr_1e_vbf/cr_1e_vbf_recoil_losf_2017.pdf, id=1832, 505.89pt x 505.8
 9pt>
 File: fig/datamc/cr_1e_vbf/cr_1e_vbf_recoil_losf_2017.pdf Graphic file (type pd
 f)
@@ -5032,16 +5467,16 @@ f)
 Package pdftex.def Info: fig/datamc/cr_1e_vbf/cr_1e_vbf_recoil_losf_2017.pdf  u
 sed on input line 222.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_1e_vbf/cr_1e_vbf_mjj_losf_2017.pdf 23>
-<fig/datamc/cr_1e_vbf/cr_1e_vbf_mjj_losf_2017.pdf, id=1709, 505.89pt x 505.89pt
+<789FIG fig/datamc/cr_1e_vbf/cr_1e_vbf_mjj_losf_2017.pdf 31>
+<fig/datamc/cr_1e_vbf/cr_1e_vbf_mjj_losf_2017.pdf, id=1833, 505.89pt x 505.89pt
 >
 File: fig/datamc/cr_1e_vbf/cr_1e_vbf_mjj_losf_2017.pdf Graphic file (type pdf)
 <use fig/datamc/cr_1e_vbf/cr_1e_vbf_mjj_losf_2017.pdf>
 Package pdftex.def Info: fig/datamc/cr_1e_vbf/cr_1e_vbf_mjj_losf_2017.pdf  used
  on input line 223.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_1e_vbf/cr_1e_vbf_detajj_losf_2017.pdf 23>
-<fig/datamc/cr_1e_vbf/cr_1e_vbf_detajj_losf_2017.pdf, id=1710, 505.89pt x 505.8
+<789FIG fig/datamc/cr_1e_vbf/cr_1e_vbf_detajj_losf_2017.pdf 31>
+<fig/datamc/cr_1e_vbf/cr_1e_vbf_detajj_losf_2017.pdf, id=1834, 505.89pt x 505.8
 9pt>
 File: fig/datamc/cr_1e_vbf/cr_1e_vbf_detajj_losf_2017.pdf Graphic file (type pd
 f)
@@ -5049,8 +5484,8 @@ f)
 Package pdftex.def Info: fig/datamc/cr_1e_vbf/cr_1e_vbf_detajj_losf_2017.pdf  u
 sed on input line 224.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_1e_vbf/cr_1e_vbf_dphijj_losf_2017.pdf 23>
-<fig/datamc/cr_1e_vbf/cr_1e_vbf_dphijj_losf_2017.pdf, id=1711, 505.89pt x 505.8
+<789FIG fig/datamc/cr_1e_vbf/cr_1e_vbf_dphijj_losf_2017.pdf 31>
+<fig/datamc/cr_1e_vbf/cr_1e_vbf_dphijj_losf_2017.pdf, id=1835, 505.89pt x 505.8
 9pt>
 File: fig/datamc/cr_1e_vbf/cr_1e_vbf_dphijj_losf_2017.pdf Graphic file (type pd
 f)
@@ -5058,8 +5493,8 @@ f)
 Package pdftex.def Info: fig/datamc/cr_1e_vbf/cr_1e_vbf_dphijj_losf_2017.pdf  u
 sed on input line 225.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_1e_vbf/cr_1e_vbf_electron_pt_losf_2017.pdf 24>
-<fig/datamc/cr_1e_vbf/cr_1e_vbf_electron_pt_losf_2017.pdf, id=1712, 505.89pt x 
+<789FIG fig/datamc/cr_1e_vbf/cr_1e_vbf_electron_pt_losf_2017.pdf 32>
+<fig/datamc/cr_1e_vbf/cr_1e_vbf_electron_pt_losf_2017.pdf, id=1836, 505.89pt x 
 505.89pt>
 File: fig/datamc/cr_1e_vbf/cr_1e_vbf_electron_pt_losf_2017.pdf Graphic file (ty
 pe pdf)
@@ -5067,8 +5502,8 @@ pe pdf)
 Package pdftex.def Info: fig/datamc/cr_1e_vbf/cr_1e_vbf_electron_pt_losf_2017.p
 df  used on input line 235.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_1e_vbf/cr_1e_vbf_electron_eta_losf_2017.pdf 24>
-<fig/datamc/cr_1e_vbf/cr_1e_vbf_electron_eta_losf_2017.pdf, id=1713, 505.89pt x
+<789FIG fig/datamc/cr_1e_vbf/cr_1e_vbf_electron_eta_losf_2017.pdf 32>
+<fig/datamc/cr_1e_vbf/cr_1e_vbf_electron_eta_losf_2017.pdf, id=1837, 505.89pt x
  505.89pt>
 File: fig/datamc/cr_1e_vbf/cr_1e_vbf_electron_eta_losf_2017.pdf Graphic file (t
 ype pdf)
@@ -5076,8 +5511,8 @@ ype pdf)
 Package pdftex.def Info: fig/datamc/cr_1e_vbf/cr_1e_vbf_electron_eta_losf_2017.
 pdf  used on input line 236.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_1e_vbf/cr_1e_vbf_electron_mt_losf_2017.pdf 24>
-<fig/datamc/cr_1e_vbf/cr_1e_vbf_electron_mt_losf_2017.pdf, id=1714, 505.89pt x 
+<789FIG fig/datamc/cr_1e_vbf/cr_1e_vbf_electron_mt_losf_2017.pdf 32>
+<fig/datamc/cr_1e_vbf/cr_1e_vbf_electron_mt_losf_2017.pdf, id=1838, 505.89pt x 
 505.89pt>
 File: fig/datamc/cr_1e_vbf/cr_1e_vbf_electron_mt_losf_2017.pdf Graphic file (ty
 pe pdf)
@@ -5085,8 +5520,8 @@ pe pdf)
 Package pdftex.def Info: fig/datamc/cr_1e_vbf/cr_1e_vbf_electron_mt_losf_2017.p
 df  used on input line 237.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_1e_vbf/cr_1e_vbf_recoil_losf_2018.pdf 25>
-<fig/datamc/cr_1e_vbf/cr_1e_vbf_recoil_losf_2018.pdf, id=1715, 505.89pt x 505.8
+<789FIG fig/datamc/cr_1e_vbf/cr_1e_vbf_recoil_losf_2018.pdf 33>
+<fig/datamc/cr_1e_vbf/cr_1e_vbf_recoil_losf_2018.pdf, id=1839, 505.89pt x 505.8
 9pt>
 File: fig/datamc/cr_1e_vbf/cr_1e_vbf_recoil_losf_2018.pdf Graphic file (type pd
 f)
@@ -5094,16 +5529,16 @@ f)
 Package pdftex.def Info: fig/datamc/cr_1e_vbf/cr_1e_vbf_recoil_losf_2018.pdf  u
 sed on input line 246.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_1e_vbf/cr_1e_vbf_mjj_losf_2018.pdf 25>
-<fig/datamc/cr_1e_vbf/cr_1e_vbf_mjj_losf_2018.pdf, id=1716, 505.89pt x 505.89pt
+<789FIG fig/datamc/cr_1e_vbf/cr_1e_vbf_mjj_losf_2018.pdf 33>
+<fig/datamc/cr_1e_vbf/cr_1e_vbf_mjj_losf_2018.pdf, id=1840, 505.89pt x 505.89pt
 >
 File: fig/datamc/cr_1e_vbf/cr_1e_vbf_mjj_losf_2018.pdf Graphic file (type pdf)
 <use fig/datamc/cr_1e_vbf/cr_1e_vbf_mjj_losf_2018.pdf>
 Package pdftex.def Info: fig/datamc/cr_1e_vbf/cr_1e_vbf_mjj_losf_2018.pdf  used
  on input line 247.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_1e_vbf/cr_1e_vbf_detajj_losf_2018.pdf 25>
-<fig/datamc/cr_1e_vbf/cr_1e_vbf_detajj_losf_2018.pdf, id=1717, 505.89pt x 505.8
+<789FIG fig/datamc/cr_1e_vbf/cr_1e_vbf_detajj_losf_2018.pdf 33>
+<fig/datamc/cr_1e_vbf/cr_1e_vbf_detajj_losf_2018.pdf, id=1841, 505.89pt x 505.8
 9pt>
 File: fig/datamc/cr_1e_vbf/cr_1e_vbf_detajj_losf_2018.pdf Graphic file (type pd
 f)
@@ -5111,8 +5546,8 @@ f)
 Package pdftex.def Info: fig/datamc/cr_1e_vbf/cr_1e_vbf_detajj_losf_2018.pdf  u
 sed on input line 248.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_1e_vbf/cr_1e_vbf_dphijj_losf_2018.pdf 25>
-<fig/datamc/cr_1e_vbf/cr_1e_vbf_dphijj_losf_2018.pdf, id=1718, 505.89pt x 505.8
+<789FIG fig/datamc/cr_1e_vbf/cr_1e_vbf_dphijj_losf_2018.pdf 33>
+<fig/datamc/cr_1e_vbf/cr_1e_vbf_dphijj_losf_2018.pdf, id=1842, 505.89pt x 505.8
 9pt>
 File: fig/datamc/cr_1e_vbf/cr_1e_vbf_dphijj_losf_2018.pdf Graphic file (type pd
 f)
@@ -5120,8 +5555,8 @@ f)
 Package pdftex.def Info: fig/datamc/cr_1e_vbf/cr_1e_vbf_dphijj_losf_2018.pdf  u
 sed on input line 249.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_1e_vbf/cr_1e_vbf_electron_pt_losf_2018.pdf 26>
-<fig/datamc/cr_1e_vbf/cr_1e_vbf_electron_pt_losf_2018.pdf, id=1719, 505.89pt x 
+<789FIG fig/datamc/cr_1e_vbf/cr_1e_vbf_electron_pt_losf_2018.pdf 34>
+<fig/datamc/cr_1e_vbf/cr_1e_vbf_electron_pt_losf_2018.pdf, id=1843, 505.89pt x 
 505.89pt>
 File: fig/datamc/cr_1e_vbf/cr_1e_vbf_electron_pt_losf_2018.pdf Graphic file (ty
 pe pdf)
@@ -5129,8 +5564,8 @@ pe pdf)
 Package pdftex.def Info: fig/datamc/cr_1e_vbf/cr_1e_vbf_electron_pt_losf_2018.p
 df  used on input line 259.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_1e_vbf/cr_1e_vbf_electron_eta_losf_2018.pdf 26>
-<fig/datamc/cr_1e_vbf/cr_1e_vbf_electron_eta_losf_2018.pdf, id=1720, 505.89pt x
+<789FIG fig/datamc/cr_1e_vbf/cr_1e_vbf_electron_eta_losf_2018.pdf 34>
+<fig/datamc/cr_1e_vbf/cr_1e_vbf_electron_eta_losf_2018.pdf, id=1844, 505.89pt x
  505.89pt>
 File: fig/datamc/cr_1e_vbf/cr_1e_vbf_electron_eta_losf_2018.pdf Graphic file (t
 ype pdf)
@@ -5138,8 +5573,8 @@ ype pdf)
 Package pdftex.def Info: fig/datamc/cr_1e_vbf/cr_1e_vbf_electron_eta_losf_2018.
 pdf  used on input line 260.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_1e_vbf/cr_1e_vbf_electron_mt_losf_2018.pdf 26>
-<fig/datamc/cr_1e_vbf/cr_1e_vbf_electron_mt_losf_2018.pdf, id=1721, 505.89pt x 
+<789FIG fig/datamc/cr_1e_vbf/cr_1e_vbf_electron_mt_losf_2018.pdf 34>
+<fig/datamc/cr_1e_vbf/cr_1e_vbf_electron_mt_losf_2018.pdf, id=1845, 505.89pt x 
 505.89pt>
 File: fig/datamc/cr_1e_vbf/cr_1e_vbf_electron_mt_losf_2018.pdf Graphic file (ty
 pe pdf)
@@ -5147,18 +5582,18 @@ pe pdf)
 Package pdftex.def Info: fig/datamc/cr_1e_vbf/cr_1e_vbf_electron_mt_losf_2018.p
 df  used on input line 261.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG BigDraft 27>
+<789FIG BigDraft 35>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf  used on input line 268.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[34]
-<789FIG BigDraft 27>
+[43]
+<789FIG BigDraft 35>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf  used on input line 268.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[35 </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/dat
+[44 </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/dat
 amc/cr_1e_vbf/cr_1e_vbf_recoil_losf_2017.pdf> </Users/alpakpinar/Desktop/Boston
 _University/CMS/PROJECTS/AN-19-243/fig/datamc/cr_1e_vbf/cr_1e_vbf_mjj_losf_2017
 .pdf
@@ -5179,12 +5614,12 @@ pdfTeX warning: pdflatex (file /Users/alpakpinar/Desktop/Boston_University/CMS/
 PROJECTS/AN-19-243/fig/datamc/cr_1e_vbf/cr_1e_vbf_dphijj_losf_2017.pdf): PDF in
 clusion: multiple pdfs with page group included in a single page
 >]
-<789FIG BigDraft 27>
+<789FIG BigDraft 35>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf  used on input line 268.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[36 </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/dat
+[45 </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/dat
 amc/cr_1e_vbf/cr_1e_vbf_electron_pt_losf_2017.pdf> </Users/alpakpinar/Desktop/B
 oston_University/CMS/PROJECTS/AN-19-243/fig/datamc/cr_1e_vbf/cr_1e_vbf_electron
 _eta_losf_2017.pdf
@@ -5199,12 +5634,12 @@ pdfTeX warning: pdflatex (file /Users/alpakpinar/Desktop/Boston_University/CMS/
 PROJECTS/AN-19-243/fig/datamc/cr_1e_vbf/cr_1e_vbf_electron_mt_losf_2017.pdf): P
 DF inclusion: multiple pdfs with page group included in a single page
 >]
-<789FIG BigDraft 27>
+<789FIG BigDraft 35>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf  used on input line 268.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[37 </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/dat
+[46 </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/dat
 amc/cr_1e_vbf/cr_1e_vbf_recoil_losf_2018.pdf> </Users/alpakpinar/Desktop/Boston
 _University/CMS/PROJECTS/AN-19-243/fig/datamc/cr_1e_vbf/cr_1e_vbf_mjj_losf_2018
 .pdf
@@ -5225,12 +5660,12 @@ pdfTeX warning: pdflatex (file /Users/alpakpinar/Desktop/Boston_University/CMS/
 PROJECTS/AN-19-243/fig/datamc/cr_1e_vbf/cr_1e_vbf_dphijj_losf_2018.pdf): PDF in
 clusion: multiple pdfs with page group included in a single page
 >]
-<789FIG BigDraft 27>
+<789FIG BigDraft 35>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf  used on input line 268.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[38 </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/dat
+[47 </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/dat
 amc/cr_1e_vbf/cr_1e_vbf_electron_pt_losf_2018.pdf> </Users/alpakpinar/Desktop/B
 oston_University/CMS/PROJECTS/AN-19-243/fig/datamc/cr_1e_vbf/cr_1e_vbf_electron
 _eta_losf_2018.pdf
@@ -5245,8 +5680,8 @@ pdfTeX warning: pdflatex (file /Users/alpakpinar/Desktop/Boston_University/CMS/
 PROJECTS/AN-19-243/fig/datamc/cr_1e_vbf/cr_1e_vbf_electron_mt_losf_2018.pdf): P
 DF inclusion: multiple pdfs with page group included in a single page
 >]
-<789FIG fig/datamc/cr_2m_vbf/cr_2m_vbf_recoil_losf_2017.pdf 27>
-<fig/datamc/cr_2m_vbf/cr_2m_vbf_recoil_losf_2017.pdf, id=2802, 505.89pt x 505.8
+<789FIG fig/datamc/cr_2m_vbf/cr_2m_vbf_recoil_losf_2017.pdf 35>
+<fig/datamc/cr_2m_vbf/cr_2m_vbf_recoil_losf_2017.pdf, id=2925, 505.89pt x 505.8
 9pt>
 File: fig/datamc/cr_2m_vbf/cr_2m_vbf_recoil_losf_2017.pdf Graphic file (type pd
 f)
@@ -5254,16 +5689,16 @@ f)
 Package pdftex.def Info: fig/datamc/cr_2m_vbf/cr_2m_vbf_recoil_losf_2017.pdf  u
 sed on input line 286.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_2m_vbf/cr_2m_vbf_mjj_losf_2017.pdf 27>
-<fig/datamc/cr_2m_vbf/cr_2m_vbf_mjj_losf_2017.pdf, id=2803, 505.89pt x 505.89pt
+<789FIG fig/datamc/cr_2m_vbf/cr_2m_vbf_mjj_losf_2017.pdf 35>
+<fig/datamc/cr_2m_vbf/cr_2m_vbf_mjj_losf_2017.pdf, id=2926, 505.89pt x 505.89pt
 >
 File: fig/datamc/cr_2m_vbf/cr_2m_vbf_mjj_losf_2017.pdf Graphic file (type pdf)
 <use fig/datamc/cr_2m_vbf/cr_2m_vbf_mjj_losf_2017.pdf>
 Package pdftex.def Info: fig/datamc/cr_2m_vbf/cr_2m_vbf_mjj_losf_2017.pdf  used
  on input line 287.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_2m_vbf/cr_2m_vbf_detajj_losf_2017.pdf 27>
-<fig/datamc/cr_2m_vbf/cr_2m_vbf_detajj_losf_2017.pdf, id=2804, 505.89pt x 505.8
+<789FIG fig/datamc/cr_2m_vbf/cr_2m_vbf_detajj_losf_2017.pdf 35>
+<fig/datamc/cr_2m_vbf/cr_2m_vbf_detajj_losf_2017.pdf, id=2927, 505.89pt x 505.8
 9pt>
 File: fig/datamc/cr_2m_vbf/cr_2m_vbf_detajj_losf_2017.pdf Graphic file (type pd
 f)
@@ -5271,8 +5706,8 @@ f)
 Package pdftex.def Info: fig/datamc/cr_2m_vbf/cr_2m_vbf_detajj_losf_2017.pdf  u
 sed on input line 288.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_2m_vbf/cr_2m_vbf_dphijj_losf_2017.pdf 27>
-<fig/datamc/cr_2m_vbf/cr_2m_vbf_dphijj_losf_2017.pdf, id=2805, 505.89pt x 505.8
+<789FIG fig/datamc/cr_2m_vbf/cr_2m_vbf_dphijj_losf_2017.pdf 35>
+<fig/datamc/cr_2m_vbf/cr_2m_vbf_dphijj_losf_2017.pdf, id=2928, 505.89pt x 505.8
 9pt>
 File: fig/datamc/cr_2m_vbf/cr_2m_vbf_dphijj_losf_2017.pdf Graphic file (type pd
 f)
@@ -5280,8 +5715,8 @@ f)
 Package pdftex.def Info: fig/datamc/cr_2m_vbf/cr_2m_vbf_dphijj_losf_2017.pdf  u
 sed on input line 289.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_2m_vbf/cr_2m_vbf_muon_pt0_losf_2017.pdf 28>
-<fig/datamc/cr_2m_vbf/cr_2m_vbf_muon_pt0_losf_2017.pdf, id=2806, 505.89pt x 505
+<789FIG fig/datamc/cr_2m_vbf/cr_2m_vbf_muon_pt0_losf_2017.pdf 36>
+<fig/datamc/cr_2m_vbf/cr_2m_vbf_muon_pt0_losf_2017.pdf, id=2929, 505.89pt x 505
 .89pt>
 File: fig/datamc/cr_2m_vbf/cr_2m_vbf_muon_pt0_losf_2017.pdf Graphic file (type 
 pdf)
@@ -5289,8 +5724,8 @@ pdf)
 Package pdftex.def Info: fig/datamc/cr_2m_vbf/cr_2m_vbf_muon_pt0_losf_2017.pdf 
  used on input line 299.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_2m_vbf/cr_2m_vbf_muon_eta0_losf_2017.pdf 28>
-<fig/datamc/cr_2m_vbf/cr_2m_vbf_muon_eta0_losf_2017.pdf, id=2807, 505.89pt x 50
+<789FIG fig/datamc/cr_2m_vbf/cr_2m_vbf_muon_eta0_losf_2017.pdf 36>
+<fig/datamc/cr_2m_vbf/cr_2m_vbf_muon_eta0_losf_2017.pdf, id=2930, 505.89pt x 50
 5.89pt>
 File: fig/datamc/cr_2m_vbf/cr_2m_vbf_muon_eta0_losf_2017.pdf Graphic file (type
  pdf)
@@ -5298,8 +5733,8 @@ File: fig/datamc/cr_2m_vbf/cr_2m_vbf_muon_eta0_losf_2017.pdf Graphic file (type
 Package pdftex.def Info: fig/datamc/cr_2m_vbf/cr_2m_vbf_muon_eta0_losf_2017.pdf
   used on input line 300.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_2m_vbf/cr_2m_vbf_dimuon_mass_losf_2017.pdf 28>
-<fig/datamc/cr_2m_vbf/cr_2m_vbf_dimuon_mass_losf_2017.pdf, id=2808, 505.89pt x 
+<789FIG fig/datamc/cr_2m_vbf/cr_2m_vbf_dimuon_mass_losf_2017.pdf 36>
+<fig/datamc/cr_2m_vbf/cr_2m_vbf_dimuon_mass_losf_2017.pdf, id=2931, 505.89pt x 
 505.89pt>
 File: fig/datamc/cr_2m_vbf/cr_2m_vbf_dimuon_mass_losf_2017.pdf Graphic file (ty
 pe pdf)
@@ -5307,8 +5742,8 @@ pe pdf)
 Package pdftex.def Info: fig/datamc/cr_2m_vbf/cr_2m_vbf_dimuon_mass_losf_2017.p
 df  used on input line 301.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_2m_vbf/cr_2m_vbf_dimuon_pt_losf_2017.pdf 28>
-<fig/datamc/cr_2m_vbf/cr_2m_vbf_dimuon_pt_losf_2017.pdf, id=2809, 505.89pt x 50
+<789FIG fig/datamc/cr_2m_vbf/cr_2m_vbf_dimuon_pt_losf_2017.pdf 36>
+<fig/datamc/cr_2m_vbf/cr_2m_vbf_dimuon_pt_losf_2017.pdf, id=2932, 505.89pt x 50
 5.89pt>
 File: fig/datamc/cr_2m_vbf/cr_2m_vbf_dimuon_pt_losf_2017.pdf Graphic file (type
  pdf)
@@ -5316,8 +5751,8 @@ File: fig/datamc/cr_2m_vbf/cr_2m_vbf_dimuon_pt_losf_2017.pdf Graphic file (type
 Package pdftex.def Info: fig/datamc/cr_2m_vbf/cr_2m_vbf_dimuon_pt_losf_2017.pdf
   used on input line 302.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_2m_vbf/cr_2m_vbf_recoil_losf_2018.pdf 29>
-<fig/datamc/cr_2m_vbf/cr_2m_vbf_recoil_losf_2018.pdf, id=2810, 505.89pt x 505.8
+<789FIG fig/datamc/cr_2m_vbf/cr_2m_vbf_recoil_losf_2018.pdf 37>
+<fig/datamc/cr_2m_vbf/cr_2m_vbf_recoil_losf_2018.pdf, id=2933, 505.89pt x 505.8
 9pt>
 File: fig/datamc/cr_2m_vbf/cr_2m_vbf_recoil_losf_2018.pdf Graphic file (type pd
 f)
@@ -5325,16 +5760,16 @@ f)
 Package pdftex.def Info: fig/datamc/cr_2m_vbf/cr_2m_vbf_recoil_losf_2018.pdf  u
 sed on input line 311.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_2m_vbf/cr_2m_vbf_mjj_losf_2018.pdf 29>
-<fig/datamc/cr_2m_vbf/cr_2m_vbf_mjj_losf_2018.pdf, id=2811, 505.89pt x 505.89pt
+<789FIG fig/datamc/cr_2m_vbf/cr_2m_vbf_mjj_losf_2018.pdf 37>
+<fig/datamc/cr_2m_vbf/cr_2m_vbf_mjj_losf_2018.pdf, id=2934, 505.89pt x 505.89pt
 >
 File: fig/datamc/cr_2m_vbf/cr_2m_vbf_mjj_losf_2018.pdf Graphic file (type pdf)
 <use fig/datamc/cr_2m_vbf/cr_2m_vbf_mjj_losf_2018.pdf>
 Package pdftex.def Info: fig/datamc/cr_2m_vbf/cr_2m_vbf_mjj_losf_2018.pdf  used
  on input line 312.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_2m_vbf/cr_2m_vbf_detajj_losf_2018.pdf 29>
-<fig/datamc/cr_2m_vbf/cr_2m_vbf_detajj_losf_2018.pdf, id=2812, 505.89pt x 505.8
+<789FIG fig/datamc/cr_2m_vbf/cr_2m_vbf_detajj_losf_2018.pdf 37>
+<fig/datamc/cr_2m_vbf/cr_2m_vbf_detajj_losf_2018.pdf, id=2935, 505.89pt x 505.8
 9pt>
 File: fig/datamc/cr_2m_vbf/cr_2m_vbf_detajj_losf_2018.pdf Graphic file (type pd
 f)
@@ -5342,8 +5777,8 @@ f)
 Package pdftex.def Info: fig/datamc/cr_2m_vbf/cr_2m_vbf_detajj_losf_2018.pdf  u
 sed on input line 313.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_2m_vbf/cr_2m_vbf_dphijj_losf_2018.pdf 29>
-<fig/datamc/cr_2m_vbf/cr_2m_vbf_dphijj_losf_2018.pdf, id=2813, 505.89pt x 505.8
+<789FIG fig/datamc/cr_2m_vbf/cr_2m_vbf_dphijj_losf_2018.pdf 37>
+<fig/datamc/cr_2m_vbf/cr_2m_vbf_dphijj_losf_2018.pdf, id=2936, 505.89pt x 505.8
 9pt>
 File: fig/datamc/cr_2m_vbf/cr_2m_vbf_dphijj_losf_2018.pdf Graphic file (type pd
 f)
@@ -5351,8 +5786,8 @@ f)
 Package pdftex.def Info: fig/datamc/cr_2m_vbf/cr_2m_vbf_dphijj_losf_2018.pdf  u
 sed on input line 314.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_2m_vbf/cr_2m_vbf_muon_pt0_losf_2018.pdf 30>
-<fig/datamc/cr_2m_vbf/cr_2m_vbf_muon_pt0_losf_2018.pdf, id=2814, 505.89pt x 505
+<789FIG fig/datamc/cr_2m_vbf/cr_2m_vbf_muon_pt0_losf_2018.pdf 38>
+<fig/datamc/cr_2m_vbf/cr_2m_vbf_muon_pt0_losf_2018.pdf, id=2937, 505.89pt x 505
 .89pt>
 File: fig/datamc/cr_2m_vbf/cr_2m_vbf_muon_pt0_losf_2018.pdf Graphic file (type 
 pdf)
@@ -5360,8 +5795,8 @@ pdf)
 Package pdftex.def Info: fig/datamc/cr_2m_vbf/cr_2m_vbf_muon_pt0_losf_2018.pdf 
  used on input line 324.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_2m_vbf/cr_2m_vbf_muon_eta0_losf_2018.pdf 30>
-<fig/datamc/cr_2m_vbf/cr_2m_vbf_muon_eta0_losf_2018.pdf, id=2815, 505.89pt x 50
+<789FIG fig/datamc/cr_2m_vbf/cr_2m_vbf_muon_eta0_losf_2018.pdf 38>
+<fig/datamc/cr_2m_vbf/cr_2m_vbf_muon_eta0_losf_2018.pdf, id=2938, 505.89pt x 50
 5.89pt>
 File: fig/datamc/cr_2m_vbf/cr_2m_vbf_muon_eta0_losf_2018.pdf Graphic file (type
  pdf)
@@ -5369,8 +5804,8 @@ File: fig/datamc/cr_2m_vbf/cr_2m_vbf_muon_eta0_losf_2018.pdf Graphic file (type
 Package pdftex.def Info: fig/datamc/cr_2m_vbf/cr_2m_vbf_muon_eta0_losf_2018.pdf
   used on input line 325.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_2m_vbf/cr_2m_vbf_dimuon_mass_losf_2018.pdf 30>
-<fig/datamc/cr_2m_vbf/cr_2m_vbf_dimuon_mass_losf_2018.pdf, id=2816, 505.89pt x 
+<789FIG fig/datamc/cr_2m_vbf/cr_2m_vbf_dimuon_mass_losf_2018.pdf 38>
+<fig/datamc/cr_2m_vbf/cr_2m_vbf_dimuon_mass_losf_2018.pdf, id=2939, 505.89pt x 
 505.89pt>
 File: fig/datamc/cr_2m_vbf/cr_2m_vbf_dimuon_mass_losf_2018.pdf Graphic file (ty
 pe pdf)
@@ -5378,8 +5813,8 @@ pe pdf)
 Package pdftex.def Info: fig/datamc/cr_2m_vbf/cr_2m_vbf_dimuon_mass_losf_2018.p
 df  used on input line 326.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_2m_vbf/cr_2m_vbf_dimuon_pt_losf_2018.pdf 30>
-<fig/datamc/cr_2m_vbf/cr_2m_vbf_dimuon_pt_losf_2018.pdf, id=2817, 505.89pt x 50
+<789FIG fig/datamc/cr_2m_vbf/cr_2m_vbf_dimuon_pt_losf_2018.pdf 38>
+<fig/datamc/cr_2m_vbf/cr_2m_vbf_dimuon_pt_losf_2018.pdf, id=2940, 505.89pt x 50
 5.89pt>
 File: fig/datamc/cr_2m_vbf/cr_2m_vbf_dimuon_pt_losf_2018.pdf Graphic file (type
  pdf)
@@ -5387,18 +5822,18 @@ File: fig/datamc/cr_2m_vbf/cr_2m_vbf_dimuon_pt_losf_2018.pdf Graphic file (type
 Package pdftex.def Info: fig/datamc/cr_2m_vbf/cr_2m_vbf_dimuon_pt_losf_2018.pdf
   used on input line 327.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG BigDraft 31>
+<789FIG BigDraft 39>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf  used on input line 334.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[39]
-<789FIG BigDraft 31>
+[48]
+<789FIG BigDraft 39>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf  used on input line 334.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[40 </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/dat
+[49 </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/dat
 amc/cr_2m_vbf/cr_2m_vbf_recoil_losf_2017.pdf> </Users/alpakpinar/Desktop/Boston
 _University/CMS/PROJECTS/AN-19-243/fig/datamc/cr_2m_vbf/cr_2m_vbf_mjj_losf_2017
 .pdf
@@ -5419,12 +5854,12 @@ pdfTeX warning: pdflatex (file /Users/alpakpinar/Desktop/Boston_University/CMS/
 PROJECTS/AN-19-243/fig/datamc/cr_2m_vbf/cr_2m_vbf_dphijj_losf_2017.pdf): PDF in
 clusion: multiple pdfs with page group included in a single page
 >]
-<789FIG BigDraft 31>
+<789FIG BigDraft 39>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf  used on input line 334.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[41 </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/dat
+[50 </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/dat
 amc/cr_2m_vbf/cr_2m_vbf_muon_pt0_losf_2017.pdf> </Users/alpakpinar/Desktop/Bost
 on_University/CMS/PROJECTS/AN-19-243/fig/datamc/cr_2m_vbf/cr_2m_vbf_muon_eta0_l
 osf_2017.pdf
@@ -5445,12 +5880,12 @@ pdfTeX warning: pdflatex (file /Users/alpakpinar/Desktop/Boston_University/CMS/
 PROJECTS/AN-19-243/fig/datamc/cr_2m_vbf/cr_2m_vbf_dimuon_pt_losf_2017.pdf): PDF
  inclusion: multiple pdfs with page group included in a single page
 >]
-<789FIG BigDraft 31>
+<789FIG BigDraft 39>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf  used on input line 334.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[42 </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/dat
+[51 </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/dat
 amc/cr_2m_vbf/cr_2m_vbf_recoil_losf_2018.pdf> </Users/alpakpinar/Desktop/Boston
 _University/CMS/PROJECTS/AN-19-243/fig/datamc/cr_2m_vbf/cr_2m_vbf_mjj_losf_2018
 .pdf
@@ -5471,12 +5906,12 @@ pdfTeX warning: pdflatex (file /Users/alpakpinar/Desktop/Boston_University/CMS/
 PROJECTS/AN-19-243/fig/datamc/cr_2m_vbf/cr_2m_vbf_dphijj_losf_2018.pdf): PDF in
 clusion: multiple pdfs with page group included in a single page
 >]
-<789FIG BigDraft 31>
+<789FIG BigDraft 39>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf  used on input line 334.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[43 </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/dat
+[52 </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/dat
 amc/cr_2m_vbf/cr_2m_vbf_muon_pt0_losf_2018.pdf> </Users/alpakpinar/Desktop/Bost
 on_University/CMS/PROJECTS/AN-19-243/fig/datamc/cr_2m_vbf/cr_2m_vbf_muon_eta0_l
 osf_2018.pdf
@@ -5498,15 +5933,15 @@ PROJECTS/AN-19-243/fig/datamc/cr_2m_vbf/cr_2m_vbf_dimuon_pt_losf_2018.pdf): PDF
  inclusion: multiple pdfs with page group included in a single page
 >]
 
-LaTeX Warning: Reference `fig:DE_2_vbfhinv_2017' on page 44 undefined on input 
+LaTeX Warning: Reference `fig:DE_2_vbfhinv_2017' on page 53 undefined on input 
 line 350.
 
 
-LaTeX Warning: Reference `fig:DE_2_vbfhinv_2018' on page 44 undefined on input 
+LaTeX Warning: Reference `fig:DE_2_vbfhinv_2018' on page 53 undefined on input 
 line 350.
 
-<789FIG fig/datamc/cr_2e_vbf/cr_2e_vbf_recoil_losf_2017.pdf 31>
-<fig/datamc/cr_2e_vbf/cr_2e_vbf_recoil_losf_2017.pdf, id=4023, 505.89pt x 505.8
+<789FIG fig/datamc/cr_2e_vbf/cr_2e_vbf_recoil_losf_2017.pdf 39>
+<fig/datamc/cr_2e_vbf/cr_2e_vbf_recoil_losf_2017.pdf, id=4146, 505.89pt x 505.8
 9pt>
 File: fig/datamc/cr_2e_vbf/cr_2e_vbf_recoil_losf_2017.pdf Graphic file (type pd
 f)
@@ -5514,16 +5949,16 @@ f)
 Package pdftex.def Info: fig/datamc/cr_2e_vbf/cr_2e_vbf_recoil_losf_2017.pdf  u
 sed on input line 355.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_2e_vbf/cr_2e_vbf_mjj_losf_2017.pdf 31>
-<fig/datamc/cr_2e_vbf/cr_2e_vbf_mjj_losf_2017.pdf, id=4024, 505.89pt x 505.89pt
+<789FIG fig/datamc/cr_2e_vbf/cr_2e_vbf_mjj_losf_2017.pdf 39>
+<fig/datamc/cr_2e_vbf/cr_2e_vbf_mjj_losf_2017.pdf, id=4147, 505.89pt x 505.89pt
 >
 File: fig/datamc/cr_2e_vbf/cr_2e_vbf_mjj_losf_2017.pdf Graphic file (type pdf)
 <use fig/datamc/cr_2e_vbf/cr_2e_vbf_mjj_losf_2017.pdf>
 Package pdftex.def Info: fig/datamc/cr_2e_vbf/cr_2e_vbf_mjj_losf_2017.pdf  used
  on input line 356.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_2e_vbf/cr_2e_vbf_detajj_losf_2017.pdf 31>
-<fig/datamc/cr_2e_vbf/cr_2e_vbf_detajj_losf_2017.pdf, id=4025, 505.89pt x 505.8
+<789FIG fig/datamc/cr_2e_vbf/cr_2e_vbf_detajj_losf_2017.pdf 39>
+<fig/datamc/cr_2e_vbf/cr_2e_vbf_detajj_losf_2017.pdf, id=4148, 505.89pt x 505.8
 9pt>
 File: fig/datamc/cr_2e_vbf/cr_2e_vbf_detajj_losf_2017.pdf Graphic file (type pd
 f)
@@ -5531,8 +5966,8 @@ f)
 Package pdftex.def Info: fig/datamc/cr_2e_vbf/cr_2e_vbf_detajj_losf_2017.pdf  u
 sed on input line 357.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_2e_vbf/cr_2e_vbf_dphijj_losf_2017.pdf 31>
-<fig/datamc/cr_2e_vbf/cr_2e_vbf_dphijj_losf_2017.pdf, id=4026, 505.89pt x 505.8
+<789FIG fig/datamc/cr_2e_vbf/cr_2e_vbf_dphijj_losf_2017.pdf 39>
+<fig/datamc/cr_2e_vbf/cr_2e_vbf_dphijj_losf_2017.pdf, id=4149, 505.89pt x 505.8
 9pt>
 File: fig/datamc/cr_2e_vbf/cr_2e_vbf_dphijj_losf_2017.pdf Graphic file (type pd
 f)
@@ -5540,8 +5975,8 @@ f)
 Package pdftex.def Info: fig/datamc/cr_2e_vbf/cr_2e_vbf_dphijj_losf_2017.pdf  u
 sed on input line 358.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_2e_vbf/cr_2e_vbf_electron_pt0_losf_2017.pdf 32>
-<fig/datamc/cr_2e_vbf/cr_2e_vbf_electron_pt0_losf_2017.pdf, id=4027, 505.89pt x
+<789FIG fig/datamc/cr_2e_vbf/cr_2e_vbf_electron_pt0_losf_2017.pdf 40>
+<fig/datamc/cr_2e_vbf/cr_2e_vbf_electron_pt0_losf_2017.pdf, id=4150, 505.89pt x
  505.89pt>
 File: fig/datamc/cr_2e_vbf/cr_2e_vbf_electron_pt0_losf_2017.pdf Graphic file (t
 ype pdf)
@@ -5549,8 +5984,8 @@ ype pdf)
 Package pdftex.def Info: fig/datamc/cr_2e_vbf/cr_2e_vbf_electron_pt0_losf_2017.
 pdf  used on input line 368.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_2e_vbf/cr_2e_vbf_electron_eta0_losf_2017.pdf 32>
-<fig/datamc/cr_2e_vbf/cr_2e_vbf_electron_eta0_losf_2017.pdf, id=4028, 505.89pt 
+<789FIG fig/datamc/cr_2e_vbf/cr_2e_vbf_electron_eta0_losf_2017.pdf 40>
+<fig/datamc/cr_2e_vbf/cr_2e_vbf_electron_eta0_losf_2017.pdf, id=4151, 505.89pt 
 x 505.89pt>
 File: fig/datamc/cr_2e_vbf/cr_2e_vbf_electron_eta0_losf_2017.pdf Graphic file (
 type pdf)
@@ -5558,8 +5993,8 @@ type pdf)
 Package pdftex.def Info: fig/datamc/cr_2e_vbf/cr_2e_vbf_electron_eta0_losf_2017
 .pdf  used on input line 369.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_2e_vbf/cr_2e_vbf_dielectron_mass_losf_2017.pdf 32>
-<fig/datamc/cr_2e_vbf/cr_2e_vbf_dielectron_mass_losf_2017.pdf, id=4029, 505.89p
+<789FIG fig/datamc/cr_2e_vbf/cr_2e_vbf_dielectron_mass_losf_2017.pdf 40>
+<fig/datamc/cr_2e_vbf/cr_2e_vbf_dielectron_mass_losf_2017.pdf, id=4152, 505.89p
 t x 505.89pt>
 File: fig/datamc/cr_2e_vbf/cr_2e_vbf_dielectron_mass_losf_2017.pdf Graphic file
  (type pdf)
@@ -5567,8 +6002,8 @@ File: fig/datamc/cr_2e_vbf/cr_2e_vbf_dielectron_mass_losf_2017.pdf Graphic file
 Package pdftex.def Info: fig/datamc/cr_2e_vbf/cr_2e_vbf_dielectron_mass_losf_20
 17.pdf  used on input line 370.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_2e_vbf/cr_2e_vbf_dielectron_pt_losf_2017.pdf 32>
-<fig/datamc/cr_2e_vbf/cr_2e_vbf_dielectron_pt_losf_2017.pdf, id=4030, 505.89pt 
+<789FIG fig/datamc/cr_2e_vbf/cr_2e_vbf_dielectron_pt_losf_2017.pdf 40>
+<fig/datamc/cr_2e_vbf/cr_2e_vbf_dielectron_pt_losf_2017.pdf, id=4153, 505.89pt 
 x 505.89pt>
 File: fig/datamc/cr_2e_vbf/cr_2e_vbf_dielectron_pt_losf_2017.pdf Graphic file (
 type pdf)
@@ -5576,8 +6011,8 @@ type pdf)
 Package pdftex.def Info: fig/datamc/cr_2e_vbf/cr_2e_vbf_dielectron_pt_losf_2017
 .pdf  used on input line 371.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_2e_vbf/cr_2e_vbf_recoil_losf_2018.pdf 33>
-<fig/datamc/cr_2e_vbf/cr_2e_vbf_recoil_losf_2018.pdf, id=4031, 505.89pt x 505.8
+<789FIG fig/datamc/cr_2e_vbf/cr_2e_vbf_recoil_losf_2018.pdf 41>
+<fig/datamc/cr_2e_vbf/cr_2e_vbf_recoil_losf_2018.pdf, id=4154, 505.89pt x 505.8
 9pt>
 File: fig/datamc/cr_2e_vbf/cr_2e_vbf_recoil_losf_2018.pdf Graphic file (type pd
 f)
@@ -5585,16 +6020,16 @@ f)
 Package pdftex.def Info: fig/datamc/cr_2e_vbf/cr_2e_vbf_recoil_losf_2018.pdf  u
 sed on input line 380.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_2e_vbf/cr_2e_vbf_mjj_losf_2018.pdf 33>
-<fig/datamc/cr_2e_vbf/cr_2e_vbf_mjj_losf_2018.pdf, id=4032, 505.89pt x 505.89pt
+<789FIG fig/datamc/cr_2e_vbf/cr_2e_vbf_mjj_losf_2018.pdf 41>
+<fig/datamc/cr_2e_vbf/cr_2e_vbf_mjj_losf_2018.pdf, id=4155, 505.89pt x 505.89pt
 >
 File: fig/datamc/cr_2e_vbf/cr_2e_vbf_mjj_losf_2018.pdf Graphic file (type pdf)
 <use fig/datamc/cr_2e_vbf/cr_2e_vbf_mjj_losf_2018.pdf>
 Package pdftex.def Info: fig/datamc/cr_2e_vbf/cr_2e_vbf_mjj_losf_2018.pdf  used
  on input line 381.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_2e_vbf/cr_2e_vbf_detajj_losf_2018.pdf 33>
-<fig/datamc/cr_2e_vbf/cr_2e_vbf_detajj_losf_2018.pdf, id=4033, 505.89pt x 505.8
+<789FIG fig/datamc/cr_2e_vbf/cr_2e_vbf_detajj_losf_2018.pdf 41>
+<fig/datamc/cr_2e_vbf/cr_2e_vbf_detajj_losf_2018.pdf, id=4156, 505.89pt x 505.8
 9pt>
 File: fig/datamc/cr_2e_vbf/cr_2e_vbf_detajj_losf_2018.pdf Graphic file (type pd
 f)
@@ -5602,8 +6037,8 @@ f)
 Package pdftex.def Info: fig/datamc/cr_2e_vbf/cr_2e_vbf_detajj_losf_2018.pdf  u
 sed on input line 382.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_2e_vbf/cr_2e_vbf_dphijj_losf_2018.pdf 33>
-<fig/datamc/cr_2e_vbf/cr_2e_vbf_dphijj_losf_2018.pdf, id=4034, 505.89pt x 505.8
+<789FIG fig/datamc/cr_2e_vbf/cr_2e_vbf_dphijj_losf_2018.pdf 41>
+<fig/datamc/cr_2e_vbf/cr_2e_vbf_dphijj_losf_2018.pdf, id=4157, 505.89pt x 505.8
 9pt>
 File: fig/datamc/cr_2e_vbf/cr_2e_vbf_dphijj_losf_2018.pdf Graphic file (type pd
 f)
@@ -5611,8 +6046,8 @@ f)
 Package pdftex.def Info: fig/datamc/cr_2e_vbf/cr_2e_vbf_dphijj_losf_2018.pdf  u
 sed on input line 383.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_2e_vbf/cr_2e_vbf_electron_pt0_losf_2018.pdf 34>
-<fig/datamc/cr_2e_vbf/cr_2e_vbf_electron_pt0_losf_2018.pdf, id=4035, 505.89pt x
+<789FIG fig/datamc/cr_2e_vbf/cr_2e_vbf_electron_pt0_losf_2018.pdf 42>
+<fig/datamc/cr_2e_vbf/cr_2e_vbf_electron_pt0_losf_2018.pdf, id=4158, 505.89pt x
  505.89pt>
 File: fig/datamc/cr_2e_vbf/cr_2e_vbf_electron_pt0_losf_2018.pdf Graphic file (t
 ype pdf)
@@ -5620,8 +6055,8 @@ ype pdf)
 Package pdftex.def Info: fig/datamc/cr_2e_vbf/cr_2e_vbf_electron_pt0_losf_2018.
 pdf  used on input line 393.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_2e_vbf/cr_2e_vbf_electron_eta0_losf_2018.pdf 34>
-<fig/datamc/cr_2e_vbf/cr_2e_vbf_electron_eta0_losf_2018.pdf, id=4036, 505.89pt 
+<789FIG fig/datamc/cr_2e_vbf/cr_2e_vbf_electron_eta0_losf_2018.pdf 42>
+<fig/datamc/cr_2e_vbf/cr_2e_vbf_electron_eta0_losf_2018.pdf, id=4159, 505.89pt 
 x 505.89pt>
 File: fig/datamc/cr_2e_vbf/cr_2e_vbf_electron_eta0_losf_2018.pdf Graphic file (
 type pdf)
@@ -5629,8 +6064,8 @@ type pdf)
 Package pdftex.def Info: fig/datamc/cr_2e_vbf/cr_2e_vbf_electron_eta0_losf_2018
 .pdf  used on input line 394.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_2e_vbf/cr_2e_vbf_dielectron_mass_losf_2018.pdf 34>
-<fig/datamc/cr_2e_vbf/cr_2e_vbf_dielectron_mass_losf_2018.pdf, id=4037, 505.89p
+<789FIG fig/datamc/cr_2e_vbf/cr_2e_vbf_dielectron_mass_losf_2018.pdf 42>
+<fig/datamc/cr_2e_vbf/cr_2e_vbf_dielectron_mass_losf_2018.pdf, id=4160, 505.89p
 t x 505.89pt>
 File: fig/datamc/cr_2e_vbf/cr_2e_vbf_dielectron_mass_losf_2018.pdf Graphic file
  (type pdf)
@@ -5638,8 +6073,8 @@ File: fig/datamc/cr_2e_vbf/cr_2e_vbf_dielectron_mass_losf_2018.pdf Graphic file
 Package pdftex.def Info: fig/datamc/cr_2e_vbf/cr_2e_vbf_dielectron_mass_losf_20
 18.pdf  used on input line 395.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_2e_vbf/cr_2e_vbf_dielectron_pt_losf_2018.pdf 34>
-<fig/datamc/cr_2e_vbf/cr_2e_vbf_dielectron_pt_losf_2018.pdf, id=4038, 505.89pt 
+<789FIG fig/datamc/cr_2e_vbf/cr_2e_vbf_dielectron_pt_losf_2018.pdf 42>
+<fig/datamc/cr_2e_vbf/cr_2e_vbf_dielectron_pt_losf_2018.pdf, id=4161, 505.89pt 
 x 505.89pt>
 File: fig/datamc/cr_2e_vbf/cr_2e_vbf_dielectron_pt_losf_2018.pdf Graphic file (
 type pdf)
@@ -5647,18 +6082,18 @@ type pdf)
 Package pdftex.def Info: fig/datamc/cr_2e_vbf/cr_2e_vbf_dielectron_pt_losf_2018
 .pdf  used on input line 396.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG BigDraft 35>
+<789FIG BigDraft 43>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf  used on input line 403.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[44]
-<789FIG BigDraft 35>
+[53]
+<789FIG BigDraft 43>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf  used on input line 403.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[45 </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/dat
+[54 </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/dat
 amc/cr_2e_vbf/cr_2e_vbf_recoil_losf_2017.pdf> </Users/alpakpinar/Desktop/Boston
 _University/CMS/PROJECTS/AN-19-243/fig/datamc/cr_2e_vbf/cr_2e_vbf_mjj_losf_2017
 .pdf
@@ -5679,12 +6114,12 @@ pdfTeX warning: pdflatex (file /Users/alpakpinar/Desktop/Boston_University/CMS/
 PROJECTS/AN-19-243/fig/datamc/cr_2e_vbf/cr_2e_vbf_dphijj_losf_2017.pdf): PDF in
 clusion: multiple pdfs with page group included in a single page
 >]
-<789FIG BigDraft 35>
+<789FIG BigDraft 43>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf  used on input line 403.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[46 </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/dat
+[55 </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/dat
 amc/cr_2e_vbf/cr_2e_vbf_electron_pt0_losf_2017.pdf> </Users/alpakpinar/Desktop/
 Boston_University/CMS/PROJECTS/AN-19-243/fig/datamc/cr_2e_vbf/cr_2e_vbf_electro
 n_eta0_losf_2017.pdf
@@ -5705,12 +6140,12 @@ pdfTeX warning: pdflatex (file /Users/alpakpinar/Desktop/Boston_University/CMS/
 PROJECTS/AN-19-243/fig/datamc/cr_2e_vbf/cr_2e_vbf_dielectron_pt_losf_2017.pdf):
  PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<789FIG BigDraft 35>
+<789FIG BigDraft 43>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf  used on input line 403.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[47 </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/dat
+[56 </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/dat
 amc/cr_2e_vbf/cr_2e_vbf_recoil_losf_2018.pdf> </Users/alpakpinar/Desktop/Boston
 _University/CMS/PROJECTS/AN-19-243/fig/datamc/cr_2e_vbf/cr_2e_vbf_mjj_losf_2018
 .pdf
@@ -5731,12 +6166,12 @@ pdfTeX warning: pdflatex (file /Users/alpakpinar/Desktop/Boston_University/CMS/
 PROJECTS/AN-19-243/fig/datamc/cr_2e_vbf/cr_2e_vbf_dphijj_losf_2018.pdf): PDF in
 clusion: multiple pdfs with page group included in a single page
 >]
-<789FIG BigDraft 35>
+<789FIG BigDraft 43>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf  used on input line 403.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[48 </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/dat
+[57 </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/dat
 amc/cr_2e_vbf/cr_2e_vbf_electron_pt0_losf_2018.pdf> </Users/alpakpinar/Desktop/
 Boston_University/CMS/PROJECTS/AN-19-243/fig/datamc/cr_2e_vbf/cr_2e_vbf_electro
 n_eta0_losf_2018.pdf
@@ -5757,8 +6192,8 @@ pdfTeX warning: pdflatex (file /Users/alpakpinar/Desktop/Boston_University/CMS/
 PROJECTS/AN-19-243/fig/datamc/cr_2e_vbf/cr_2e_vbf_dielectron_pt_losf_2018.pdf):
  PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<789FIG fig/datamc/cr_g_vbf/cr_g_vbf_recoil_losf_2017.pdf 35>
-<fig/datamc/cr_g_vbf/cr_g_vbf_recoil_losf_2017.pdf, id=5218, 505.89pt x 505.89p
+<789FIG fig/datamc/cr_g_vbf/cr_g_vbf_recoil_losf_2017.pdf 43>
+<fig/datamc/cr_g_vbf/cr_g_vbf_recoil_losf_2017.pdf, id=5341, 505.89pt x 505.89p
 t>
 File: fig/datamc/cr_g_vbf/cr_g_vbf_recoil_losf_2017.pdf Graphic file (type pdf)
 
@@ -5766,15 +6201,15 @@ File: fig/datamc/cr_g_vbf/cr_g_vbf_recoil_losf_2017.pdf Graphic file (type pdf)
 Package pdftex.def Info: fig/datamc/cr_g_vbf/cr_g_vbf_recoil_losf_2017.pdf  use
 d on input line 420.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_g_vbf/cr_g_vbf_mjj_losf_2017.pdf 35>
-<fig/datamc/cr_g_vbf/cr_g_vbf_mjj_losf_2017.pdf, id=5219, 505.89pt x 505.89pt>
+<789FIG fig/datamc/cr_g_vbf/cr_g_vbf_mjj_losf_2017.pdf 43>
+<fig/datamc/cr_g_vbf/cr_g_vbf_mjj_losf_2017.pdf, id=5342, 505.89pt x 505.89pt>
 File: fig/datamc/cr_g_vbf/cr_g_vbf_mjj_losf_2017.pdf Graphic file (type pdf)
 <use fig/datamc/cr_g_vbf/cr_g_vbf_mjj_losf_2017.pdf>
 Package pdftex.def Info: fig/datamc/cr_g_vbf/cr_g_vbf_mjj_losf_2017.pdf  used o
 n input line 421.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_g_vbf/cr_g_vbf_detajj_losf_2017.pdf 35>
-<fig/datamc/cr_g_vbf/cr_g_vbf_detajj_losf_2017.pdf, id=5220, 505.89pt x 505.89p
+<789FIG fig/datamc/cr_g_vbf/cr_g_vbf_detajj_losf_2017.pdf 43>
+<fig/datamc/cr_g_vbf/cr_g_vbf_detajj_losf_2017.pdf, id=5343, 505.89pt x 505.89p
 t>
 File: fig/datamc/cr_g_vbf/cr_g_vbf_detajj_losf_2017.pdf Graphic file (type pdf)
 
@@ -5782,8 +6217,8 @@ File: fig/datamc/cr_g_vbf/cr_g_vbf_detajj_losf_2017.pdf Graphic file (type pdf)
 Package pdftex.def Info: fig/datamc/cr_g_vbf/cr_g_vbf_detajj_losf_2017.pdf  use
 d on input line 422.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_g_vbf/cr_g_vbf_dphijj_losf_2017.pdf 35>
-<fig/datamc/cr_g_vbf/cr_g_vbf_dphijj_losf_2017.pdf, id=5221, 505.89pt x 505.89p
+<789FIG fig/datamc/cr_g_vbf/cr_g_vbf_dphijj_losf_2017.pdf 43>
+<fig/datamc/cr_g_vbf/cr_g_vbf_dphijj_losf_2017.pdf, id=5344, 505.89pt x 505.89p
 t>
 File: fig/datamc/cr_g_vbf/cr_g_vbf_dphijj_losf_2017.pdf Graphic file (type pdf)
 
@@ -5791,8 +6226,8 @@ File: fig/datamc/cr_g_vbf/cr_g_vbf_dphijj_losf_2017.pdf Graphic file (type pdf)
 Package pdftex.def Info: fig/datamc/cr_g_vbf/cr_g_vbf_dphijj_losf_2017.pdf  use
 d on input line 423.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_g_vbf/cr_g_vbf_photon_pt0_losf_2017.pdf 36>
-<fig/datamc/cr_g_vbf/cr_g_vbf_photon_pt0_losf_2017.pdf, id=5222, 505.89pt x 505
+<789FIG fig/datamc/cr_g_vbf/cr_g_vbf_photon_pt0_losf_2017.pdf 44>
+<fig/datamc/cr_g_vbf/cr_g_vbf_photon_pt0_losf_2017.pdf, id=5345, 505.89pt x 505
 .89pt>
 File: fig/datamc/cr_g_vbf/cr_g_vbf_photon_pt0_losf_2017.pdf Graphic file (type 
 pdf)
@@ -5800,7 +6235,7 @@ pdf)
 Package pdftex.def Info: fig/datamc/cr_g_vbf/cr_g_vbf_photon_pt0_losf_2017.pdf 
  used on input line 433.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_g_vbf/cr_g_vbf_photon_eta0_losf_2017.pdf 36>
+<789FIG fig/datamc/cr_g_vbf/cr_g_vbf_photon_eta0_losf_2017.pdf 44>
 
 LaTeX Warning: File `fig/datamc/cr_g_vbf/cr_g_vbf_photon_eta0_losf_2017.pdf' no
 t found on input line 434.
@@ -5872,8 +6307,8 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no f in font nullfont!
-<789FIG fig/datamc/cr_g_vbf/cr_g_vbf_recoil_losf_2018.pdf 37>
-<fig/datamc/cr_g_vbf/cr_g_vbf_recoil_losf_2018.pdf, id=5223, 505.89pt x 505.89p
+<789FIG fig/datamc/cr_g_vbf/cr_g_vbf_recoil_losf_2018.pdf 45>
+<fig/datamc/cr_g_vbf/cr_g_vbf_recoil_losf_2018.pdf, id=5346, 505.89pt x 505.89p
 t>
 File: fig/datamc/cr_g_vbf/cr_g_vbf_recoil_losf_2018.pdf Graphic file (type pdf)
 
@@ -5881,15 +6316,15 @@ File: fig/datamc/cr_g_vbf/cr_g_vbf_recoil_losf_2018.pdf Graphic file (type pdf)
 Package pdftex.def Info: fig/datamc/cr_g_vbf/cr_g_vbf_recoil_losf_2018.pdf  use
 d on input line 443.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_g_vbf/cr_g_vbf_mjj_losf_2018.pdf 37>
-<fig/datamc/cr_g_vbf/cr_g_vbf_mjj_losf_2018.pdf, id=5224, 505.89pt x 505.89pt>
+<789FIG fig/datamc/cr_g_vbf/cr_g_vbf_mjj_losf_2018.pdf 45>
+<fig/datamc/cr_g_vbf/cr_g_vbf_mjj_losf_2018.pdf, id=5347, 505.89pt x 505.89pt>
 File: fig/datamc/cr_g_vbf/cr_g_vbf_mjj_losf_2018.pdf Graphic file (type pdf)
 <use fig/datamc/cr_g_vbf/cr_g_vbf_mjj_losf_2018.pdf>
 Package pdftex.def Info: fig/datamc/cr_g_vbf/cr_g_vbf_mjj_losf_2018.pdf  used o
 n input line 444.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_g_vbf/cr_g_vbf_detajj_losf_2018.pdf 37>
-<fig/datamc/cr_g_vbf/cr_g_vbf_detajj_losf_2018.pdf, id=5225, 505.89pt x 505.89p
+<789FIG fig/datamc/cr_g_vbf/cr_g_vbf_detajj_losf_2018.pdf 45>
+<fig/datamc/cr_g_vbf/cr_g_vbf_detajj_losf_2018.pdf, id=5348, 505.89pt x 505.89p
 t>
 File: fig/datamc/cr_g_vbf/cr_g_vbf_detajj_losf_2018.pdf Graphic file (type pdf)
 
@@ -5897,8 +6332,8 @@ File: fig/datamc/cr_g_vbf/cr_g_vbf_detajj_losf_2018.pdf Graphic file (type pdf)
 Package pdftex.def Info: fig/datamc/cr_g_vbf/cr_g_vbf_detajj_losf_2018.pdf  use
 d on input line 445.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_g_vbf/cr_g_vbf_dphijj_losf_2018.pdf 37>
-<fig/datamc/cr_g_vbf/cr_g_vbf_dphijj_losf_2018.pdf, id=5226, 505.89pt x 505.89p
+<789FIG fig/datamc/cr_g_vbf/cr_g_vbf_dphijj_losf_2018.pdf 45>
+<fig/datamc/cr_g_vbf/cr_g_vbf_dphijj_losf_2018.pdf, id=5349, 505.89pt x 505.89p
 t>
 File: fig/datamc/cr_g_vbf/cr_g_vbf_dphijj_losf_2018.pdf Graphic file (type pdf)
 
@@ -5906,8 +6341,8 @@ File: fig/datamc/cr_g_vbf/cr_g_vbf_dphijj_losf_2018.pdf Graphic file (type pdf)
 Package pdftex.def Info: fig/datamc/cr_g_vbf/cr_g_vbf_dphijj_losf_2018.pdf  use
 d on input line 446.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_g_vbf/cr_g_vbf_photon_pt0_losf_2018.pdf 38>
-<fig/datamc/cr_g_vbf/cr_g_vbf_photon_pt0_losf_2018.pdf, id=5227, 505.89pt x 505
+<789FIG fig/datamc/cr_g_vbf/cr_g_vbf_photon_pt0_losf_2018.pdf 46>
+<fig/datamc/cr_g_vbf/cr_g_vbf_photon_pt0_losf_2018.pdf, id=5350, 505.89pt x 505
 .89pt>
 File: fig/datamc/cr_g_vbf/cr_g_vbf_photon_pt0_losf_2018.pdf Graphic file (type 
 pdf)
@@ -5915,7 +6350,7 @@ pdf)
 Package pdftex.def Info: fig/datamc/cr_g_vbf/cr_g_vbf_photon_pt0_losf_2018.pdf 
  used on input line 456.
 (pdftex.def)             Requested size: 223.0721pt x 223.07088pt.
-<789FIG fig/datamc/cr_g_vbf/cr_g_vbf_photon_eta0_losf_2018.pdf 38>
+<789FIG fig/datamc/cr_g_vbf/cr_g_vbf_photon_eta0_losf_2018.pdf 46>
 
 LaTeX Warning: File `fig/datamc/cr_g_vbf/cr_g_vbf_photon_eta0_losf_2018.pdf' no
 t found on input line 457.
@@ -5988,12 +6423,12 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no f in font nullfont!
 )
-<789FIG BigDraft 39>
+<789FIG BigDraft 47>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 101.
+Package pdftex.def Info: BigDraft.pdf  used on input line 102.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[49 </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/dat
+[58 </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/dat
 amc/cr_g_vbf/cr_g_vbf_recoil_losf_2017.pdf> </Users/alpakpinar/Desktop/Boston_U
 niversity/CMS/PROJECTS/AN-19-243/fig/datamc/cr_g_vbf/cr_g_vbf_mjj_losf_2017.pdf
 
@@ -6014,19 +6449,19 @@ pdfTeX warning: pdflatex (file /Users/alpakpinar/Desktop/Boston_University/CMS/
 PROJECTS/AN-19-243/fig/datamc/cr_g_vbf/cr_g_vbf_dphijj_losf_2017.pdf): PDF incl
 usion: multiple pdfs with page group included in a single page
 >]
-<789FIG BigDraft 39>
+<789FIG BigDraft 47>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 101.
+Package pdftex.def Info: BigDraft.pdf  used on input line 102.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[50 </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/dat
+[59 </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/dat
 amc/cr_g_vbf/cr_g_vbf_photon_pt0_losf_2017.pdf>]
-<789FIG BigDraft 39>
+<789FIG BigDraft 47>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 101.
+Package pdftex.def Info: BigDraft.pdf  used on input line 102.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[51 </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/dat
+[60 </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/dat
 amc/cr_g_vbf/cr_g_vbf_recoil_losf_2018.pdf> </Users/alpakpinar/Desktop/Boston_U
 niversity/CMS/PROJECTS/AN-19-243/fig/datamc/cr_g_vbf/cr_g_vbf_mjj_losf_2018.pdf
 
@@ -6047,18 +6482,18 @@ pdfTeX warning: pdflatex (file /Users/alpakpinar/Desktop/Boston_University/CMS/
 PROJECTS/AN-19-243/fig/datamc/cr_g_vbf/cr_g_vbf_dphijj_losf_2018.pdf): PDF incl
 usion: multiple pdfs with page group included in a single page
 >]
-<789FIG BigDraft 39>
+<789FIG BigDraft 47>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 101.
+Package pdftex.def Info: BigDraft.pdf  used on input line 102.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[52 </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/dat
+[61 </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/fig/dat
 amc/cr_g_vbf/cr_g_vbf_photon_pt0_losf_2018.pdf>]
 <567INP signalextraction.tex>
 
 (/Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/signalextra
 ction.tex
-<789FIG fig/placeholder.png 39>
+<789FIG fig/placeholder.png 47>
 
 LaTeX Warning: File `fig/placeholder.png' not found on input line 40.
 
@@ -6094,7 +6529,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
-<789FIG fig/placeholder.png 40>
+<789FIG fig/placeholder.png 48>
 
 LaTeX Warning: File `fig/placeholder.png' not found on input line 63.
 
@@ -6130,7 +6565,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
-<789FIG fig/placeholder.png 40>
+<789FIG fig/placeholder.png 48>
 
 LaTeX Warning: File `fig/placeholder.png' not found on input line 64.
 
@@ -6170,18 +6605,18 @@ Missing character: There is no g in font nullfont!
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Package natbib Warning: Citation `AN-10-204' on page 53 undefined on input line
+Package natbib Warning: Citation `AN-10-204' on page 62 undefined on input line
  76.
 
-<789FIG BigDraft 41>
+<789FIG BigDraft 49>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf  used on input line 80.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[53
+[62
 
 ]
-<789FIG fig/placeholder.png 41>
+<789FIG fig/placeholder.png 49>
 
 LaTeX Warning: File `fig/placeholder.png' not found on input line 96.
 
@@ -6217,7 +6652,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
-<789FIG fig/placeholder.png 41>
+<789FIG fig/placeholder.png 49>
 
 LaTeX Warning: File `fig/placeholder.png' not found on input line 97.
 
@@ -6253,7 +6688,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
-<789FIG fig/placeholder.png 41>
+<789FIG fig/placeholder.png 49>
 
 LaTeX Warning: File `fig/placeholder.png' not found on input line 98.
 
@@ -6292,7 +6727,7 @@ Missing character: There is no g in font nullfont!
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<789FIG fig/placeholder.png 42>
+<789FIG fig/placeholder.png 50>
 
 LaTeX Warning: File `fig/placeholder.png' not found on input line 109.
 
@@ -6328,7 +6763,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
-<789FIG fig/placeholder.png 42>
+<789FIG fig/placeholder.png 50>
 
 LaTeX Warning: File `fig/placeholder.png' not found on input line 110.
 
@@ -6378,28 +6813,28 @@ deleted material, e.g., by typing `I$}'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<789FIG BigDraft 43>
+<789FIG BigDraft 51>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf  used on input line 116.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[54]
+[63]
 
-Package natbib Warning: Citation `paper-exo-037' on page 55 undefined on input 
+Package natbib Warning: Citation `paper-exo-037' on page 64 undefined on input 
 line 120.
 
-<789FIG BigDraft 43>
+<789FIG BigDraft 51>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf  used on input line 144.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[55]
-<789FIG BigDraft 43>
+[64]
+<789FIG BigDraft 51>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf  used on input line 160.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[56]
+[65]
 Overfull \hbox (2.1286pt too wide) in paragraph at lines 167--171
 []$\OT1/ppl/m/n/10.95 background pro-vides, mak-ing it pos-si-ble to ex-per-i-m
 en-tally con-strain $Z\OT1/zplm/m/n/10.95 (\U/fsy/m/i/10.95 ^^W^^W\OT1/zplm/m/n
@@ -6407,170 +6842,170 @@ en-tally con-strain $Z\OT1/zplm/m/n/10.95 (\U/fsy/m/i/10.95 ^^W^^W\OT1/zplm/m/n
  []
 
 
-Package natbib Warning: Citation `Denner:2009gj' on page 57 undefined on input 
+Package natbib Warning: Citation `Denner:2009gj' on page 66 undefined on input 
 line 177.
 
 
-Package natbib Warning: Citation `Denner:2011vu' on page 57 undefined on input 
+Package natbib Warning: Citation `Denner:2011vu' on page 66 undefined on input 
 line 177.
 
 
-Package natbib Warning: Citation `Denner:2012ts' on page 57 undefined on input 
+Package natbib Warning: Citation `Denner:2012ts' on page 66 undefined on input 
 line 177.
 
 
-Package natbib Warning: Citation `Kuhn:2005gv' on page 57 undefined on input li
+Package natbib Warning: Citation `Kuhn:2005gv' on page 66 undefined on input li
 ne 177.
 
 
-Package natbib Warning: Citation `Kallweit:2014xda' on page 57 undefined on inp
+Package natbib Warning: Citation `Kallweit:2014xda' on page 66 undefined on inp
 ut line 177.
 
 
-Package natbib Warning: Citation `Kallweit:2015dum' on page 57 undefined on inp
+Package natbib Warning: Citation `Kallweit:2015dum' on page 66 undefined on inp
 ut line 177.
 
-<789FIG BigDraft 43>
+<789FIG BigDraft 51>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf  used on input line 180.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[57]
-<789FIG placeholder.png 43>
-<placeholder.png, id=6003, 1505.625pt x 1505.625pt>
+[66]
+<789FIG placeholder.png 51>
+<placeholder.png, id=6126, 1505.625pt x 1505.625pt>
 File: placeholder.png Graphic file (type png)
 <use placeholder.png>
 Package pdftex.def Info: placeholder.png  used on input line 182.
 (pdftex.def)             Requested size: 223.0721pt x 223.05415pt.
-<789FIG placeholder.png 43>
+<789FIG placeholder.png 51>
 File: placeholder.png Graphic file (type png)
 <use placeholder.png>
 Package pdftex.def Info: placeholder.png  used on input line 183.
 (pdftex.def)             Requested size: 223.0721pt x 223.05415pt.
-<789FIG placeholder.png 43>
+<789FIG placeholder.png 51>
 File: placeholder.png Graphic file (type png)
 <use placeholder.png>
 Package pdftex.def Info: placeholder.png  used on input line 185.
 (pdftex.def)             Requested size: 223.0721pt x 223.05415pt.
-<789FIG placeholder.png 43>
+<789FIG placeholder.png 51>
 File: placeholder.png Graphic file (type png)
 <use placeholder.png>
 Package pdftex.def Info: placeholder.png  used on input line 186.
 (pdftex.def)             Requested size: 223.0721pt x 223.05415pt.
-<789FIG placeholder.png 44>
+<789FIG placeholder.png 52>
 File: placeholder.png Graphic file (type png)
 <use placeholder.png>
 Package pdftex.def Info: placeholder.png  used on input line 191.
 (pdftex.def)             Requested size: 223.0721pt x 223.05415pt.
-<789FIG placeholder.png 44>
+<789FIG placeholder.png 52>
 File: placeholder.png Graphic file (type png)
 <use placeholder.png>
 Package pdftex.def Info: placeholder.png  used on input line 192.
 (pdftex.def)             Requested size: 223.0721pt x 223.05415pt.
-<789FIG placeholder.png 44>
+<789FIG placeholder.png 52>
 File: placeholder.png Graphic file (type png)
 <use placeholder.png>
 Package pdftex.def Info: placeholder.png  used on input line 194.
 (pdftex.def)             Requested size: 223.0721pt x 223.05415pt.
-<789FIG placeholder.png 44>
+<789FIG placeholder.png 52>
 File: placeholder.png Graphic file (type png)
 <use placeholder.png>
 Package pdftex.def Info: placeholder.png  used on input line 195.
 (pdftex.def)             Requested size: 223.0721pt x 223.05415pt.
-<789FIG placeholder.png 45>
+<789FIG placeholder.png 53>
 File: placeholder.png Graphic file (type png)
 <use placeholder.png>
 Package pdftex.def Info: placeholder.png  used on input line 200.
 (pdftex.def)             Requested size: 223.0721pt x 223.05415pt.
-<789FIG placeholder.png 45>
+<789FIG placeholder.png 53>
 File: placeholder.png Graphic file (type png)
 <use placeholder.png>
 Package pdftex.def Info: placeholder.png  used on input line 201.
 (pdftex.def)             Requested size: 223.0721pt x 223.05415pt.
-<789FIG placeholder.png 45>
+<789FIG placeholder.png 53>
 File: placeholder.png Graphic file (type png)
 <use placeholder.png>
 Package pdftex.def Info: placeholder.png  used on input line 203.
 (pdftex.def)             Requested size: 223.0721pt x 223.05415pt.
-<789FIG placeholder.png 45>
+<789FIG placeholder.png 53>
 File: placeholder.png Graphic file (type png)
 <use placeholder.png>
 Package pdftex.def Info: placeholder.png  used on input line 204.
 (pdftex.def)             Requested size: 223.0721pt x 223.05415pt.
 
-Package natbib Warning: Citation `Collaboration:2011ida' on page 58 undefined o
+Package natbib Warning: Citation `Collaboration:2011ida' on page 67 undefined o
 n input line 211.
 
 
-Package natbib Warning: Citation `paper-exo-037' on page 58 undefined on input 
+Package natbib Warning: Citation `paper-exo-037' on page 67 undefined on input 
 line 211.
 
-<789FIG BigDraft 46>
+<789FIG BigDraft 54>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf  used on input line 214.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[58 </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/placeho
+[67 </Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/placeho
 lder.png>]
-<789FIG BigDraft 46>
+<789FIG BigDraft 54>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf  used on input line 214.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[59]
-<789FIG BigDraft 46>
+[68]
+<789FIG BigDraft 54>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf  used on input line 214.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[60]
+[69]
 
-Package natbib Warning: Citation `DMTheory' on page 61 undefined on input line 
+Package natbib Warning: Citation `DMTheory' on page 70 undefined on input line 
 231.
 
 
-Package natbib Warning: Citation `Denner:2009gj' on page 61 undefined on input 
+Package natbib Warning: Citation `Denner:2009gj' on page 70 undefined on input 
 line 254.
 
 
-Package natbib Warning: Citation `Denner:2011vu' on page 61 undefined on input 
+Package natbib Warning: Citation `Denner:2011vu' on page 70 undefined on input 
 line 254.
 
 
-Package natbib Warning: Citation `Denner:2012ts' on page 61 undefined on input 
+Package natbib Warning: Citation `Denner:2012ts' on page 70 undefined on input 
 line 254.
 
 
-Package natbib Warning: Citation `Kallweit:2015dum' on page 61 undefined on inp
+Package natbib Warning: Citation `Kallweit:2015dum' on page 70 undefined on inp
 ut line 254.
 
 
-Package natbib Warning: Citation `Kuhn:2004em' on page 61 undefined on input li
+Package natbib Warning: Citation `Kuhn:2004em' on page 70 undefined on input li
 ne 255.
 
 
-Package natbib Warning: Citation `Kuhn:2005gv' on page 61 undefined on input li
+Package natbib Warning: Citation `Kuhn:2005gv' on page 70 undefined on input li
 ne 255.
 
 
-Package natbib Warning: Citation `Kuhn:2005az' on page 61 undefined on input li
+Package natbib Warning: Citation `Kuhn:2005az' on page 70 undefined on input li
 ne 255.
 
 
-Package natbib Warning: Citation `Kuhn:2007cv' on page 61 undefined on input li
+Package natbib Warning: Citation `Kuhn:2007cv' on page 70 undefined on input li
 ne 255.
 
 
-Package natbib Warning: Citation `DMTheory' on page 61 undefined on input line 
+Package natbib Warning: Citation `DMTheory' on page 70 undefined on input line 
 271.
 
-<789FIG BigDraft 46>
+<789FIG BigDraft 54>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf  used on input line 311.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[61]
-<789FIG fig/placeholder.png 46>
+[70]
+<789FIG fig/placeholder.png 54>
 
 LaTeX Warning: File `fig/placeholder.png' not found on input line 327.
 
@@ -6606,7 +7041,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
-<789FIG fig/placeholder.png 46>
+<789FIG fig/placeholder.png 54>
 
 LaTeX Warning: File `fig/placeholder.png' not found on input line 328.
 
@@ -6642,7 +7077,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
-<789FIG fig/placeholder.png 47>
+<789FIG fig/placeholder.png 55>
 
 LaTeX Warning: File `fig/placeholder.png' not found on input line 335.
 
@@ -6678,7 +7113,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
-<789FIG fig/placeholder.png 47>
+<789FIG fig/placeholder.png 55>
 
 LaTeX Warning: File `fig/placeholder.png' not found on input line 336.
 
@@ -6715,33 +7150,33 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
 
-Package natbib Warning: Citation `Khachatryan:2014gga' on page 62 undefined on 
+Package natbib Warning: Citation `Khachatryan:2014gga' on page 71 undefined on 
 input line 345.
 
-<789FIG BigDraft 48>
+<789FIG BigDraft 56>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf  used on input line 380.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[62]
+[71]
 
-Package natbib Warning: Citation `Khachatryan:2015uqb' on page 63 undefined on 
+Package natbib Warning: Citation `Khachatryan:2015uqb' on page 72 undefined on 
 input line 388.
 
 
-Package natbib Warning: Citation `Khachatryan:2016txa' on page 63 undefined on 
+Package natbib Warning: Citation `Khachatryan:2016txa' on page 72 undefined on 
 input line 388.
 
 
-Package natbib Warning: Citation `Khachatryan:2016tgp' on page 63 undefined on 
+Package natbib Warning: Citation `Khachatryan:2016tgp' on page 72 undefined on 
 input line 388.
 
-<789FIG BigDraft 48>
+<789FIG BigDraft 56>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf  used on input line 394.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[63]
+[72]
 Missing character: There is no Q in font nullfont!
 Missing character: There is no C in font nullfont!
 Missing character: There is no D in font nullfont!
@@ -6759,142 +7194,142 @@ Overfull \hbox (16.02428pt too wide) in paragraph at lines 399--426
  [] 
  []
 
-<789FIG BigDraft 48>
+<789FIG BigDraft 56>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf  used on input line 430.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[64]
+[73]
 
-LaTeX Warning: Reference `fig:Ratio' on page 65 undefined on input line 439.
+LaTeX Warning: Reference `fig:Ratio' on page 74 undefined on input line 439.
 
-<789FIG placeholder.png 48>
+<789FIG placeholder.png 56>
 File: placeholder.png Graphic file (type png)
 <use placeholder.png>
 Package pdftex.def Info: placeholder.png  used on input line 450.
 (pdftex.def)             Requested size: 223.0721pt x 223.05415pt.
-<789FIG placeholder.png 48>
+<789FIG placeholder.png 56>
 File: placeholder.png Graphic file (type png)
 <use placeholder.png>
 Package pdftex.def Info: placeholder.png  used on input line 451.
 (pdftex.def)             Requested size: 223.0721pt x 223.05415pt.
-<789FIG placeholder.png 48>
+<789FIG placeholder.png 56>
 File: placeholder.png Graphic file (type png)
 <use placeholder.png>
 Package pdftex.def Info: placeholder.png  used on input line 453.
 (pdftex.def)             Requested size: 223.0721pt x 223.05415pt.
-<789FIG placeholder.png 49>
+<789FIG placeholder.png 57>
 File: placeholder.png Graphic file (type png)
 <use placeholder.png>
 Package pdftex.def Info: placeholder.png  used on input line 464.
 (pdftex.def)             Requested size: 223.0721pt x 223.05415pt.
-<789FIG placeholder.png 49>
+<789FIG placeholder.png 57>
 File: placeholder.png Graphic file (type png)
 <use placeholder.png>
 Package pdftex.def Info: placeholder.png  used on input line 465.
 (pdftex.def)             Requested size: 223.0721pt x 223.05415pt.
-<789FIG placeholder.png 49>
+<789FIG placeholder.png 57>
 File: placeholder.png Graphic file (type png)
 <use placeholder.png>
 Package pdftex.def Info: placeholder.png  used on input line 467.
 (pdftex.def)             Requested size: 223.0721pt x 223.05415pt.
-<789FIG placeholder.png 50>
+<789FIG placeholder.png 58>
 File: placeholder.png Graphic file (type png)
 <use placeholder.png>
 Package pdftex.def Info: placeholder.png  used on input line 483.
 (pdftex.def)             Requested size: 223.0721pt x 223.05415pt.
-<789FIG placeholder.png 50>
+<789FIG placeholder.png 58>
 File: placeholder.png Graphic file (type png)
 <use placeholder.png>
 Package pdftex.def Info: placeholder.png  used on input line 484.
 (pdftex.def)             Requested size: 223.0721pt x 223.05415pt.
-<789FIG placeholder.png 51>
+<789FIG placeholder.png 59>
 File: placeholder.png Graphic file (type png)
 <use placeholder.png>
 Package pdftex.def Info: placeholder.png  used on input line 502.
 (pdftex.def)             Requested size: 223.0721pt x 223.05415pt.
-<789FIG placeholder.png 51>
+<789FIG placeholder.png 59>
 File: placeholder.png Graphic file (type png)
 <use placeholder.png>
 Package pdftex.def Info: placeholder.png  used on input line 503.
 (pdftex.def)             Requested size: 223.0721pt x 223.05415pt.
-<789FIG placeholder.png 51>
+<789FIG placeholder.png 59>
 File: placeholder.png Graphic file (type png)
 <use placeholder.png>
 Package pdftex.def Info: placeholder.png  used on input line 505.
 (pdftex.def)             Requested size: 223.0721pt x 223.05415pt.
-<789FIG placeholder.png 51>
+<789FIG placeholder.png 59>
 File: placeholder.png Graphic file (type png)
 <use placeholder.png>
 Package pdftex.def Info: placeholder.png  used on input line 506.
 (pdftex.def)             Requested size: 223.0721pt x 223.05415pt.
-<789FIG placeholder.png 52>
+<789FIG placeholder.png 60>
 File: placeholder.png Graphic file (type png)
 <use placeholder.png>
 Package pdftex.def Info: placeholder.png  used on input line 520.
 (pdftex.def)             Requested size: 223.0721pt x 223.05415pt.
-<789FIG placeholder.png 52>
+<789FIG placeholder.png 60>
 File: placeholder.png Graphic file (type png)
 <use placeholder.png>
 Package pdftex.def Info: placeholder.png  used on input line 521.
 (pdftex.def)             Requested size: 223.0721pt x 223.05415pt.
-<789FIG placeholder.png 52>
+<789FIG placeholder.png 60>
 File: placeholder.png Graphic file (type png)
 <use placeholder.png>
 Package pdftex.def Info: placeholder.png  used on input line 523.
 (pdftex.def)             Requested size: 223.0721pt x 223.05415pt.
-<789FIG placeholder.png 52>
+<789FIG placeholder.png 60>
 File: placeholder.png Graphic file (type png)
 <use placeholder.png>
 Package pdftex.def Info: placeholder.png  used on input line 524.
 (pdftex.def)             Requested size: 223.0721pt x 223.05415pt.
 )
-<789FIG BigDraft 53>
+<789FIG BigDraft 61>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 103.
+Package pdftex.def Info: BigDraft.pdf  used on input line 104.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[65]
-<789FIG BigDraft 53>
+[74]
+<789FIG BigDraft 61>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 103.
+Package pdftex.def Info: BigDraft.pdf  used on input line 104.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[66]
-<789FIG BigDraft 53>
+[75]
+<789FIG BigDraft 61>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 103.
+Package pdftex.def Info: BigDraft.pdf  used on input line 104.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[67]
-<789FIG BigDraft 53>
+[76]
+<789FIG BigDraft 61>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 103.
+Package pdftex.def Info: BigDraft.pdf  used on input line 104.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[68]
-<789FIG BigDraft 53>
+[77]
+<789FIG BigDraft 61>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 103.
+Package pdftex.def Info: BigDraft.pdf  used on input line 104.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[69]
-<789FIG BigDraft 53>
+[78]
+<789FIG BigDraft 61>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 103.
+Package pdftex.def Info: BigDraft.pdf  used on input line 104.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[70]
+[79]
 <567INP results.tex>
 
 (/Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/results.tex
 )
-<789FIG BigDraft 53>
+<789FIG BigDraft 61>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 105.
+Package pdftex.def Info: BigDraft.pdf  used on input line 106.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[71
+[80
 
 ]
 <567INP AN-19-243_temp.bbl>
@@ -6904,34 +7339,34 @@ Package pdftex.def Info: BigDraft.pdf  used on input line 105.
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 119.
-<789FIG BigDraft 53>
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 120.
+<789FIG BigDraft 61>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 119.
+Package pdftex.def Info: BigDraft.pdf  used on input line 120.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[72
+[81
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 119.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 120.
 
 (/Users/alpakpinar/Desktop/Boston_University/CMS/PROJECTS/AN-19-243/build/AN-19
 -243_temp.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 119.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 119.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 120.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 120.
 Package rerunfilecheck Info: File `AN-19-243_temp.out' has not changed.
-(rerunfilecheck)             Checksum: F0513A9D2A0C34CBB06F9A7080B3C341;2166.
+(rerunfilecheck)             Checksum: 55B475109BE03143BCDFA127E5BC4243;2371.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 119.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 120.
  ) 
 Here is how much of TeX's memory you used:
- 13289 strings out of 494060
- 198061 string characters out of 6163035
- 328077 words of memory out of 5000000
- 16388 multiletter control sequences out of 15000+600000
- 70357 words of font info for 173 fonts, out of 8000000 for 9000
+ 13453 strings out of 494060
+ 208227 string characters out of 6163035
+ 331667 words of memory out of 5000000
+ 16509 multiletter control sequences out of 15000+600000
+ 77586 words of font info for 190 fonts, out of 8000000 for 9000
  322 hyphenation exceptions out of 8191
  51i,21n,45p,1718b,417s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019basic/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/lo
@@ -6952,10 +7387,10 @@ rw/helvetic/uhvr8a.pfb></usr/local/texlive/2019basic/texmf-dist/fonts/type1/urw
 alatino/uplbi8a.pfb></usr/local/texlive/2019basic/texmf-dist/fonts/type1/urw/pa
 latino/uplr8a.pfb></usr/local/texlive/2019basic/texmf-dist/fonts/type1/urw/pala
 tino/uplri8a.pfb>
-Output written on AN-19-243_temp.pdf (74 pages, 2299121 bytes).
+Output written on AN-19-243_temp.pdf (83 pages, 3055993 bytes).
 PDF statistics:
- 6198 PDF objects out of 7423 (max. 8388607)
- 1546 compressed objects within 16 object streams
- 200 named destinations out of 1000 (max. 500000)
- 628 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6327 PDF objects out of 7423 (max. 8388607)
+ 1617 compressed objects within 17 object streams
+ 221 named destinations out of 1000 (max. 500000)
+ 772 words of extra memory for PDF output out of 10000 (max. 10000000)
 

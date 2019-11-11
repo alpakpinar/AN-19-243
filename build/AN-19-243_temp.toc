@@ -3,41 +3,44 @@
 \contentsline {subsection}{\numberline {2.1}Data Samples}{2}{subsection.2.1}% 
 \contentsline {subsection}{\numberline {2.2}Background Samples}{3}{subsection.2.2}% 
 \contentsline {subsection}{\numberline {2.3}Signal simulation samples}{5}{subsection.2.3}% 
-\contentsline {section}{\numberline {3}Physics objects}{6}{section.3}% 
-\contentsline {subsection}{\numberline {3.1}Jets}{6}{subsection.3.1}% 
-\contentsline {subsubsection}{\numberline {3.1.1}b-tagged jets}{7}{subsubsection.3.1.1}% 
-\contentsline {subsubsection}{\numberline {3.1.2}V-tagged jets}{8}{subsubsection.3.1.2}% 
-\contentsline {subsection}{\numberline {3.2}Missing transverse momentum and recoil}{8}{subsection.3.2}% 
-\contentsline {subsection}{\numberline {3.3}Leptons}{9}{subsection.3.3}% 
-\contentsline {subsubsection}{\numberline {3.3.1}Electrons}{9}{subsubsection.3.3.1}% 
-\contentsline {subsubsection}{\numberline {3.3.2}Muons}{10}{subsubsection.3.3.2}% 
-\contentsline {subsubsection}{\numberline {3.3.3}Taus}{11}{subsubsection.3.3.3}% 
-\contentsline {subsection}{\numberline {3.4}Photons}{12}{subsection.3.4}% 
-\contentsline {subsubsection}{\numberline {3.4.1}Photon purity studies}{12}{subsubsection.3.4.1}% 
-\contentsline {section}{\numberline {4}Reweighting of simulated events}{12}{section.4}% 
-\contentsline {subsection}{\numberline {4.1}Trigger efficiency reweighting}{12}{subsection.4.1}% 
-\contentsline {subsubsection}{\numberline {4.1.1}\ensuremath {\ensuremath {p_{\mathrm {T}}}\xspace ^\text {miss}}\xspace +\ensuremath {H_{\mathrm {T}}^{\text {miss}}}\xspace triggers}{12}{subsubsection.4.1.1}% 
-\contentsline {subsubsection}{\numberline {4.1.2}Photon trigger}{13}{subsubsection.4.1.2}% 
-\contentsline {subsubsection}{\numberline {4.1.3}Electron trigger}{14}{subsubsection.4.1.3}% 
-\contentsline {subsection}{\numberline {4.2}Pileup reweighting}{14}{subsection.4.2}% 
-\contentsline {subsection}{\numberline {4.3}Lepton and photon identification/reconstruction efficiency reweighting}{15}{subsection.4.3}% 
-\contentsline {subsection}{\numberline {4.4}Higher-order reweighting}{16}{subsection.4.4}% 
-\contentsline {subsection}{\numberline {4.5}Generator-level boson construction}{16}{subsection.4.5}% 
-\contentsline {subsubsection}{\numberline {4.5.1}EW NLO}{17}{subsubsection.4.5.1}% 
-\contentsline {subsubsection}{\numberline {4.5.2}QCD NLO}{18}{subsubsection.4.5.2}% 
-\contentsline {subsubsection}{\numberline {4.5.3}QCD NNLO}{20}{subsubsection.4.5.3}% 
-\contentsline {section}{\numberline {5}Event selection}{20}{section.5}% 
-\contentsline {subsection}{\numberline {5.1}Signal region selection}{20}{subsection.5.1}% 
-\contentsline {subsection}{\numberline {5.2}Single muon control region selection}{29}{subsection.5.2}% 
-\contentsline {subsection}{\numberline {5.3}Single electron control region selection}{34}{subsection.5.3}% 
-\contentsline {subsection}{\numberline {5.4}Double muon control region selection}{39}{subsection.5.4}% 
-\contentsline {subsection}{\numberline {5.5}Double electron control region selection}{44}{subsection.5.5}% 
-\contentsline {subsection}{\numberline {5.6}Photon control region}{49}{subsection.5.6}% 
-\contentsline {section}{\numberline {6}Signal extraction strategy}{53}{section.6}% 
-\contentsline {subsection}{\numberline {6.1}Multijet background estimation}{53}{subsection.6.1}% 
-\contentsline {subsection}{\numberline {6.2}EW background estimation and fitting procedure}{55}{subsection.6.2}% 
-\contentsline {subsection}{\numberline {6.3}Systematic Uncertainties}{61}{subsection.6.3}% 
-\contentsline {subsubsection}{\numberline {6.3.1}Uncertainties in the transfer factors}{61}{subsubsection.6.3.1}% 
-\contentsline {subsubsection}{\numberline {6.3.2}Uncertainties assigned to the MC based processes}{63}{subsubsection.6.3.2}% 
-\contentsline {subsection}{\numberline {6.4}Control sample validation}{65}{subsection.6.4}% 
-\contentsline {section}{\numberline {7}Results}{71}{section.7}% 
+\contentsline {section}{\numberline {3}Trigger}{6}{section.3}% 
+\contentsline {subsection}{\numberline {3.1}Overview of $\ensuremath {\ensuremath {E_\mathrm {T}}^{\mathrm {miss}}}$ triggers}{6}{subsection.3.1}% 
+\contentsline {subsection}{\numberline {3.2}Efficiency turn-on curves}{6}{subsection.3.2}% 
+\contentsline {section}{\numberline {4}Physics objects}{7}{section.4}% 
+\contentsline {subsection}{\numberline {4.1}Jets}{7}{subsection.4.1}% 
+\contentsline {subsubsection}{\numberline {4.1.1}b-tagged jets}{17}{subsubsection.4.1.1}% 
+\contentsline {subsubsection}{\numberline {4.1.2}V-tagged jets}{17}{subsubsection.4.1.2}% 
+\contentsline {subsection}{\numberline {4.2}Missing transverse momentum and recoil}{17}{subsection.4.2}% 
+\contentsline {subsection}{\numberline {4.3}Leptons}{18}{subsection.4.3}% 
+\contentsline {subsubsection}{\numberline {4.3.1}Electrons}{18}{subsubsection.4.3.1}% 
+\contentsline {subsubsection}{\numberline {4.3.2}Muons}{19}{subsubsection.4.3.2}% 
+\contentsline {subsubsection}{\numberline {4.3.3}Taus}{20}{subsubsection.4.3.3}% 
+\contentsline {subsection}{\numberline {4.4}Photons}{21}{subsection.4.4}% 
+\contentsline {subsubsection}{\numberline {4.4.1}Photon purity studies}{21}{subsubsection.4.4.1}% 
+\contentsline {section}{\numberline {5}Reweighting of simulated events}{21}{section.5}% 
+\contentsline {subsection}{\numberline {5.1}Trigger efficiency reweighting}{21}{subsection.5.1}% 
+\contentsline {subsubsection}{\numberline {5.1.1}\ensuremath {\ensuremath {p_{\mathrm {T}}}\xspace ^\text {miss}}\xspace +\ensuremath {H_{\mathrm {T}}^{\text {miss}}}\xspace triggers}{21}{subsubsection.5.1.1}% 
+\contentsline {subsubsection}{\numberline {5.1.2}Photon trigger}{22}{subsubsection.5.1.2}% 
+\contentsline {subsubsection}{\numberline {5.1.3}Electron trigger}{23}{subsubsection.5.1.3}% 
+\contentsline {subsection}{\numberline {5.2}Pileup reweighting}{23}{subsection.5.2}% 
+\contentsline {subsection}{\numberline {5.3}Lepton and photon identification/reconstruction efficiency reweighting}{24}{subsection.5.3}% 
+\contentsline {subsection}{\numberline {5.4}Higher-order reweighting}{25}{subsection.5.4}% 
+\contentsline {subsection}{\numberline {5.5}Generator-level boson construction}{25}{subsection.5.5}% 
+\contentsline {subsubsection}{\numberline {5.5.1}EW NLO}{26}{subsubsection.5.5.1}% 
+\contentsline {subsubsection}{\numberline {5.5.2}QCD NLO}{27}{subsubsection.5.5.2}% 
+\contentsline {subsubsection}{\numberline {5.5.3}QCD NNLO}{29}{subsubsection.5.5.3}% 
+\contentsline {section}{\numberline {6}Event selection}{29}{section.6}% 
+\contentsline {subsection}{\numberline {6.1}Signal region selection}{29}{subsection.6.1}% 
+\contentsline {subsection}{\numberline {6.2}Single muon control region selection}{38}{subsection.6.2}% 
+\contentsline {subsection}{\numberline {6.3}Single electron control region selection}{43}{subsection.6.3}% 
+\contentsline {subsection}{\numberline {6.4}Double muon control region selection}{48}{subsection.6.4}% 
+\contentsline {subsection}{\numberline {6.5}Double electron control region selection}{53}{subsection.6.5}% 
+\contentsline {subsection}{\numberline {6.6}Photon control region}{58}{subsection.6.6}% 
+\contentsline {section}{\numberline {7}Signal extraction strategy}{62}{section.7}% 
+\contentsline {subsection}{\numberline {7.1}Multijet background estimation}{62}{subsection.7.1}% 
+\contentsline {subsection}{\numberline {7.2}EW background estimation and fitting procedure}{64}{subsection.7.2}% 
+\contentsline {subsection}{\numberline {7.3}Systematic Uncertainties}{70}{subsection.7.3}% 
+\contentsline {subsubsection}{\numberline {7.3.1}Uncertainties in the transfer factors}{70}{subsubsection.7.3.1}% 
+\contentsline {subsubsection}{\numberline {7.3.2}Uncertainties assigned to the MC based processes}{72}{subsubsection.7.3.2}% 
+\contentsline {subsection}{\numberline {7.4}Control sample validation}{74}{subsection.7.4}% 
+\contentsline {section}{\numberline {8}Results}{80}{section.8}% 

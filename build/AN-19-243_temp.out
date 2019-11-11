@@ -3,27 +3,30 @@
 \BOOKMARK [2][-]{subsection.2.1}{2.1 Data Samples}{section.2}% 3
 \BOOKMARK [2][-]{subsection.2.2}{2.2 Background Samples}{section.2}% 4
 \BOOKMARK [2][-]{subsection.2.3}{2.3 Signal simulation samples}{section.2}% 5
-\BOOKMARK [1][-]{section.3}{3 Physics objects}{}% 6
-\BOOKMARK [2][-]{subsection.3.1}{3.1 Jets}{section.3}% 7
-\BOOKMARK [2][-]{subsection.3.2}{3.2 Missing transverse momentum and recoil}{section.3}% 8
-\BOOKMARK [2][-]{subsection.3.3}{3.3 Leptons}{section.3}% 9
-\BOOKMARK [2][-]{subsection.3.4}{3.4 Photons}{section.3}% 10
-\BOOKMARK [1][-]{section.4}{4 Reweighting of simulated events}{}% 11
-\BOOKMARK [2][-]{subsection.4.1}{4.1 Trigger efficiency reweighting}{section.4}% 12
-\BOOKMARK [2][-]{subsection.4.2}{4.2 Pileup reweighting}{section.4}% 13
-\BOOKMARK [2][-]{subsection.4.3}{4.3 Lepton and photon identification/reconstruction efficiency reweighting}{section.4}% 14
-\BOOKMARK [2][-]{subsection.4.4}{4.4 Higher-order reweighting}{section.4}% 15
-\BOOKMARK [2][-]{subsection.4.5}{4.5 Generator-level boson construction}{section.4}% 16
-\BOOKMARK [1][-]{section.5}{5 Event selection}{}% 17
-\BOOKMARK [2][-]{subsection.5.1}{5.1 Signal region selection}{section.5}% 18
-\BOOKMARK [2][-]{subsection.5.2}{5.2 Single muon control region selection}{section.5}% 19
-\BOOKMARK [2][-]{subsection.5.3}{5.3 Single electron control region selection}{section.5}% 20
-\BOOKMARK [2][-]{subsection.5.4}{5.4 Double muon control region selection}{section.5}% 21
-\BOOKMARK [2][-]{subsection.5.5}{5.5 Double electron control region selection}{section.5}% 22
-\BOOKMARK [2][-]{subsection.5.6}{5.6 Photon control region}{section.5}% 23
-\BOOKMARK [1][-]{section.6}{6 Signal extraction strategy}{}% 24
-\BOOKMARK [2][-]{subsection.6.1}{6.1 Multijet background estimation}{section.6}% 25
-\BOOKMARK [2][-]{subsection.6.2}{6.2 EW background estimation and fitting procedure}{section.6}% 26
-\BOOKMARK [2][-]{subsection.6.3}{6.3 Systematic Uncertainties}{section.6}% 27
-\BOOKMARK [2][-]{subsection.6.4}{6.4 Control sample validation}{section.6}% 28
-\BOOKMARK [1][-]{section.7}{7 Results}{}% 29
+\BOOKMARK [1][-]{section.3}{3 Trigger}{}% 6
+\BOOKMARK [2][-]{subsection.3.1}{3.1 Overview of ETmiss triggers}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.2}{3.2 Efficiency turn-on curves}{section.3}% 8
+\BOOKMARK [1][-]{section.4}{4 Physics objects}{}% 9
+\BOOKMARK [2][-]{subsection.4.1}{4.1 Jets}{section.4}% 10
+\BOOKMARK [2][-]{subsection.4.2}{4.2 Missing transverse momentum and recoil}{section.4}% 11
+\BOOKMARK [2][-]{subsection.4.3}{4.3 Leptons}{section.4}% 12
+\BOOKMARK [2][-]{subsection.4.4}{4.4 Photons}{section.4}% 13
+\BOOKMARK [1][-]{section.5}{5 Reweighting of simulated events}{}% 14
+\BOOKMARK [2][-]{subsection.5.1}{5.1 Trigger efficiency reweighting}{section.5}% 15
+\BOOKMARK [2][-]{subsection.5.2}{5.2 Pileup reweighting}{section.5}% 16
+\BOOKMARK [2][-]{subsection.5.3}{5.3 Lepton and photon identification/reconstruction efficiency reweighting}{section.5}% 17
+\BOOKMARK [2][-]{subsection.5.4}{5.4 Higher-order reweighting}{section.5}% 18
+\BOOKMARK [2][-]{subsection.5.5}{5.5 Generator-level boson construction}{section.5}% 19
+\BOOKMARK [1][-]{section.6}{6 Event selection}{}% 20
+\BOOKMARK [2][-]{subsection.6.1}{6.1 Signal region selection}{section.6}% 21
+\BOOKMARK [2][-]{subsection.6.2}{6.2 Single muon control region selection}{section.6}% 22
+\BOOKMARK [2][-]{subsection.6.3}{6.3 Single electron control region selection}{section.6}% 23
+\BOOKMARK [2][-]{subsection.6.4}{6.4 Double muon control region selection}{section.6}% 24
+\BOOKMARK [2][-]{subsection.6.5}{6.5 Double electron control region selection}{section.6}% 25
+\BOOKMARK [2][-]{subsection.6.6}{6.6 Photon control region}{section.6}% 26
+\BOOKMARK [1][-]{section.7}{7 Signal extraction strategy}{}% 27
+\BOOKMARK [2][-]{subsection.7.1}{7.1 Multijet background estimation}{section.7}% 28
+\BOOKMARK [2][-]{subsection.7.2}{7.2 EW background estimation and fitting procedure}{section.7}% 29
+\BOOKMARK [2][-]{subsection.7.3}{7.3 Systematic Uncertainties}{section.7}% 30
+\BOOKMARK [2][-]{subsection.7.4}{7.4 Control sample validation}{section.7}% 31
+\BOOKMARK [1][-]{section.8}{8 Results}{}% 32
