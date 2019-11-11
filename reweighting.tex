@@ -188,10 +188,7 @@ The dilepton candidates are checked for flavour consistency with the desired bos
 
 For photon events, the generator photon with highest \pt and status 1 is used.
 
-\subsubsection{EW NLO}
-Scale factors corresponding to NLO EW corrections are obtained from Ref.~\cite{DMTheory} and applied as a function of the generator-level boson \pt. The scale factors are shown in Fig.~\ref{fig:theory_sf_ew_nlo}.
-
-\subsubsection{QCD NLO}
+\subsubsection{QCD NLO corrections to QCD V processes}
 
 Scale factors corresponding to NLO QCD corrections for W and Z production are obtained from central CMS. For the DY and W processes, samples from ``Fall17'' campaign, while ``Summer16'' samples are used for the $\gamma$+jets process. In both cases, all samples are generated using \texttt{MadGraph5\_amc@NLO}. The LO samples are binned in HT and are equivalent to the ones used in in the analysis, and are generated with up to four partons in the matrix element. The NLO samples are generated with up to two additional partons in the matrix element calculation. Further jet multiplicities are handled by the parton shower, which in both cases is performed using \texttt{Pythia8} with tune \texttt{CP5}.
 
@@ -215,14 +212,14 @@ The 1D SFs are shown in Fig.~\ref{fig:theory_sf_qcd_nlo}. To protect the outcome
 
 where \pt is the boson transverse momentum and a, b and c are determined by a fit to the scale factor histogram. The resulting values of the fit parameters, as well as the resulting interpolated shape are also shown in Fig.~\ref{fig:theory_sf_qcd_nlo}.
 
-The 2D versions of the SFs are only derived for the W and DY processes, for which the available simulation samples are bigger and thus allow for finer binning. The scale factors are shown in Fig.~\ref{fig:theory_sf_qcd_nlo_2d}
+The 2D versions of the SFs are only derived for the W and DY processes, for which the available simulation samples are bigger and thus allow for finer binning. The scale factors are shown in Fig.~\ref{fig:theory_sf_qcd_nlo_2d}.
 
 
 \begin{figure}[ht!]
     \begin{center}
-        \includegraphics[width=0.49\textwidth]{fig/theory/qcdnlo/interpolation_vbf_dy.pdf}
-        \includegraphics[width=0.49\textwidth]{fig/theory/qcdnlo/interpolation_vbf_wjet.pdf} \\
-        \includegraphics[width=0.49\textwidth]{fig/theory/qcdnlo/interpolation_vbf_gjets.pdf}
+        \includegraphics[width=0.49\textwidth]{fig/theory/interpolation_vbf_dy.pdf}
+        \includegraphics[width=0.49\textwidth]{fig/theory/interpolation_vbf_wjet.pdf} \\
+        \includegraphics[width=0.49\textwidth]{fig/theory/interpolation_vbf_gjets.pdf}
         \caption{
             QCD NLO scale factors for the DY (top left), W (top right) and $\gamma$+jets processes.
             The k factors are derived within the generator-level VBF selection described in the text.
@@ -236,8 +233,8 @@ The 2D versions of the SFs are only derived for the W and DY processes, for whic
 
 \begin{figure}[ht!]
     \begin{center}
-        \includegraphics[width=0.49\textwidth]{fig/theory/qcdnlo/2d_dy_gen_vpt_vbf_dress.pdf}
-        \includegraphics[width=0.49\textwidth]{fig/theory/qcdnlo/2d_wjet_gen_vpt_vbf_dress.pdf} \\
+        \includegraphics[width=0.49\textwidth]{fig/theory/2d_dy_gen_vpt_vbf_dress.pdf}
+        \includegraphics[width=0.49\textwidth]{fig/theory/2d_wjet_gen_vpt_vbf_dress.pdf} \\
         \caption{
             Same as Fig.~\ref{fig:theory_sf_qcd_nlo}, but now binned in two dimensions of the generator-level boson \pt and \mjj.
             The k factors are derived within the generator-level VBF selection described in the text.
@@ -246,6 +243,24 @@ The 2D versions of the SFs are only derived for the W and DY processes, for whic
       \label{fig:theory_sf_qcd_nlo_2d}
     \end{center}
   \end{figure}
+
+\subsubsection{QCD NNLO corrections to QCD V processes}
+
+NNLO corrections are obtained from the fixed-order calculations results in~\ref{DMTheory}. They are parametrized as a function of the generator-level boson \pt. The correction is shown in Fig.~\ref{fig:theory_sf_qcd_nnlo}.
+
+\begin{figure}[ht!]
+    \begin{center}
+        \includegraphics[width=0.49\textwidth]{fig/theory/nnlo_qcd.pdf}
+        \caption{
+            QCD NNLO scale factors for DY, W and photon production as a function of \ptv.
+          }
+      \label{fig:theory_sf_qcd_nnlo}
+    \end{center}
+  \end{figure}
+
+\subsubsection{EW NLO corrections to QCD V processes}
+Scale factors corresponding to NLO EW corrections are obtained from Ref.~\cite{DMTheory} and applied as a function of the generator-level boson \pt. The scale factors are shown in Fig.~\ref{fig:theory_sf_ew_nlo}.
+
 \begin{figure}[ht!]
     \begin{center}
         \includegraphics[width=0.49\textwidth]{fig/theory/ewnlo/nlo_ewk.pdf}
@@ -256,18 +271,16 @@ The 2D versions of the SFs are only derived for the W and DY processes, for whic
     \end{center}
   \end{figure}
 
-\subsubsection{QCD NNLO}
-
-NNLO corrections are obtained from the fixed-order calculations results in~\ref{DMTheory}. They are parametrized as a function of the generator-level boson \pt. The correction is shown in Fig.~\ref{fig:theory_sf_qcd_nnlo}.
-
+\subsubsection{QCD NLO corrections to EWK V processes}
+The QCD NLO corrections to EWK W and Z production have been calculated in Ref.~\cite{AN-2017-267} using the VBF@NLO program. They are parametrized in \ptv and \mjj and are shown in Fig.~\ref{fig:theory_sf_ew_nlo}.
 
 
 \begin{figure}[ht!]
     \begin{center}
-        \includegraphics[width=0.49\textwidth]{fig/theory/qcdnnlo/nnlo_qcd.pdf}
+        \includegraphics[width=0.49\textwidth]{fig/theory/ewnlo/nlo_ewk.pdf}
         \caption{
-            QCD NNLO scale factors for DY, W and photon production as a function of \ptv.
+            EW NLO scale factors for DY, W and photon production as a function of \ptv.
           }
-      \label{fig:theory_sf_qcd_nnlo}
+      \label{fig:theory_sf_ew_nlo}
     \end{center}
   \end{figure}
