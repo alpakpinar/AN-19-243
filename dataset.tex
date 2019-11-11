@@ -242,14 +242,26 @@ is found to be 32 for both the 2017 and 2018 data samples used in this analysis 
 
 \subsection{Signal simulation samples}
 
-{\color{red} In this section we should add description of the models, feynman diagrams, important model parameters}
+Simulated signal samples for invisible decays of the Higgs boson are generated using the Powheg generator at NLO in QCD.
+The samples are normalized to the standard model cross section for Higgs production in the given mode~\cite{deFlorian:2016spz}.
+They are listed in Tab.~\ref{tab:SignalSamples}.
 
-{\color{red} {\bf DMSimp Models}}
+\begin{table}[ht!]
+    \centering
+    \scriptsize
+        \def\arraystretch{1.3}
+    \begin{tabular}{l|r|c}
+    \hline
+    \hline
+    Data set name                                                                  &  Cross section (pb)          & Order in QCD \\
+    \hline
+    \hline
+GluGlu\_HToInvisible\_M125\_TuneCP5\_13TeV\_powheg\_pythia8                          &     48.58      & NLO \\
+VBF\_HToInvisible\_M125\_13TeV\_TuneCP5\_powheg\_pythia8                             &      3.782     & NLO \\
 
-{\color{red} {\bf t-channel Model}}
-
-{\color{red} {\bf ADD Model}}
-
-{\color{red} {\bf Leptoquark Model}}
-
-{\color{red} {\bf Higgs Invisible Model}}
+\hline
+\hline
+\end{tabular}
+\caption{Simulated signal datasets for the modelling of invisible Higgs boson decays. All datasets are accessed at the NanoAOD data tier from the \texttt{v5} campaign, also known as \texttt{1Jun19}.}
+\label{tab:SignalSamples}
+\end{table}
