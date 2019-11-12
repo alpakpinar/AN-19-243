@@ -1,535 +1,252 @@
-\section{Signal extraction strategy} \label{sec:signalextraction}
+\section{Background estimation} \label{sec:bkg}
 
-The largest background contributions, from \Zvvjets and \Wlvjets processes,
-are estimated using data from five mutually exclusive control samples selected
-from dimuon, dielectron, single-muon, single-electron, and \phojets final states
-as explained below. The hadronic recoil \pt is used as a proxy for \ptmiss in these
-control samples, and is defined by excluding identified leptons or photons from
-the \ptmiss calculation.
+The largest background contributions from \Zvvjets~and \Wlvjets~processes
+are estimated using data from four mutually exclusive control samples selected 
+from dimuon, dielectron, single-muon, and single-electron states, 
+as explained below. 
 
 The remaining backgrounds that contribute to the total event yield in the signal region
-are much smaller than those from \Wlvjets~processes. These smaller backgrounds
-include QCD multijet events which are measured from data using a $\Delta\phi$ extrapolation
-method and will be dicussed in \ref{sec:minor_bkg}, and top quark and diboson processes, which are
-obtained directly from simulation.
+are much smaller than those from \Zvvjets~and \Wlvjets~processes. These backgrounds
+include QCD multijet events which are measured from data using a $\Delta\phi$ extrapolation 
+method~\cite{Collaboration:2011ida,paper-exo-037}, and top-quark and diboson processes, which are 
+obtained directly from simulation and are explained in the previous sections. 
 
-\subsection{Multijet background estimation}\label{sec:minor_bkg}
+\subsection{Signal extraction strategy}
 
-QCD multijet production yields transversely well-balanced events. 
-However, due to jet energy mismeasurements, uninstrumented or 
-non-functional detector regions, or neutrinos from semileptonic 
-decays of heavy-flavour mesons; the balance might no longer be preserved yielding
-a final state with \ETmiss. Although such effects are rare, due to large QCD 
-production cross section such QCD multijet events can show up in final states with large \ETmiss.
-In this analysis, event selection is constructed to supress contributions 
-from such events to below percent level (0.02\%) of the total background. 
-On the other hand, this background is known to be badly reproduced in simulation, 
-therefore, we employed a data driven prediction for this process to be used in the 
-final simultaneous fit. 
+A binned likelihood fit to the data (constructed as a product of poisson probabilities) as presented here:
 
-For this measurement the ABCD method is employed using the $\min\Delta\phi({\rm jet,\MET})$ 
-and \ETmiss variables. $\min\Delta\phi({\rm jet,\MET})$ variable gives a strong handle on QCD 
-multijet events since the jet momentum mismeasurements yielding large \ETmiss will also naturally
-yield low seperation in $\phi$ between these objects. 
+\begingroup
+\small
+\begin{align}
+\mathcal{L}(\boldsymbol{\mu}^{\Zvv}, \boldsymbol{\mu}, \boldsymbol{\theta}) = &
+\prod_{i} \mathrm{Pois}\left(d_{i} | B_{i}(\boldsymbol{\theta}) + (1+f_{i}(\boldsymbol{\theta})_{\mathrm{QCD}}) \muz_{i} + R^{\mathrm{\Zvv}}_{i} (1+f_{i}(\boldsymbol{\theta})_{\mathrm{EW}}) \muz_{i}+ \boldsymbol{\mu} S_{i}(\boldsymbol{\theta})\right ) \times \nonumber\\
+&\prod_{i} \mathrm{Pois} \left(d^{Z}_{i}|B^{Z}_{i}(\boldsymbol{\theta}) +\frac{\muz_{i} }{R^{Z}_{i} (\boldsymbol{\theta})_{\mathrm{QCD}}} + \frac{\muz_{i} }{R^{Z}_{i} (\boldsymbol{\theta})_{\mathrm{EW}}} \right) \nonumber\\
+& \prod_{i} \mathrm{Pois}\left(d^{W}_{i}|B^{W}_{i}(\boldsymbol{\theta}) +\frac{f_{i}(\boldsymbol{\theta})_{\mathrm{QCD}}\,\muz_{i}}{R^{W}_{i}(\boldsymbol{\theta})_{\mathrm{QCD}}}+\frac{f_{i}(\boldsymbol{\theta})_{\mathrm{EW}}\,\muz_{i} }{R^{W}_{i} (\boldsymbol{\theta})_{\mathrm{EW}}} \right) \times \nonumber\\
+\end{align}
+\endgroup
 
-The distribution of $\min\Delta\phi({\rm jet,\MET})$ without imposing any selection on this variable 
-after signal region event selection is shown in Fig.~\ref{fig:qcd_variables}. 
+The fit is performed simultaneously in the four different control samples and in the signal 
+region, for events selected in the vbf category, to estimate the $\Zvvjets$ and $\Wlvjets$ rate
+in each $m_{jj}$ bin. In this likelihood, the expected number of $\Zvvjets$ events in each 
+bin of $m_{jj}$ are the free parameters of the fit. 
+The $\Zvvjets$ and $\Wlvjets$ rates are estimated seperately for the 
+QCD and EW components seperately in each $m_{jj}$ bin. However the fit is constrained using the $R^{\mathrm{\Zvv}}_{i}$ which 
+demonstrates the ratio between the QCD and EW components of the $\Zvvjets$ background. This ratio does not have any additional 
+uncertainty.
+The systematic uncertainties ($\boldsymbol{\theta}$) 
+enter the likelihood as additive perturbations to the transfer factors $R^{/Z/W}_{i}$, and are modeled as Gaussians.
+The parameter $\boldsymbol{\mu}_{i}^{\Zvv}$ represents the yield of the $\Zvvjets$ background in the $i$ dijet mass 
+bin into the signal region, and is left freely floating in the fit. The function $f_{i}(\boldsymbol{\theta})$ is the 
+transfer factor between the $\Zvvjets$ and $\Wlvjets$ backgrounds in the signal region and represents a constraint between 
+these backgrounds. The likelihood also includes the signal region  with $B_{i}$ representing all the backgrounds, $S$ 
+representing the nominal signal prediction, and $\mu$ being the signal strength parameter also left floating in the fit. 
 
-\begin{figure}[htb]
-  \begin{center}
-    \includegraphics[width=0.49\textwidth]{fig/placeholder.png}
-  \end{center}
-  \caption{The distribution of $\min\Delta\phi({\rm jet,\MET})$ without imposing any selection on this variable}
-\label{fig:qcd_variables}
-\end{figure}
+\subsection{Transfer factors}
 
-Large amounts of QCD multijet events are found at low $\min\Delta\phi({\rm jet,\MET})$ 
-region. As a result, the selection for the A, B, C and D regions are determined to be as follows:
-\begin{itemize}
-\item Region A: $\ETmiss <=250$ and $\min\Delta\phi({\rm jet,\MET})<=0.5$
-\item Region B: $\ETmiss > 250$ and $\min\Delta\phi({\rm jet,\MET})<=0.5$
-\item Region C: $\ETmiss <=250$ and $\min\Delta\phi({\rm jet,\MET})>0.5$ 
-\item Region D: $\ETmiss > 250$ and $\min\Delta\phi({\rm jet,\MET})>0.5$
-\end{itemize}
-
-The \ETmiss distribution split in regions for the QCD multijet simulation 
-is shown in Fig.~\ref{fig:qcd_variables_sections}. Each contribution
-from each of the regions specified above is shown with a different color. 
-The two dimensional distribution of the $\min\Delta\phi({\rm jet,\MET})$ 
-vs \ETmiss for QCD multijet simulation is also shown. 
-
-\begin{figure}[h]
-  \begin{center}
-    \includegraphics[width=0.49\textwidth]{fig/placeholder.png}
-    \includegraphics[width=0.49\textwidth]{fig/placeholder.png}
-  \end{center}
-  \caption{The \ETmiss distribution split in regions for the QCD multijet simulation. Each contribution
-from each of the regions specified above is shown with a different color. }
-\label{fig:qcd_variables_sections}
-\end{figure}
-
-The ratio between the regions of low and high $\min\Delta\phi({\rm jet,\MET})$ then computed as:
-\[
-r = \frac{\min\Delta\phi({\rm jet,\MET})>0.5}{\min\Delta\phi({\rm jet,\MET})<0.5}
-\]
-This ratio computed using the QCD multijet simulation is shown in Fig.~\ref{fig:qcd_ratio} and is fitted by a double exponential 
-function. It has been shown in earlier studies~\cite{AN-10-204} 
-that the shape difference in this ratio at different \ETmiss regions arises from threshold effects, pileup at lower \ETmiss values, 
-where as at higher values, gaussian core of the jet energy resolution dictates the shape and various over and under 
-measurements of the jet energies could morph the exponential shape. This is the reason why this ratio is fitted by a double exponential. 
-
-The data-driven estimation starts by taking the events from 
-region B defined by $\ETmiss > 250$ and $\min\Delta\phi({\rm jet,\MET})<=0.5$~selections 
-after imposing the full event selection in MET dataset. 
-All other backgrounds corresponding to V+jets processes are subtracted from 
-these selected events. The remaining events are scaled by the double exponential function fitted 
-to the ratio as shown in Fig.~\ref{fig:qcd_sys}. 
-The systematic uncertainty sources are also studied. The largest source of uncertainty in the measurement 
-is due to the variations of jet energy scale, resolution and the fit. To estimate the effect of this variation in 
-the measurment, the jet energy scale and resolution is varied up and down by 1$\sigma$ and the above procedure
-is repeated. The corresponding variations in the ratio are treated as the systematic uncertainty. The total uncertainty
-is found to vary from 20\% to 150\% as a function of \ETmiss and is shown in  Fig.~\ref{fig:qcd_sys} as well. 
-The largest deviation in each bin is taken as the uncertainty. 
-
-\begin{figure}[h]
-  \begin{center}
-    \includegraphics[width=0.49\textwidth]{fig/placeholder.png}\\
-    \includegraphics[width=0.49\textwidth]{fig/placeholder.png}
-    \includegraphics[width=0.49\textwidth]{fig/placeholder.png}
-  \end{center}
-  \caption{The distribution and the fit on the ratio is shown on the top.  The distributions and the fits for the up and down varitions are shown 
-    on the bottom left and right, respectively.}
-\label{fig:qcd_sys}
-\end{figure}
-
-The final estimation including the uncertainties and the comparison of the final estimation to those estimations coming from the simulated events is shown in Fig.~\ref{fig:qcd_ratio}.
-
-\begin{figure}[h]
-  \begin{center}
-    \includegraphics[width=0.49\textwidth]{fig/placeholder.png}
-    \includegraphics[width=0.49\textwidth]{fig/placeholder.png}
-  \end{center}
-  \caption{ The data driven estimation of  multijet events using the fit is compared to the yields optained by simulation is shown on the left.} The distribution on the right row show the central estimation with the associated uncertainties coming from the systematic fits. The ratio pad shows the \% uncertainty per bin.}
-\label{fig:qcd_ratio}
-\end{figure}
-
-\newpage
-
-\subsection{EW background estimation and fitting procedure}\label{sec:fitting}
-
-A binned likelihood fit to the data as presented in Ref.~\cite{paper-exo-037}
-is performed simultaneously in the five different control samples and in the signal
-region, for events selected in
-both the monojet and mono-$\PV$ categories, to estimate the \Zvvjets and \Wlvjets rate
-in each \ptmiss bin. The full likelihood can be seen below:
-\begin{align*}
-\mathcal{L}_{\textrm{c}}(\boldsymbol{\mu}^{\Zvv}, \boldsymbol{\mu}, \boldsymbol{\theta}) &=
-\prod_{i} \mathrm{Poisson}\left(d^{\gamma}_{i} |B^{\gamma}_{i}(\boldsymbol{\theta}) +\frac{ \mu^{\Zvv}_{i} }{R^{\gamma}_{i}(\boldsymbol{\theta})}   \right) \\
-&~\times \prod_{i} \mathrm{Poisson}\left(d^{Z}_{i}|B^{Z}_{i}(\boldsymbol{\theta}) +\frac{\mu^{\Zvv}_{i} }{R^{Z}_{i}     (\boldsymbol{\theta})}   \right ) \\
-&~\times \prod_{i} \mathrm{Poisson}\left(d^{W}_{i}|B^{W}_{i}(\boldsymbol{\theta}) +\frac{f_{i}(\boldsymbol{\theta})\mu^{\Zvv}_{i}}{R^{W}_{i}(\boldsymbol{\theta})} \right)\\
-&~\times \prod_{i} \mathrm{Poisson}\left(d_{i}     |B_{i}(\boldsymbol{\theta}) + (1+f_{i}(\boldsymbol{\theta})) \mu^{\Zvv}_{i}  + \mu S_{i}(\boldsymbol{\theta})\right ) \numberthis \label{eqn:candclh} \\
-\end{align*}
-
-In the above likelihood, $d^{\gamma/Z/W}_{i}$ are the observed number of events in each bin of the photon, dimuon/dielectron and single-muon/single-electron control regions, and $B^{\gamma/Z/W}_{i}$ is the background in the respective control regions. The systematic uncertainties ($\boldsymbol{\theta}$) enter the likelihood as additive perturbations to the transfer factors $R^{\gamma/Z/W}_{i}$, and are modeled as Gaussians.
-The parameter $\boldsymbol{\mu}^{\Zvv}$ represents the yield of the \Zvv~ background in the signal region, and is left freely floating in the fit. The function $f_{i}(\boldsymbol{\theta})$
-is the transfer factor between the \Zvv~ and W+jets backgrounds in the signal region and represents a constraint between these backgrounds. The likelihood also includes the signal region 
-with $B_{i}$ representing all the backgrounds, $S$ representing the nominal signal prediction, and $\mu$ being the signal strength parameter also left floating in the fit. 
-
-In this likelihood, the expected numbers of \Zvvjets events in each
-bin of \ptmiss are the free parameters of the fit. Transfer factors, derived from simulation,
-are used to link the yields of the \Zlljets,~\Wlvjets and \phojets processes in the control
-regions with the \Zvvjets and \Wlvjets background estimates in the signal region.
+Transfer factors, derived from simulation, 
+are used to link the yields of the $\Zlljets$ and $\Wlvjets$ processes in the control
+regions with the $\Zvvjets$ and $\Wlvjets$ background estimates in the signal region.
 These transfer factors are defined as the ratio of expected yields of the target process
-in the signal region and the process being measured in the control sample.
+in the signal region and the process being measured in the control sample. As an example:
+\begin{equation}
+R_{i}^{Z} = \frac{N_{i,MC}^{\Zmm}}{N_{i,MC}^{\Zvv}} 
+\end{equation}
+where $N_{i}$ is the number of events in bin $i$ of the dijet mass distribution, $R_{i}$ is the transfer factor between the dimuon control region and $\Zvv$ background. 
+Other transfer factors are constructed in similar manner. 
 
-To estimate the \Wlvjets background in the signal region, the transfer factors between
-the \Wmvjets and \Wevjets event yields in the single-lepton control samples and
-the estimates of the \Wlvjets  background in the signal region are constructed. These transfer factors take into account
+To estimate the \Wlvjets~background in the signal region, the transfer factors between
+the \Wmvjets~and \Wevjets~event yields in the single-lepton control samples and
+the \Wlvjets~ background estimates in the signal region are constructed. These transfer factors take into account 
 the impact of lepton acceptances and efficiencies, lepton veto efficiencies, and
-the difference in the trigger efficiencies in the case of the single-electron control sample.
+the difference in the trigger efficiencies in the case of the single-electron control sample. 
+These transfer factors
+are shown in Figure~\ref{fig:WMvvscalefactor}. The dotted red (blue) line shows the ratio of the processes where the V-boson
+is produced via EW (QCD) production where as the solid lines show the ratio of the processes where the V-boson is produced both
+via EW and QCD production.
+
+
+\begin{figure}[htbp]
+  \centering
+        \includegraphics[width=0.45\textwidth]{placeholder.png}   
+        \includegraphics[width=0.45\textwidth]{placeholder.png} 
+  \caption{Transfer factors for the \Wlv background as a function of the dijet mass using the single muon and single electron control regions for the vbf final state. The grey band shows the statistical and systematic uncertainties on the ratios.}
+    \label{fig:WMvvscalefactor}
+\end{figure}
+
 
 The \Zvv~background prediction in the signal region is connected to the yields of \Zmm~and \Zee~events
 in the dilepton control samples. The associated transfer factors account for the differences in the
-branching ratio of $\PZ$ bosons to charged leptons relative to neutrinos
-and the impact of lepton acceptance and selection
-efficiencies. In the case of dielectron events, the transfer factor also takes into account the
-difference in the trigger efficiencies. The resulting constraint on the \Zvvjets process from the dilepton
-control samples is limited by the statistical uncertainty in the dilepton control samples
-because of the large difference in branching fractions between $\PZ$ boson decays to neutrinos
-and $\PZ$ boson decays to muons and electrons.
-
-The \phojets control sample is also used to predict the \Zvvjets process in the signal region through a
-transfer factor, which accounts for the difference in the cross sections of the \phojets and \Zvvjets processes,
-the effect of acceptance and efficiency of identifying photons along with the difference in the efficiencies of
-the photon and \ptmiss triggers. The addition of the \phojets control sample mitigates the impact of the limited
-statistical power of the dilepton constraint, because of the larger production cross section of \phojets process compared to that of \Zvvjets process.
-
-Finally, a transfer factor is also defined to connect the \Zvvjets and \Wlvjets background yields
-in the signal region, to further benefit from the larger statistical power that
-the \Wlvjets background provides, making it possible to experimentally
-constrain \Zvvjets production at high \ptmiss.
-
-These transfer factors rely on an accurate prediction of the
-ratio of \Zjets, \Wjets, and \phojets cross sections. Therefore, LO simulations for these
-processes are corrected using boson \pt-dependent NLO QCD K-factors derived using
-\MGvATNLO. They are also corrected using \pt-dependent higher-order
-EW corrections extracted from theoretical
-calculations~~\cite{Denner:2009gj,Denner:2011vu,Denner:2012ts,Kuhn:2005gv,Kallweit:2014xda,Kallweit:2015dum}.
-The higher-order corrections are found to improve the data-to-simulation agreement for both the
-absolute prediction of the individual \Zjets, \Wjets, and \phojets processes, and their respective ratios. All transfer factors are shown in Fig~\ref{fig:ZvvZSF}~\ref{fig:ZvvWGSF}~\ref{fig:WJets_SF}.
+branching ratio of Z bosons to charged leptons relative to neutrinos and and the impact of lepton acceptance and selection 
+efficiencies. In the case of dielectron events, the transfer factor also takes into account the 
+difference in the trigger efficiencies. The resulting constraint on the \Zvv~background from the dilepton
+control samples is limited by the statistical uncertainty in the dilepton control samples due to the large
+branching fraction difference of the Z boson decays to muons and electrons compared to that to neutrinos.
+These transfer factors are shown in Figure~\ref{fig:ZvvZmmSF}. The dotted red (blue) line shows the ratio of the processes where the V-boson
+is produced via EW (QCD) production where as the solid lines show the ratio of the processes where the V-boson is produced both
+via EW and QCD production.
 
 \begin{figure}[htbp]
-  \includegraphics[width=0.49\textwidth]{placeholder.png}
-  \includegraphics[width=0.49\textwidth]{placeholder.png}
-  \\
-  \includegraphics[width=0.49\textwidth]{placeholder.png}
-  \includegraphics[width=0.49\textwidth]{placeholder.png}
-  \caption{Transfer factors for the \Zvv background as a function of the recoil using the dimuon, dielectron control regions in monojet (left) and mono-V (right) final state. The orange band shows the theoretical uncertainties on the ratios.}\label{fig:ZvvZSF}
+  \centering
+        \includegraphics[width=0.45\textwidth]{placeholder.png}
+        \includegraphics[width=0.45\textwidth]{placeholder.png}
+\\
+  \caption{Transfer factors for the \Zvvjets background as a function of the dijet mass using the dimuon, and dielectron control regions in vbf final state. The grey band shows the statistical and systematic uncertainties on the ratios. }
+    \label{fig:ZvvZmmSF}
 \end{figure}
+
+
+Finally, a transfer factor is also defined to connect the \Zvvjets~and \Wlvjets~background yields 
+in the signal region to further benefit from larger statistical power that \Wlvjets~background has
+making it possible to experimentally constrain \Zvvjets~production at high dijet masses.
+These transfer factors are shown in Figure~\ref{fig:WZ_SF_vbf}. The dotted red (blue) line shows the ratio of the processes where the V-boson
+is produced via EW (QCD) production where as the solid lines show the ratio of the processes where the V-boson is produced both
+via EW and QCD production.
 
 \begin{figure}[htbp]
-  \includegraphics[width=0.49\textwidth]{placeholder.png}
-  \includegraphics[width=0.49\textwidth]{placeholder.png}
-  \\
-  \includegraphics[width=0.49\textwidth]{placeholder.png}
-  \includegraphics[width=0.49\textwidth]{placeholder.png}
-  \caption{Transfer factors for the to estimate the \Zvv background from photon control region and W+jets in the signal region as a function of the recoil for the monojet (left) and mono-V (right) final state.}\label{fig:ZvvWGSF}
+  \centering
+  \includegraphics[width=0.45\textwidth]{placeholder.png}
+  \caption{Transfer factors for the to estimate the Z($\nu\nu$)+jets background from W+jets in the signal region as a function of the dijet mass for the vbf final state. The grey band shows the statistical and systematic uncertainties on the ratios.}
+  \label{fig:WZ_SF_vbf}
 \end{figure}
 
-\begin{figure}[htbp]
-  \includegraphics[width=0.49\textwidth]{placeholder.png}
-  \includegraphics[width=0.49\textwidth]{placeholder.png}
-  \\
-  \includegraphics[width=0.49\textwidth]{placeholder.png}
-  \includegraphics[width=0.49\textwidth]{placeholder.png}
-  \caption{Transfer factors for the \Wlvjets background as a function of the recoil using the singlemuon, singlelectron control regions in monojet (left) and mono-V (right) final state. The orange band shows the theoretical uncertainties on the ratios.}  \label{fig:WJets_SF}
-\end{figure}
+\subsection{Systematic uncertainties}
 
-The remaining backgrounds that contribute to the total event yield in the signal region
-are much smaller than those from \Zvvjets and \Wlvjets processes. These smaller backgrounds
-include QCD multijet events which are measured from data using a $\Delta\phi$ extrapolation
-method~\cite{Collaboration:2011ida,paper-exo-037}, and top quark and diboson processes, which are
-obtained directly from simulation.
-
-\newpage
-
-\subsection{Systematic Uncertainties}
-
-Systematic uncertainty discussion is divided into sections seperating out the
-uncertainties in the transfer factors from the ones in the MC based backgrounds.
-
-\subsubsection{Uncertainties in the transfer factors}
-
-Systematic uncertainties in the transfer factors are
+Systematic uncertainties in the transfer factors are 
 modeled as constrained nuisance parameters and include both
 experimental and theoretical uncertainties
-in the \phojets to \Zjets and \Wjets to \Zjets differential cross section ratios.
+in the \Wjets~to \Zjets~differential cross section ratios. 
 
-Theoretical uncertainties in $\PV$-jets and \phojets processes include effects from QCD and EW higher-order
-corrections along with PDF modeling uncertainty. To estimate the theoretical uncertainty
-in the $\PV$-jets and \phojets ratios due to QCD and EW higher-order effects as well as their correlations across
-the processes and \pt bins, the recommendations of Ref.~\cite{DMTheory} are employed,
-as detailed in the following explanation.
+\subsubsection{Theoretical uncertainties}
 
-Three separate sources of uncertainty associated with QCD higher order corrections are used.
-One of the uncertainties considered comes from the variations around the central
-renormalization and factorization scale choice. It is evaluated by taking the differences in the NLO cross
-section as a function of boson \pt after changing the renormalization and factorization scales by a factor of two and a factor
-of one-half with respect to the default value. These constant scale variations mainly affect the
-overall normalization of the boson \pt distributions and therefore underestimate the shape uncertainties
-that play an important role in the extrapolation of low-\pt measurements to high-\pt.
-A second, conservative shape uncertainty derived from altered boson \pt spectra is used to
-supplement the scale uncertainties and account for the \pt dependence of the uncertainties.
-The modeling of the correlations between
-the processes assumes a close similarity of QCD effects between all $\PV$-jets and \phojets processes.
-However, the QCD effects in \phojets production could differ compared to the case of \Zjets and \Wjets productions.
-In order to account for this variation, a third uncertainty is computed based on the
-difference of the known QCD K-factors
-of the \Wjets and \phojets processes with respect to \Zjets production.
-All QCD uncertainties are
-correlated across the \Zjets, \Wjets, \phojets processes, and also correlated across
-the bins of the hadronic recoil~\pt.
+Theoretical uncertainties in V+jets processes include effects from QCD and EW higher-order
+corrections along with PDF modeling uncertainty. One of the uncertainties considered comes from the 
+variations around the central renormalization and factorization scale choice. It is evaluated by taking the differences in the NLO cross 
+section as a function of boson \pt after changing the renormalization and factorization scales by a factor of two and a factor 
+of one-half with respect to the default value. These constant scale variations mainly affect the 
+overall normalization of the boson \pt distributions. This uncertainty is treated to be uncorrelated 
+across the \Zjets, \Wjets~processes, but correlated across the bins of the dijet mass distribution. 
 
-For the $\PV$-jets and \phojets processes, nNLO EW corrections are applied, which correspond to full
-NLO EW corrections~\cite{Denner:2009gj,Denner:2011vu,Denner:2012ts,Kallweit:2015dum}
-supplemented by two-loop Sudakov EW logarithms~\cite{Kuhn:2004em,Kuhn:2005gv,Kuhn:2005az,Kuhn:2007cv}.
-We also considered three separate sources of uncertainty arising from the
-following: pure EW higher-order corrections failing to cover the effects of
-unknown Sudakov logarithms in the perturbative expansion beyond NNLO, missing
-NNLO effects that are not
-included in the nNLO EW calculations, and the difference between the next-to-leading logarithmic
-(NLL) Sudakov approximation
-at two-loop and simple exponentiation of the full NLO EW correction.
-The variations due to the effect of unknown Sudakov
-logs are correlated across the \Zjets, \Wjets, and \phojets processes and are also
-correlated across the bins of hadronic recoil \pt. On the other hand, the other
-two sources of EW uncertainties
-are treated as uncorrelated across the $\PV$-jet and \phojets processes, and an independent
-nuisance parameter is used for each process.
+The PDF uncertainty has been estimated using the standard deviations of
+weights provided in the NNPDF3.0 parton distribution set and 
+using the RMS of each bin of the distribution after varying the full
+spectra by these weights. This uncertainty is treated to be correlated across the 
+\Zjets, \Wjets~processes, and the bins of the dijet mass distribution.
 
-A recommendation that includes a factorized approach to partially include
-mixed QCD-EW corrections is outlined in Ref.~\cite{DMTheory}. An
-additional uncertainty is introduced to account for the difference between
-the corrections done in the multiplicative and the additive approaches, to account
-for the non-factorized mixed EW-QCD effects.
+The uncertainty due the EW corrections is assumed to be the full correction itself as 
+a conservative approach. The uncertainty is treated correlated across the processes and 
+across the bins of the dijet mass spectra.
 
-The summary of the aforementioned theoretical uncertainties including their magnitude and correlation is outlined in Table~\ref{tab:sys}.
+These uncertainties are applied to the QCD and EW V+jets processes, but are assumed to be uncorrelated. That is, the QCD \Wjets~component has a factorization scale uncertainty that is the same size as the factorization scale uncertainty on the EW \Wjets~component, but the two are treated as separate nuisances in the signal extraction fit.
 
-\begin{table*}[htb]
-\topcaption{Theoretical uncertainties considered in the $\PV$-jets and \phojets processes, and their ratios. The correlation between each process and between the \pt bins are described.}
-\begin{center}
-\renewcommand{\arraystretch}{1}
-\ifthenelse{\boolean{cms@external}}{\footnotesize}{\resizebox{\textwidth}{!}}
-{
-\begin{scotch}{lll}
-Uncertainty source                           & Process (magnitude)                                                                                     & Correlation                    \\
-\hline \\[-1.5ex]
-Fact. \& renorm. scales (QCD) & \begin{tabular}[c]{@{}l@{}}\Zvv/\Wlv~(0.1~--~0.5\%) \\ \Zvv/\phojets (0.2~--~0.5\%)  \end{tabular} & \begin{tabular}[c]{@{}l@{}}Correlated between processes; \\ and in \pt \end{tabular}\\[2.5ex]
-\pt shape dependence (QCD)                   & \begin{tabular}[c]{@{}l@{}}\Zvv/\Wlv~(0.4~--~0.1\%)\\ \Zvv/\phojets (0.1~--~0.2\%) \end{tabular} & \begin{tabular}[c]{@{}l@{}}Correlated between processes; \\ and in \pt \end{tabular}\\[2.5ex]
-Process dependence (QCD)                     & \begin{tabular}[c]{@{}l@{}}\Zvv/\Wlv~(0.4~--~1.5\%)\\ \Zvv/\phojets (1.5~--~3.0\%)  \end{tabular} & \begin{tabular}[c]{@{}l@{}}Correlated between processes; \\ and in \pt \end{tabular}\\[2.5ex]
-Effects of unknown Sudakov logs (EW)        & \begin{tabular}[c]{@{}l@{}}\Zvv/\Wlv~(0~--~0.5\%) \\ \Zvv/\phojets (0.1~--~1.5\%) \end{tabular} & \begin{tabular}[c]{@{}l@{}}Correlated between processes; \\ and in \pt \end{tabular}\\[2.5ex]
-Missing NNLO effects (EW)                   & \begin{tabular}[c]{@{}l@{}}\Zvv~(0.2~--~3.0\%) \\ \Wlv~(0.4~--~4.5\%)\\ \phojets (0.1~--~1.0\%)\end{tabular}  & \begin{tabular}[c]{@{}l@{}}Uncorrelated between processes; \\ correlated in \pt \end{tabular} \\[4ex]
-Effects of NLL Sudakov approx. (EW)   & \begin{tabular}[c]{@{}l@{}}\Zvv~(0.2~--~4.0\%) \\ \Wlv~(0~--~1.0\%)\\ \phojets (0.1~--~3.0\%)\end{tabular}   &  \begin{tabular}[c]{@{}l@{}}Uncorrelated between processes; \\ correlated in \pt \end{tabular} \\[4ex]
-Unfactorized mixed QCD-EW corrections        & \begin{tabular}[c]{@{}l@{}}\Zvv/\Wlv~(0.15~--~0.3\%)\\ \Zvv/\phojets ($<$0.1\%)\end{tabular}    & \begin{tabular}[c]{@{}l@{}}Correlated between processes; \\ and in \pt \end{tabular}\\[2.5ex]
-PDF                                          &  \begin{tabular}[c]{@{}l@{}}\Zvv/\Wlv~(0~--~0.3\%)\\ \Zvv/\phojets (0~--~0.6\%)\end{tabular}       & \begin{tabular}[c]{@{}l@{}}Correlated between processes; \\ and in \pt \end{tabular}\\[2ex]
-\end{scotch}
-}
-\label{tab:sys}
-\end{center}
-\end{table*}
+The summary of the aforementioned theoretical uncertainties including their magnitude per process 
+and on the ratio are shown in Figure~\ref{fig:theory_unc}
 
-Experimental uncertainties including the reconstruction efficiency
-(1\% per muon or electron) and the selection efficiencies of leptons
-(1\% per muon and 2\% per electron), photons (2\%), and hadronically
-decaying $\tau$ leptons (5\%), are also incorporated.
-Uncertainties in the purity of photons
-in the~\phojets control sample (2\%), and in the efficiency of the electron (2\%),
-photon (2\%), and \ptmiss (1--4\%) triggers, are included and are fully correlated
-across all the bins of hadronic recoil \pt and \ptmiss. 
-The uncertainty in the efficiency of the b jet
-veto is estimated to be 6\% (2)\% for the contribution of the top quark (diboson) background.
+\begin{figure}[htb!]
+  \begin{center}
+    \includegraphics[width=0.48\textwidth]{fig/theory/zratio_unc.pdf}
+    \includegraphics[width=0.48\textwidth]{fig/theory/wratio_unc.pdf}\\
+    \includegraphics[width=0.48\textwidth]{fig/theory/bosonpt_ratio_uncertainty.pdf}
+    \caption{Theoretical uncertainties due to QCD and EW higher-order corrections and the PDF variation is shown for individual processes and for the ratio.}
+    \label{fig:theory_unc}        
+  \end{center}                               
+\end{figure}                                 
 
-In addition, the lepton veto uncertainties are also included 
-in the transfer factors and are estimated through propagating the
+\subsubsection{Experimental uncertainties}
+{\color{red} Check numbers for 2017/18}
+Experimental uncertainties including the reconstruction efficiency 
+(1\% per muon or electron), and selection efficiencies of leptons 
+(1\% per muon and 2\% per electron), and hadronically 
+decaying $\tau$ leptons (5\%) are incorporated to the analysis. 
+These reconstruction and selection efficiencies further translate into an 
+uncertainty in the lepton veto efficiency of 3\%. The lepton veto uncertainties in the transfer 
+factors and are estimated through propagating the
 overall uncertainty on the tagging scale factor (loose-muon ID, 
 veto-electron ID and loose MVA-tau ID) into the vetoed selection 
-based on the flavour composition of the \Wjets~process. 
-The resulting uncertainties are shown in Fig.~\ref{fig:wjet_unc}(b). These uncertainties 
-are only applicable to the leptons in the signal region that are in 
-acceptance and not rejected by the lepton veto. 
-The fraction of each flavor of the leptons both in and out 
-of acceptance are shown in Fig.~\ref{fig:wjet_unc_accp}. 
-The overall magnitude of the lepton-veto uncertainty is found to be around 1~(2)\% and is found to 
-be dominated by the $\tau$-veto uncertainty. 
+based on both the flavour composition of the \Wjets~process the acceptance of the lepton. 
+The overall magnitude of the lepton-veto uncertainty is found to be around 3~(4)\% 
+and is found to be dominated by the $\tau$-veto uncertainty. 
+
+
+The uncertainty in the modeling of \MET in simulation~\cite{Khachatryan:2014gga} 
+is estimated to be 1-2\% on the ratios and is dominated by the uncertainty on the jet energy scale. The
+jet energy scale uncertainties found to be not-cancelling in the ratio due to the differences in the 
+jet kinematics between control and signal regions. The resulting jet energy scale uncertainties in the 
+ratios can be seen in Figure~\ref{fig:unc_jec}
 
 \begin{figure}[!htb]
 \begin{center}
-\includegraphics[width=0.49\textwidth]{fig/placeholder.png}
-\includegraphics[width=0.49\textwidth]{fig/placeholder.png}
-\caption{PDF uncertainty and veto uncertainty}
-\label{fig:wjet_unc}
+  \includegraphics[width=0.45\textwidth]{fig/unc/jec_ratio_WJets_signal_signal_1.pdf}
+  \includegraphics[width=0.45\textwidth]{fig/unc/jec_ratio_ZtoNuNu_signal_dimuon_1.pdf}
+  \includegraphics[width=0.45\textwidth]{fig/unc/jec_ratio_WJets_signal_singlemuon_1.pdf}
+\caption{{\color{red} Redo for for 2017/18} The resulting jet energy scale uncertainties in the ratios of $W_{SR}/Z_{\nu\nu}$, $Z_{\nu\nu}/Z_{\mu\mu}$ and $W_{SR}/W_{\mu\nu}$, respectively.}
+\label{fig:unc_jec}
 \end{center}\end{figure}
 
-\begin{figure}[!htb]
-\begin{center}
-\includegraphics[width=0.49\textwidth]{fig/placeholder.png}
-\includegraphics[width=0.49\textwidth]{fig/placeholder.png}
-\caption{The hadronic $\tau$ lepton contribution is shown with dotted (solid) blue lines for in
-(out) of acceptance leptons, where as electron contribution is shown with green, and muon
-with orange lines for the Wjets background in the signal region after the lepton vetos.}
-\label{fig:wjet_unc_accp}
-\end{center}\end{figure}
+Lastly, uncertainties in the efficiency of the electron (2\%), and \ptmiss (2\%) triggers, are included and are fully correlated 
+across all the bins of dijet mass distribution. 
 
-The uncertainty in the efficiency of the $\PV$
-tagging requirements is estimated to be 9\% in the mono-$\PV$ category.
-The uncertainty in the modeling of \ptmiss in simulation~\cite{Khachatryan:2014gga}
-is estimated to be 4\% and is dominated by the uncertainty in the jet energy scale.
-
-The full list of uncertainties on the 
-transfer factors are summarized in Table~\ref{tab:systematics}. It should be 
-noted that uncertainties that are common both in the denominator and the numerator of these transfer
-factors, such as jet energy scale, jet energy resolution, luminosity do not contribute to 
-the total uncertainty as they cancel out in the ratio.
-
-\begin{table}[!htb]
-    \caption{Experimental uncertainties affecting transfer factors used in the analysis to estimate \Wlv background in the signal region.}
+\begin{table}[htbp]
     \begin{center}
        \begin{tabular}{llc}
        \hline
        \hline
-       Source                    & Process                                                   & Uncertainty  \\
+       Source                    & Process                                    & Uncertainty  \\
        \hline
        \hline
-       Electron  trigger         & $W_{\mathrm{SR}}/W_{e\nu}$                                & 1\%  \\
-       \MET  trigger             & $W_{\mathrm{SR}}/W_{e(\mu)\nu}$                           & 2\% (shape) \\
-       Muon-reco efficiency      & $W_{\mathrm{SR}}/W_{\mu\nu}$                              & 1\% \\
-       Muon-ID   efficiency      & $W_{\mathrm{SR}}/W_{\mu\nu}$                              & 1\% \\
-       Electron-reco efficiency  & $W_{\mathrm{SR}}/W_{e\nu}$                                & 1\%\\
-       Electron-ID   efficiency  & $W_{\mathrm{SR}}/W_{e\nu}$                                & 1.5\%\\
-       Muon veto                 & $W_{\mathrm{SR}}/W_{e(\mu)\nu}$                           & $<1$\% (shape) \\
-       Electron veto             & $W_{\mathrm{SR}}/W_{e(\mu)\nu}$                           & $<1$\% (shape) \\
-       Tau veto                  & $W_{\mathrm{SR}}/W_{e(\mu)\nu}$                           & 2\% (shape) \\
-       PDF                       & $W_{\mathrm{SR}}/W_{e(\mu)\nu}$                           & 2\% (shape) \\
+       Electron  trigger         & $W_{SR}/W_{e\nu}$, $Z_{\nu\nu}/Z_{ee}$       & 1\% \\
+       \MET  trigger             & $W_{SR}/W_{CR}$, $Z_{\nu\nu}/Z_{CR}$, $Z/W$, & 2\% \\
        \hline
+       Muon-reco efficiency      & $W_{SR}/W_{\mu\nu}$, $Z_{\nu\nu}/Z_{\mu\mu}$ & 1\% (per leg) \\
+       Muon-ID   efficiency      & $W_{SR}/W_{\mu\nu}$, $Z_{\nu\nu}/Z_{\mu\mu}$ & 1\% (per leg) \\
+       Muon-Iso   efficiency     & $W_{SR}/W_{\mu\nu}$, $Z_{\nu\nu}/Z_{\mu\mu}$ & 0.5\% (per leg) \\
+       Electron-reco efficiency  & $W_{SR}/W_{e\nu}$, $Z_{\nu\nu}/Z_{ee}$       & 1\% (per leg) \\
+       Electron-IDiso efficiency & $W_{SR}/W_{e\nu}$, $Z_{\nu\nu}/Z_{ee}$       & 1.5\% (per leg) \\
+      \hline
+      Lepton veto &  $W_{l,SR}$  & 3\% (QCD), 5.0\% (EW) \\
+      \hline
+       Jet energy scale         & $W_{CR}/W_{SR}$               & 2\% \\
+       Jet energy scale       	& $Z_{CR}/Z_{SR}$				& 1\% \\
        \hline
-       \end{tabular}
+      \end{tabular}
     \end{center}
+    \caption{{\color{red} Check numbers for 2017/18} Summary of experimental uncertainties affecting used in the analysis.}
     \label{tab:systematics}
 \end{table}
 
-\subsubsection{Uncertainties assigned to the MC based processes}
-
-Uncertainties assigned to the simulation based processes include
-the uncertainty in the efficiency of the b-jet 
-veto and is estimated to be 3(1)\% for the top quark (diboson) background. 
-A systematic uncertainty of 10\% is included for the top quark background 
-normalization  due to the modeling of the top quark \pt distribution in simulation. 
-Systematic uncertainties of 10\% and 20\% are included in the normalizations of the 
+The remaining uncertainties are for the monte carlo based backgrounds.
+A systematic uncertainty of 10\% for the top quark background 
+due to the modeling of the top quark \pt distribution in simulation.
+The uncertainty in the efficiency of the b jet veto is estimated to be 3\% (1)\% for the top quark (diboson) background. 
+In addition, systematic uncertainties of 10 and 20\% are included in the normalizations of the 
 top quark~\cite{Khachatryan:2015uqb} and diboson backgrounds~\cite{Khachatryan:2016txa,Khachatryan:2016tgp}, 
 respectively, to account for the uncertainties in their cross sections in the relevant 
 kinematic phase space. Lastly, the uncertainty in the QCD multijet background estimate
 is found to be between 50--150\% due to the variations of the jet response and the
-statistical uncertainty of the extrapolation factors.
-All the above mentioned uncertainites are summarized~\ref{tab:systematics_backgrounds}.
-
-
-\begin{table}[!htb]
-    \caption{Uncertainties assigned to the simulation based processes.}
-    \begin{center}
-       \begin{tabular}{llc}
-       \hline
-       \hline
-       Source                    & Process                                             & Uncertainty\\
-       \hline
-       \hline
-       Luminosity                & All processes                                       & 2.3\% \\
-       Electron  trigger         & All processes in single-electron CR                 & 1\% \\
-       \ETmiss  trigger          & All processes in signal region and single-muon CR   & 2\% \\
-       Jet/\ETmiss energy scale  & All processes                                       & 4\% \\
-       Pileup                    & All processes                                       & 2\% (shape) \\
-       Muon-reco efficiency      & All processes in single-muon CR                     & 1\% \\
-       Muon-ID   efficiency      & All processes in single-electron CR                 & 1\% \\
-       Electron-reco efficiency  & All processes in single-electron CR                 & 1\% \\
-       Electron-ID   efficiency  & All processes in single-electron CR                 & 1.5\% \\
-       b-jet veto                & Top in SR and all CRs                               & 3\%     \\
-                                 & All remaining in SR and all CRs                     & 1\% \\
-       Top \pt reweight          & Top                  & 10\% \\
-       Top norm                  & Top                  & 10\% \\
-       VV norm                   & VV                   & 15\% \\
-       \Zlljets~norm             & \Zlljets~(SR)        & 20\% \\
-       \texttt{QCD}              & \texttt{QCD} in SR            & 50-100\% (shape) \\
-       Fake muons                & \texttt{QCD} in $W_{\mu\nu}$  & 50\% \\
-       Fake electrons            & \texttt{QCD} in $W_{e\nu}$    & 50\% \\
-       \hline
-       \hline
-       \end{tabular}
-    \end{center}
-    \label{tab:systematics_backgrounds}
-\end{table}
-
-\newpage
+statistical uncertainty of the extrapolation factors. 
 
 \subsection{Control sample validation}
 
 An important cross-check of the application of \pt-dependent NLO QCD and EW corrections
-is represented by the agreement between data and simulation in the ratio of
-\Zjets events to both \phojets events
-and \Wjets events in the control samples, as a function of hadronic recoil~\pt.
+is represented by the agreement between data and simulation in the ratio of 
+\Zjets~events and \Wjets~events in the control samples as a function of $m_{jj}$. 
 
-Figure~\ref{fig:Ratio} shows the ratio
-between \Zlljets~and \phojets~(left), \Zlljets~and \Wlvjets~(middle),
-and the one between \Wlvjets/\phojets processes (right) as a function of the recoil for events selected in the monojet category.
-While we do not explicitly use a \Wlvjets/\phojets~constraint in the analysis, the two cross sections
-are connected through the \Zjets/\phojets~and \Zjets/\Wjets~constraints. Therefore, it is instructive to examine
-the data-MC comparison of the \Wlvjets/\phojets~ratio.
-Good agreement is observed between data and simulation after the application of the NLO corrections as shown in Fig.~\ref{fig:Ratio_2017} and 
-Fig.~\ref{fig:Ratio_2018} for 2017 and 2018 data respectively.
+Figure~\ref{fig:Ratio} shows the ratio between \Zmmjets~and \Wmnjets~(left), 
+and the one between \Zeejets and \Wenjets~processes (right) as a function of the dijet mass distribution for 
+events selected both in multi-bin analysis (top) and single-bin analysis (bottom).
+Good agreement is observed between data and simulation after the application of the NLO corrections. 
 
-\begin{figure*}[htbp]
-\centering
-\includegraphics[width=0.49\textwidth]{placeholder.png}
-\includegraphics[width=0.49\textwidth]{placeholder.png}
-\\
-\includegraphics[width=0.49\textwidth]{placeholder.png}
-\caption{Comparison between 2017 data and MC simulation for the  $\PZ(\ell\ell)$/\phojets,
-$\PZ(\ell\ell)$/$\PW(\ell\nu)$, and $\PW(\ell\nu)$/\phojets ratios as a function
-of the hadronic recoil in the monojet category.
-In the lower panels, ratios of data with the pre-fit background prediction are shown.
-The gray bands include both the pre-fit systematic uncertainties and the statistical uncertainty in the simulation.}
-\label{fig:Ratio_2017}
-\end{figure*}
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.45\textwidth]{placeholder.png}
+  \includegraphics[width=0.45\textwidth]{placeholder.png}
+  \includegraphics[width=0.45\textwidth]{placeholder.png}
+  \caption{Comparison between data and MC simulation for, 
+     \Zmmjets~and \Wmnjets~(top left), \Zeejets and \Wenjets~processes (top right) ratio  as a function of $m_{jj}$. The combined ratio is shown on bottom.
+     The gray bands include both the pre-fit systematic uncertainties and the statistical 
+     uncertainty in the simulation. }
+  \label{fig:Ratio}
+\end{figure}
 
-\begin{figure*}[htbp]
-\centering
-\includegraphics[width=0.49\textwidth]{placeholder.png}
-\includegraphics[width=0.49\textwidth]{placeholder.png}
-\\
-\includegraphics[width=0.49\textwidth]{placeholder.png}
-\caption{Comparison between 2018 data and MC simulation for the  $\PZ(\ell\ell)$/\phojets,
-$\PZ(\ell\ell)$/$\PW(\ell\nu)$, and $\PW(\ell\nu)$/\phojets ratios as a function
-of the hadronic recoil in the monojet category.
-In the lower panels, ratios of data with the pre-fit background prediction are shown.
-The gray bands include both the pre-fit systematic uncertainties and the statistical uncertainty in the simulation.}
-\label{fig:Ratio_2018}
-\end{figure*}
 
-Figures~\ref{fig:gamCR}--\ref{fig:wmnCR} show the results of the combined fit in all control samples and the signal region.
-Data in the control samples are compared to the pre-fit predictions from simulation and
-the post-fit estimates obtained after performing the fit.
-The control samples with larger yields dominate the fit results.
-A normalization difference of 7\% is observed in the pre-fit distributions for the mono-V category in the single-lepton and dilepton control regions. The sources of the differences are identified to be the modeling of the pruned mass variable and the large theoretical uncertainties in the diboson and top quark backgrounds, which are the leading backgrounds in these regions. The normalization difference is found to be fully mitigated by the fitting procedure.
-
-\begin{figure*}[hbtp]\begin{center}
-\includegraphics[width=0.49\textwidth]{placeholder.png}
-\includegraphics[width=0.49\textwidth]{placeholder.png}
-\caption{
-Comparison between data and MC simulation in the \phojets control sample
-before and after performing the simultaneous fit across all the control samples and the signal region
-assuming the absence of any signal. The left plot shows the monojet category and the right plot shows the
-mono-$\PV$ category. The hadronic recoil \pt in \phojets events is used as a proxy for \ptmiss in the signal region.
-The last bin includes all events with hadronic recoil \pt larger than 1250 (750)\GeV in the monojet (mono-$\PV$) category.
-In the lower panels, ratios of data with the pre-fit background
-prediction (red open points) and post-fit background
-prediction (blue full points) are shown for both the monojet and mono-$\PV$ categories.
-The gray band in the lower panel indicates the post-fit uncertainty
-after combining all the systematic uncertainties. Finally, the distribution of the pulls, defined as the
-difference between data and the post-fit background prediction relative to the quadrature sum of the
-post-fit uncertainty in the prediction and statistical uncertainty in data, is shown in the lowest panel.
-}
-\label{fig:gamCR}\end{center}\end{figure*}
-
-\begin{figure*}[hbtp]\begin{center}
-\includegraphics[width=0.49\textwidth]{placeholder.png}
-\includegraphics[width=0.49\textwidth]{placeholder.png}
-\\
-\includegraphics[width=0.49\textwidth]{placeholder.png}
-\includegraphics[width=0.49\textwidth]{placeholder.png}
-\caption{
-Comparison between data and MC simulation in the  dimuon (upper row) and dielectron  (lower row)
-control samples before and after
-performing the simultaneous fit across all the control samples and the signal region
-assuming the absence of any signal. Plots correspond to the monojet (left) and mono-$\PV$ (right)
-categories, respectively, in the dilepton control sample.
-The hadronic recoil \pt in dilepton events is used as a proxy for \ptmiss in the signal region.
-The other backgrounds include top quark, diboson, and \Wjets processes.
-The description of the lower panels is the same as in Fig.~\ref{fig:gamCR}.
-}
-\label{fig:zmmCR}\end{center}\end{figure*}
-
-\begin{figure*}[hbtp]\begin{center}
-\includegraphics[width=0.49\textwidth]{placeholder.png}
-\includegraphics[width=0.49\textwidth]{placeholder.png}
-\\
-\includegraphics[width=0.49\textwidth]{placeholder.png}
-\includegraphics[width=0.49\textwidth]{placeholder.png}
-\caption{
-Comparison between data and MC simulation in the single-muon (upper row) and single-electron (lower row)
-control samples before and
-after performing the simultaneous fit across all the control samples and the signal region
-assuming the absence of any signal. Plots correspond to the monojet (left) and mono-$\PV$ (right) categories,
-respectively, in the single-lepton control samples.
-The hadronic recoil \pt in single-lepton events is used as a proxy for \ptmiss in the signal region.
-The other backgrounds include top quark, diboson, and QCD multijet processes.
-The description of the lower panels is the same as in Fig.~\ref{fig:gamCR}.
-}
-\label{fig:wmnCR}\end{center}\end{figure*}
+\subsection{QCD multijet estimation}
+{\color{red} Update for 2017/18}

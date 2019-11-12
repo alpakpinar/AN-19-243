@@ -38,11 +38,11 @@ Events for the signal region are collected using a set of dedicated
 triggers designed to select events with large \ptmiss and large \mht based on
 the online particle flow (PF) algorithm. In these dedicated trigger algorithms,
 identified PF muons are removed from the event before the
-\ptmiss~and the \mht~objects are calculated. With this definition, 
+\ptmiss~and the \mht~objects are calculated. With this definition,
 the signal trigger paths can also be used to select single and double muon events for the W and Z control regions, respectively.
 
-Electron events for the W and Z regions are selected using a single electron trigger. 
-To ensure the trigger efficiency also for high-\pt electrons, the single electron trigger is used in combination with 
+Electron events for the W and Z regions are selected using a single electron trigger.
+To ensure the trigger efficiency also for high-\pt electrons, the single electron trigger is used in combination with
 a single photon trigger~\cite{CMS-EGM-TWIKI-HLT}. The same photon trigger is used to select events for the photon control region.
 
 The full list of triggers used, along with the L1 seeds and the associated primary datasets are shown in Table~\ref{tab:triggers}.
@@ -88,38 +88,38 @@ The full list of triggers used, along with the L1 seeds and the associated prima
 
 
 Simulation datasets for the background processes are listed in
-Table~\ref{tab:BackgroundSamples} and~\ref{tab:BackgroundSamples_2}. 
-There are several Standard Model processes that pose as backgrounds to the VBF $H_{inv}$ signal, experimental signature of the 
-final state being two jets with large rapidity seperation and invariant mass, along with \ptmiss.  
+Table~\ref{tab:BackgroundSamples} and~\ref{tab:BackgroundSamples_2}.
+There are several Standard Model processes that pose as backgrounds to the VBF $H_{inv}$ signal, experimental signature of the
+final state being two jets with large rapidity seperation and invariant mass, along with \ptmiss.
 These processes are as follows:
 
 \begin{description}
 \item[\Zvvjets]: This process yields the largest irreducible background in the analysis, consisting of a Z boson and 2 or more
 jets coming from either QCD or EWK vertices. Simulated samples for this background have been produced at leading
-order (LO) in QCD using the aMC@NLO generator in several bins of \Ht.
+order (LO) in QCD using the aMC@NLO generator in several bins of \Ht for the QCD case, and in one inclusive sample for the EWK case.
 
-\item[\Wjets]: This process is the second largest source of background in this analysis, consisting of a W boson and 2 or more 
-jets coming from either QCD or EWK vertices. The contribution of this background can be reduced by rejecting events with 
-charged lepton candidates (electron/muon/tau). 
+\item[\Wjets]: This process is the second largest source of background in this analysis, consisting of a W boson and 2 or more
+jets coming from either QCD or EWK vertices. The contribution of this background can be reduced by rejecting events with
+charged lepton candidates (electron/muon/tau).
 However, this process becomes irreducible in the case where the charged leptons are outside of the detector acceptance.
-Simulation samples for this background have been generated at LO in QCD using the aMC@NLO generator in several bins \Ht.
+Simulation samples for this background have been generated at LO in QCD using the aMC@NLO generator in several bins \Ht for the QCD case, and in once inclusive sample for the EWK case.
 
-\item[\Zlljets]: This process mimics signal-like events in the case where the leptons coming from the Z boson decay are 
-not reconstructed. As in the case of \Wlv, the contribution of this background is reduced by rejecting events with charged leptons. 
-Simulation samples for this process have been generated at LO in QCD using the aMC@NLO generator in bins of \Ht.
+\item[\Zlljets]: This process mimics signal-like events in the case where the leptons coming from the Z boson decay are
+not reconstructed. As in the case of \Wlv, the contribution of this background is reduced by rejecting events with charged leptons.
+Simulation samples for this process have been generated at LO in QCD using the aMC@NLO generator in bins of \Ht for the QCD case, and in once inclusive sample for the EWK case.
 
-\item[Top:] Top-quark decays (both \ttbar and single top) also contribute background events to this analysis. 
-In these processes, the W boson produced in a top-quark decay further decays leptonically, which produces genuine \ptmiss in the event. 
-Next-to-leading order (NLO) \ttbar simulation samples have been produced with the aMC@NLO generator. 
-Single-top events have been generated with the Powheg generator at NLO.
+\item[Top:] Top-quark decays (both \ttbar and single top) also contribute background events to this analysis.
+In these processes, the W boson produced in a top-quark decay further decays leptonically, which produces genuine \ptmiss in the event.
+Next-to-leading order (NLO) \ttbar simulation samples have been produced with the aMC@NLO generator with two additional partons in the matrix element.
+Single-top events have been generated with the Powheg generator at NLO in QCD with one additional matrix element parton.
 
-\item[Dibosons:] Decays of diboson pairs (WW, WZ, ZZ) also constitute background processes. 
-Typically, one of the bosons decays leptonically (\Wlv,\Zvv) while the other boson decays hadronically, thus producing jets and \ptmiss~in the final state. 
+\item[Dibosons:] Decays of diboson pairs (WW, WZ, ZZ) also constitute background processes.
+Typically, one of the bosons decays leptonically (\Wlv,\Zvv) while the other boson decays hadronically, thus producing jets and \ptmiss~in the final state.
 Simulated samples for WW, WZ and ZZ production have been generated at LO with Pythia~8.
 
-\item[QCD Multijet:] QCD multijet events typically do not have large genuine \ptmiss. 
-However, given the large cross section with which these events are produced, even a small fraction of events with 
-jet mismeasurement results in a non-zero contribution of this process as background in the analysis. 
+\item[QCD Multijet:] QCD multijet events typically do not have large genuine \ptmiss.
+However, given the large cross section with which these events are produced, even a small fraction of events with
+jet mismeasurement results in a non-zero contribution of this process as background in the analysis.
 Simulated QCD samples have been generated at LO in QCD using the MadGraph generator in several bins of \Ht.
 
 \end{description}
@@ -168,7 +168,7 @@ GJets\_HT-600ToInf\_TuneCP5\_13TeV-madgraphMLM-pythia8                          
 \hline
 \hline
 \end{tabular}
-\caption{Simulated datasets for the modelling of single electroweak boson backgrounds. 
+\caption{Simulated datasets for the modelling of single electroweak boson backgrounds.
 All datasets are accessed at the NanoAOD data tier from the \texttt{v5} campaign, also known as \texttt{1Jun19}.}
 \label{tab:BackgroundSamples}
 \end{table}
@@ -176,50 +176,56 @@ All datasets are accessed at the NanoAOD data tier from the \texttt{v5} campaign
 
 
 \begin{table}[ht!]
-\centering
-\scriptsize
-    \def\arraystretch{1.3}
-\begin{tabular}{l|r|c}
-\hline
-\hline
-Dataset name                                                                  &  Cross section (pb)          & Order in QCD \\
-\hline
-\hline
+    \centering
+    \scriptsize
+        \def\arraystretch{1.3}
+    \begin{tabular}{l|r|c}
+    \hline
+    \hline
+    Data set name                                                                  &  Cross section (pb)          & Order in QCD \\
+    \hline
+    \hline
 
-\hline
-TTJets\_TuneCP5\_13TeV-amcatnloFXFX-pythia8                                      &    831.76      & NLO \\
-\hline
-ST\_t-channel\_top\_4f\_inclusiveDecays\_TuneCP5\_13TeV-powhegV2-madspin-pythia8     &    137.458     & NLO \\
+    EWKWMinus2Jets\_WToLNu\_M-50\_TuneCP5\_13TeV-madgraph-pythia8                      &     20.35      & LO  \\
+    EWKWPlus2Jets\_WToLNu\_M-50\_TuneCP5\_13TeV-madgraph-pythia8                       &     25.81      & LO  \\
+    EWKZ2Jets\_ZToLL\_M-50\_TuneCP5\_13TeV-madgraph-pythia8                            &      4.321     & LO  \\
+    EWKZ2Jets\_ZToNuNu\_TuneCP5\_13TeV-madgraph-pythia8                               &     10.04      & LO  \\
+    AJJ\_EWK\_TuneCP5\_13TeV\_amcatnlo-pythia8                                         &      6.096     & NLO \\
+    GJets\_Mjj-500\_SM\_5f\_TuneCP5\_EWK\_13TeV-madgraph-pythia8                         &      4.937     & LO  \\
+    GJets\_SM\_5f\_TuneCP5\_EWK\_13TeV-madgraph-pythia8                                 &     32.91      & LO  \\
 
-ST\_t-channel\_antitop\_4f\_inclusiveDecays\_TuneCP5\_13TeV-powhegV2-madspin-pythia8 &     83.0066    & NLO \\
-ST\_tW\_top\_5f\_inclusiveDecays\_TuneCP5\_*\_13TeV-powheg-pythia8                      &     35.85      & NLO \\
-ST\_tW\_antitop\_5f\_inclusiveDecays\_TuneCP5\_*\_13TeV-powheg-pythia8        &     35.85      & NLO \\
-\hline
-WW\_TuneCP5\_13TeV-pythia8                                                       &     75.91      & LO  \\
-WZ\_TuneCP5\_13TeV-pythia8                                                       &     27.56      & LO  \\
-ZZ\_TuneCP5\_13TeV-pythia8                                                       &     12.14      & LO  \\
-\hline
-QCD\_HT1000to1500\_TuneCP5\_13TeV-madgraph-pythia8                                &   1095         & LO  \\
-QCD\_HT1000to1500\_TuneCP5\_13TeV-madgraph-pythia8                                &   1095         & LO  \\
-QCD\_HT100to200\_TuneCP5\_13TeV-madgraph-pythia8                                  &      2.369e+07 & LO  \\
-QCD\_HT1500to2000\_TuneCP5\_13TeV-madgraph-pythia8                                &     99.27      & LO  \\
-QCD\_HT2000toInf\_TuneCP5\_13TeV-madgraph-pythia8                                 &     20.25      & LO  \\
-QCD\_HT200to300\_TuneCP5\_13TeV-madgraph-pythia8                                  &      1.554e+06 & LO  \\
-QCD\_HT300to500\_TuneCP5\_13TeV-madgraph-pythia8                                  & 324300         & LO  \\
-QCD\_HT300to500\_TuneCP5\_13TeV-madgraph-pythia8                                  & 324300         & LO  \\
-QCD\_HT500to700\_TuneCP5\_13TeV-madgraph-pythia8                                  &  29990         & LO  \\
-QCD\_HT50to100\_TuneCP5\_13TeV-madgraphMLM-pythia8                                &      1.85e+08  & LO  \\
-QCD\_HT700to1000\_TuneCP5\_13TeV-madgraph-pythia8                                 &   6374         & LO  \\
-QCD\_HT700to1000\_TuneCP5\_13TeV-madgraph-pythia8                                 &   6374         & LO  \\
+    \hline
+    TTJets\_TuneCP5\_13TeV-amcatnloFXFX-pythia8                                      &    831.76      & NLO \\
+    \hline
+    ST\_t-channel\_top\_4f\_inclusiveDecays\_TuneCP5\_13TeV-powhegV2-madspin-pythia8     &    137.458     & NLO \\
 
-\hline
-\hline
-\end{tabular}
-\caption{Simulated datasets for the modelling of subleading background processes. 
-All datasets are accessed at the NanoAOD data tier from the \texttt{v5} campaign, also known as \texttt{1Jun19}.}
-\label{tab:BackgroundSamples_2}
+    ST\_t-channel\_antitop\_4f\_inclusiveDecays\_TuneCP5\_13TeV-powhegV2-madspin-pythia8 &     83.0066    & NLO \\
+    ST\_tW\_top\_5f\_inclusiveDecays\_TuneCP5\_*\_13TeV-powheg-pythia8                      &     35.85      & NLO \\
+    ST\_tW\_antitop\_5f\_inclusiveDecays\_TuneCP5\_*\_13TeV-powheg-pythia8        &     35.85      & NLO \\
+    \hline
+    WW\_TuneCP5\_13TeV-pythia8                                                       &     75.91      & LO  \\
+    WZ\_TuneCP5\_13TeV-pythia8                                                       &     27.56      & LO  \\
+    ZZ\_TuneCP5\_13TeV-pythia8                                                       &     12.14      & LO  \\
+    \hline
+    QCD\_HT1000to1500\_TuneCP5\_13TeV-madgraph-pythia8                                &   1095         & LO  \\
+    QCD\_HT1000to1500\_TuneCP5\_13TeV-madgraph-pythia8                                &   1095         & LO  \\
+    QCD\_HT100to200\_TuneCP5\_13TeV-madgraph-pythia8                                  &      2.369e+07 & LO  \\
+    QCD\_HT1500to2000\_TuneCP5\_13TeV-madgraph-pythia8                                &     99.27      & LO  \\
+    QCD\_HT2000toInf\_TuneCP5\_13TeV-madgraph-pythia8                                 &     20.25      & LO  \\
+    QCD\_HT200to300\_TuneCP5\_13TeV-madgraph-pythia8                                  &      1.554e+06 & LO  \\
+    QCD\_HT300to500\_TuneCP5\_13TeV-madgraph-pythia8                                  & 324300         & LO  \\
+    QCD\_HT300to500\_TuneCP5\_13TeV-madgraph-pythia8                                  & 324300         & LO  \\
+    QCD\_HT500to700\_TuneCP5\_13TeV-madgraph-pythia8                                  &  29990         & LO  \\
+    QCD\_HT50to100\_TuneCP5\_13TeV-madgraphMLM-pythia8                                &      1.85e+08  & LO  \\
+    QCD\_HT700to1000\_TuneCP5\_13TeV-madgraph-pythia8                                 &   6374         & LO  \\
+    QCD\_HT700to1000\_TuneCP5\_13TeV-madgraph-pythia8                                 &   6374         & LO  \\
+
+    \hline
+    \hline
+    \end{tabular}
+    \caption{Simulated datasets for the modelling of EWK V production and other processes. All datasets are accessed at the NanoAOD data tier from the \texttt{v5} campaign, also known as \texttt{1Jun19}.}
+    \label{tab:BackgroundSamples_2}
 \end{table}
-
 The MC samples produced using \MGvATNLO, and \POWHEG
 generators are interfaced with \PYTHIA using the CP5 tune~\cite{Sirunyan:2019dfx}
 for the fragmentation, hadronization, and underlying event description.
@@ -236,14 +242,26 @@ is found to be 32 for both the 2017 and 2018 data samples used in this analysis 
 
 \subsection{Signal simulation samples}
 
-{\color{red} In this section we should add description of the models, feynman diagrams, important model parameters}
+Simulated signal samples for invisible decays of the Higgs boson are generated using the Powheg generator at NLO in QCD.
+The samples are normalized to the standard model cross section for Higgs production in the given mode~\cite{deFlorian:2016spz}.
+They are listed in Tab.~\ref{tab:SignalSamples}.
 
-{\color{red} {\bf DMSimp Models}}
+\begin{table}[ht!]
+    \centering
+    \scriptsize
+        \def\arraystretch{1.3}
+    \begin{tabular}{l|r|c}
+    \hline
+    \hline
+    Data set name                                                                  &  Cross section (pb)          & Order in QCD \\
+    \hline
+    \hline
+GluGlu\_HToInvisible\_M125\_TuneCP5\_13TeV\_powheg\_pythia8                          &     48.58      & NLO \\
+VBF\_HToInvisible\_M125\_13TeV\_TuneCP5\_powheg\_pythia8                             &      3.782     & NLO \\
 
-{\color{red} {\bf t-channel Model}}
-
-{\color{red} {\bf ADD Model}}
-
-{\color{red} {\bf Leptoquark Model}}
-
-{\color{red} {\bf Higgs Invisible Model}}
+\hline
+\hline
+\end{tabular}
+\caption{Simulated signal datasets for the modelling of invisible Higgs boson decays. All datasets are accessed at the NanoAOD data tier from the \texttt{v5} campaign, also known as \texttt{1Jun19}.}
+\label{tab:SignalSamples}
+\end{table}

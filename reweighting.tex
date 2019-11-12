@@ -171,11 +171,11 @@ The scale factors for id and isolation for tight muons are shown in Fig.~\ref{fi
     \end{center}
   \end{figure}
 
-
+\clearpage
 \subsection{Higher-order reweighting}\label{sec:nlo}
 This analysis uses the ratios of the recoil distributions in signal and control regions to constrain the final background estimate in a partially data driven way. As signal and control regions both have large statistical power, precise predictions of these ratios are necessary. To achieve this goal, the LO simulation samples for the samples W, DY and photon backgrounds are reweighted using higher-order corrections separately corresponding to NLO QCD, NLO EW and NNLO QCD terms.
 
-\subsection{Generator-level boson construction}
+\subsubsection{Generator-level boson construction}
 All theory-based corrections of the W, DY and photon backgrounds are parametrized as a function of the generator-level \pt of the respective boson \ptv. For each simulated event, this quantity is calculated as follows. For DY and W samples, generator-level dilepton candidates are built from:
 
 \begin{enumerate}
@@ -188,42 +188,79 @@ The dilepton candidates are checked for flavour consistency with the desired bos
 
 For photon events, the generator photon with highest \pt and status 1 is used.
 
-\subsubsection{EW NLO}
-Scale factors corresponding to NLO EW corrections are obtained from Ref.~\cite{DMTheory} and applied as a function of the generator-level boson \pt. The scale factors are shown in Fig.~\ref{fig:theory_sf_ew_nlo}.
+\subsubsection{QCD NLO corrections to QCD V processes}
 
-\subsubsection{QCD NLO}
+Scale factors corresponding to NLO QCD corrections for W and Z production are obtained from central CMS. For the DY and W processes, samples from ``Fall17'' campaign, while ``Summer16'' samples are used for the $\gamma$+jets process. In both cases, all samples are generated using \texttt{MadGraph5\_amc@NLO}. The LO samples are binned in HT and are equivalent to the ones used in in the analysis, and are generated with up to four partons in the matrix element. The NLO samples are generated with up to two additional partons in the matrix element calculation. Further jet multiplicities are handled by the parton shower, which in both cases is performed using \texttt{Pythia8} with tune \texttt{CP5}.
 
-Scale factors corresponding to NLO QCD corrections for W and Z production are obtained from central CMS samples produced in the ``Fall17'' campaign, in which large LO and NLO samples are available. Both samples are generated using \texttt{MadGraph5\_amc@NLO}. The LO samples are identical to the ones used in in the analysis, and are generated with up to four partons in the matrix element. The NLO samples are generated with up to two additional partons in the matrix element calculation. Further jet multiplicities are handled by the parton shower, which in both cases is performed using \texttt{Pythia8} with tune \texttt{CP5}.
-
-The scale factors are derived by obtaining the generator-level boson \pt distribution in both samples, normalizing the distributions to their respective cross sections, and then dividing them as SF = NLO / LO. Identical selection criteria are applied to both samples based on the generator-level boson and generator-level AK4 jets, which are clustered using all visible generator particles with status 1. The requirements are:
+The scale factors are derived by obtaining the distribution of interest at the generator-level in both samples, normalizing the distributions to their respective cross sections, and then dividing them as SF = NLO / LO. Identical selection criteria are applied to both samples based on the generator-level boson and generator-level AK4 jets, which are clustered using all visible generator particles with status 1. The requirements are:
 
 \begin{enumerate}
-\item The leading jet must have $\pt>100~\GeV$ and $|\eta|< 2.4$.
-\item The difference in the azimuthal angle ($\Delta\phi$) between the boson and the four leading jets in the event is required to be larger than 0.5. Only jets with $|\eta|<2.4$ and $\pt>30~\GeV$ are considered.
+\item At least two generator-level jets, with the leading (trailing) \pt of at least 80 GeV (40 GeV) and $|\eta|<4.7$.
+\item The two leading jets must be in opposite hemispheres of the detector, $\eta_{1}\times \eta_{2}<0$.
+\item The difference in the azimuthal angle ($\Delta\phi$) between the boson and the four leading jets in the event is required to be larger than 0.5. Only jets with $\pt>30~\GeV$ are considered.
 \end{enumerate}
 
-Compared to an inclusive derivation of the SF, the inclusion of the selection criteria leads to an approximately constant increase in the SF of about $2\%$.
+Compared to an inclusive derivation of the SF, the inclusion of the selection criteria leads to an increase in the value of the SF of about $10-12\%$.
 
-The resulting SFs are shown in Fig.~\ref{fig:theory_sf_qcd_nlo_w_dy} for DY and W production. To protect the outcome of the reweighting procedure from binning effects, the binned scale factor is interpolated using a falling exponential function:
+
+The scale factors are derived either as a one-dimensional function of the generator-level boson \ptv (``1D'')or two-dimensionally in \ptv and \mjj (``2D'').
+
+The 1D SFs are shown in Fig.~\ref{fig:theory_sf_qcd_nlo}. To protect the outcome of the reweighting procedure from binning effects, the binned scale factor is interpolated using a falling exponential function:
 \begin{equation}
 \mathtext{SF} = a\times \exp(-b\times\pt) + c,
 \end{equation}
 
-where \pt is the boson transverse momentum and a, b and c are determined by a fit to the scale factor histogram. The resulting values of the fit parameters, as well as the resulting interpolated shape are also shown in Fig.~\ref{fig:theory_sf_qcd_nlo_w_dy}. A comparison of the agreement of data and simulation between the reweighted LO samples and the NLO samples is shown in Appendix~\ref{sec:lo_vs_nlo}, where good agreement between the two methods is observed. 
+where \pt is the boson transverse momentum and a, b and c are determined by a fit to the scale factor histogram. The resulting values of the fit parameters, as well as the resulting interpolated shape are also shown in Fig.~\ref{fig:theory_sf_qcd_nlo}.
+
+The 2D versions of the SFs are only derived for the W and DY processes, for which the available simulation samples are bigger and thus allow for finer binning. The scale factors are shown in Fig.~\ref{fig:theory_sf_qcd_nlo_2d}.
+
 
 \begin{figure}[ht!]
     \begin{center}
-        \includegraphics[width=0.49\textwidth]{fig/theory/qcdnlo/interpolation_monojet_dy.pdf}
-        \includegraphics[width=0.49\textwidth]{fig/theory/qcdnlo/interpolation_monojet_wjet.pdf}
+        \includegraphics[width=0.49\textwidth]{fig/theory/interpolation_vbf_dy.pdf}
+        \includegraphics[width=0.49\textwidth]{fig/theory/interpolation_vbf_wjet.pdf} \\
+        \includegraphics[width=0.49\textwidth]{fig/theory/interpolation_vbf_gjets.pdf}
         \caption{
-            QCD NLO scale factors for the DY (left) and W processes (right) after applying a monojet-like selection on generator level.
-            In the top panel, the blue markers show the NLO SF derived from the simulated samples. The orange line shows a fit function used
+            QCD NLO scale factors for the DY (top left), W (top right) and $\gamma$+jets processes.
+            The k factors are derived within the generator-level VBF selection described in the text.
+            In the top panel of each plot, the blue markers show the NLO SF derived from the simulated samples. The orange line shows a fit function used
             to interpolate the SF. The functional form and resulting parameters are given in the figure. In the bottom panel, the blue markers
             show the ratio of the histogram to the fit result in each bin.
           }
-      \label{fig:theory_sf_qcd_nlo_w_dy}
+      \label{fig:theory_sf_qcd_nlo}
     \end{center}
   \end{figure}
+
+\begin{figure}[ht!]
+    \begin{center}
+        \includegraphics[width=0.49\textwidth]{fig/theory/2d_dy_gen_vpt_vbf_dress.pdf}
+        \includegraphics[width=0.49\textwidth]{fig/theory/2d_wjet_gen_vpt_vbf_dress.pdf} \\
+        \caption{
+            Same as Fig.~\ref{fig:theory_sf_qcd_nlo}, but now binned in two dimensions of the generator-level boson \pt and \mjj.
+            The k factors are derived within the generator-level VBF selection described in the text.
+            The uncertainties quoted in each bin are the statistical uncertainties due to the finite size of simulated samples.
+          }
+      \label{fig:theory_sf_qcd_nlo_2d}
+    \end{center}
+  \end{figure}
+
+\subsubsection{QCD NNLO corrections to QCD V processes}
+
+NNLO corrections are obtained from the fixed-order calculations results in~\ref{DMTheory}. They are parametrized as a function of the generator-level boson \pt. The correction is shown in Fig.~\ref{fig:theory_sf_qcd_nnlo}.
+
+\begin{figure}[ht!]
+    \begin{center}
+        \includegraphics[width=0.49\textwidth]{fig/theory/nnlo_qcd.pdf}
+        \caption{
+            QCD NNLO scale factors for DY, W and photon production as a function of \ptv.
+          }
+      \label{fig:theory_sf_qcd_nnlo}
+    \end{center}
+  \end{figure}
+
+\subsubsection{EW NLO corrections to QCD V processes}
+Scale factors corresponding to NLO EW corrections are obtained from Ref.~\cite{DMTheory} and applied as a function of the generator-level boson \pt. The scale factors are shown in Fig.~\ref{fig:theory_sf_ew_nlo}.
+
 \begin{figure}[ht!]
     \begin{center}
         \includegraphics[width=0.49\textwidth]{fig/theory/ewnlo/nlo_ewk.pdf}
@@ -234,50 +271,16 @@ where \pt is the boson transverse momentum and a, b and c are determined by a fi
     \end{center}
   \end{figure}
 
-\subsubsection{QCD NNLO}
+\subsubsection{QCD NLO corrections to EWK V processes}
+The QCD NLO corrections to EWK W and Z production have been calculated in Ref.~\cite{AN-2017-267} using the VBF@NLO program. They are parametrized in \ptv and \mjj and are shown in Fig.~\ref{fig:theory_sf_ew_nlo}.
 
-
-
-\iffalse
-The \Zjets~and \Wjets~processes are produced at leading-order (LO) in
-exlusive $H_{T}$ bins. However, the predictions for these processes
-at next-to-leading-order (NLO) in QCD and electroweak (EW) show
-significant improvements to the boson \pt spectra. In this analysis,
-event-by-event reweighting schema is adopted to correct the LO
-monte carlo simulation, through matching the generator level
-distribution of the boson \pt to the corresponding NLO prediction.
-
-LO simulations for the \Zjets, and \Wjets~processes are corrected
-using boson \pt-dependent higher order QCD correction factors. These factors
-are derived using MC simulation generated with \textsc{MadGraph5\_}a\textsc{MC@NLO}
-and 0, 1, or 2 additional partons at NLO in QCD. The matching is performed
-through \PYTHIA8.2 parton shower using the FxFx algorithm~\cite{Frederix:2012ps}.
-The post shower boson \pt distributions in such samples are then compared to the
-ones obtained from the samples simulated at LO in QCD, after requiring at least
-one jet with generated level $\pt > 100$~\GeV and $|\eta| < 2.5$. To be in closer
-agreement with the analysis phase space, an additional requirement on the
-minimum $\Delta\Phi(\rm{jets,boson}) > 0.5$ of the first 4 jets is applied. The
-ratio of the two distributions are then used to correct the LO in QCD processes.
-In addition, \pt-dependent higher-order EW corrections extracted from theoretical
-calculations~\cite{Denner:2009gj,Denner:2011vu,Denner:2012ts,Kuhn:2005gv,Kallweit:2014xda,Kallweit:2015dum}.
-
-Fig.~\ref{fig:nlo_corrections} shows the comparisons of the boson $\pt$ distributions
-of the  \Zjets~and \Wjets~processes simulated at LO, NLO in QCD, and NLO in QCD+EW.
-The ratio pad, reflects the correction used in the analysis as a function of the boson \pt.
 
 \begin{figure}[ht!]
-  \begin{center}
-    \includegraphics[width=0.49\textwidth]{fig/z_kfactor.pdf}
-    \includegraphics[width=0.49\textwidth]{fig/w_kfactor.pdf}
-    \caption{
-      Comparision of the  boson $\pt$ distributions of the \Zjets~(left) and \Wjets~(right) processes
-      at LO, NLO in QCD and NLO in QCD+EW.
-    }
-    \label{fig:nlo_corrections}
-  \end{center}
-\end{figure}
-
-In the analysis both reweighted LO V+jets samples and the direct NLO V+jets (in QCD) samples are used and
-compared to each other. In the main part of the text, the results are presented using the amc@NLO samples
-for the V+jets processes.
-\fi
+    \begin{center}
+        \includegraphics[width=0.49\textwidth]{fig/theory/ewnlo/nlo_ewk.pdf}
+        \caption{
+            EW NLO scale factors for DY, W and photon production as a function of \ptv.
+          }
+      \label{fig:theory_sf_ew_nlo}
+    \end{center}
+  \end{figure}
