@@ -36,6 +36,8 @@ The effect of this requirement is demonstrated in the sub-leading jet $\eta$ dis
   \label{fig:pileupid}
 \end{figure}
 
+{\color{red} Need to add information about JER correction usage}
+
 Lastly, to suppress the contributions due to non-collision backgrounds, the following
 requirements are applied on the leading AK4 jet:
 \begin{itemize}
@@ -56,17 +58,13 @@ requirements in the signal region.}
 
 \subsubsection{b-tagged jets}
 
-{\color{red} Update the b-tagging working point when the new tagging working points are defined}
+%{\color{red} Update the b-tagging working point when the new tagging working points are defined}
 In this analysis b jets with $\pt > 20$~\GeV and $|\eta| < 2.4$ are identified
 using the ``DeepCSV'' algorithm~\cite{Sirunyan:2017ezt},
 adopting a working point (medium) corresponding to correctly identifying a b-jet with a
 probability of 80\%, and misidentifying a light-flavor jet with a probability of 10\%.
 This working point corresponds to the value of DeepCSV tagger to be greater than 0.4941.
 Events with identified b jets are rejected to reduce the contamination from top quark processes.
-
-\subsubsection{V-tagged jets}
-
-{\color{red} Update the V-tagging working point when the new tagging working points are defined}
 
 \subsection{Missing transverse momentum and recoil}
 
@@ -75,7 +73,8 @@ momentum of all particles that interact with the detectors.
 Due to momentum conservation in the plane transverse to the beam axis, \ptvecmiss
 corresponds to the transverse momentum that is carried by undetected particles such as neutrinos.
 Practically, \ptvecmiss is computed as the negative of the vectorial sum of transverse
-momenta of all PF candidates and is therefore also referred to as PF \ptvecmiss. The magnitude of the \ptvecmiss is referred to as \ptmiss.
+momenta of all PF candidates and is therefore also referred to as PF \ptvecmiss. 
+The magnitude of the \ptvecmiss is referred to as \ptmiss.
 
 Minimum energy thresholds in the calorimeters, inefficiencies
 in the tracker, nonlinearity of the response of the calorimeter
@@ -153,7 +152,7 @@ A number of filters has been developed by the POG/DPG groups to identify and sup
     \label{tab:metfilters}
 \end{table}
 
-
+{\color{red} Currently not applying this cut}
 To further miminize the contribution of anomalous high-\ptmiss events
 (specifically due to spurious charged hadrons) in this analysis, a
 quantity based on the relative ratio of calorimetry based \ptmiss and
