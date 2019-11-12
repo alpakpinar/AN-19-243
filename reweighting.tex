@@ -19,7 +19,7 @@ events are selected from the SingleMuon using the \texttt{HLT\_IsoMu27} (\texttt
 The efficiency is calculated as a function of the hadronic recoil \pt and is shown in Fig.~\ref{fig:hlteff_met}.
 The trigger is found to be more than $95\%$ efficient for events with a recoil larger than $250~\GeV$, and more than $99\%$ efficient for events with a recoil larger than $375~\GeV$. The MC-to-data scale factor is found to be within $1\%$ of unity everywhere except for the lowest recoil bin at $250~\GeV$, where it is within $2\%$.
 
-To investigate the stability of the measurement in single muon events, the same method is used to extract the efficiency from samples of double muon and single electron events. Again, an identical selection to the analysis control regions is used (cf. sec. ~\ref{sec:selection_cr_2m} and~\ref{sec:selection_cr_1e}), with the exception of requiring the leading muon \pt to be larger than 40~\GeV and omitting the \ptmiss cut in the electron region. The \HT-binned \texttt{WJets} and \texttt{DYJets} simulation samples are used. The resulting data-to-MC efficiency scale factors for all regions are shown in Fig.~\ref{fig:hltsf_met}. For 2017, a clear trend is present: The scale factor in dimuon events is larger in absolute terms then the one from the single muon region, and the scale factor from single electron events is the smallest. The difference between all regions is within $1\%$ relative to the single muon region. For 2018, no clear trend is observed above a recoil of $250~\GeV$: The scale factors from all three regions agree within the available statistical precision. Finally, the scale factors obtained form the single muon region are used to reweight the simulation. The difference to the other regions is taken into account by assigning an overall $1\%$ uncertainty.
+To investigate the stability of the measurement in single muon events, the same method is used to extract the efficiency from samples of double muon and single electron events. Again, an identical selection to the analysis control regions is used (cf. sec. ~\ref{sec:selection_cr_2m} and~\ref{sec:selection_cr_1e}), with the exception of requiring the leading muon \pt to be larger than 40~\GeV and omitting the \ptmiss cut in the electron region. The \HT-binned \texttt{WJets} and \texttt{DYJets} simulation samples are used. The resulting data-to-MC efficiency scale factors for all regions are shown in Fig.~\ref{fig:hltsf_met}. For 2017, a clear trend is present: The scale factor in dimuon events is larger in absolute terms then the one from the single muon region, and the scale factor from single electron events is the smallest. The difference between all regions is within $1\%$ relative to the single muon region. For 2018, -- clear trend is observed above a recoil of $250~\GeV$: The scale factors from all three regions agree within the available statistical precision. Finally, the scale factors obtained form the single muon region are used to reweight the simulation. The difference to the other regions is taken into account by assigning an overall $1\%$ uncertainty.
 
 \begin{figure*}[hbtp]\begin{center}
     \includegraphics[width=0.49\textwidth]{fig/efficiency/trigger/met/data_mc_comparison_1m_2017.pdf}
@@ -173,7 +173,27 @@ The scale factors for id and isolation for tight muons are shown in Fig.~\ref{fi
 
 \clearpage
 \subsection{Higher-order reweighting}\label{sec:nlo}
-This analysis uses the ratios of the recoil distributions in signal and control regions to constrain the final background estimate in a partially data driven way. As signal and control regions both have large statistical power, precise predictions of these ratios are necessary. To achieve this goal, the LO simulation samples for the samples W, DY and photon backgrounds are reweighted using higher-order corrections separately corresponding to NLO QCD, NLO EW and NNLO QCD terms.
+This analysis uses the ratios of the recoil distributions in signal and control regions to constrain the final background estimate in a partially data driven way. As signal and control regions both have large statistical power, precise predictions of these ratios are necessary. To achieve this goal, the LO simulation samples for the samples W, DY and photon backgrounds are reweighted using higher-order corrections separately corresponding to NLO QCD, NLO EW and NNLO QCD terms. The individual corrections are described in more detail in this section. A concise overview of which corrections are applied to which processes is given in Tab.~\ref{tab:higher_order_summary}.
+
+
+\begin{table}[ht!]
+    \centering
+    \small
+    \def\arraystretch{1.5}
+    \caption{Summary of higher-order corrections applied to simulated samples. For each boson production process, separate samples and corrections are available for the EWK and QCD production modes. ``MC order'' reflects the perturbative order used in the generation of the simulation sample, while the further columns represent corrections applied on a per-event level in the analysis process.}
+    \begin{tabular}{l l c c c c}
+        \textbf{Boson} & \textbf{production mode}  & \textbf{MC order} & \textbf{NLO QCD} & \textbf{NNLO QCD} & \textbf{NLO EWK} \\\hline\hline
+    \multirow{2}{*}{Z} & QCD & LO & \checkmark & \checkmark & \checkmark \\
+                       & EWK & LO & \checkmark & -- & -- \\\hline
+    \multirow{2}{*}{W} & QCD & LO & \checkmark & \checkmark & \checkmark \\
+    & EWK & LO & \checkmark & -- & -- \\\hline
+    \multirow{2}{*}{$\gamma$} & QCD & LO & \checkmark & \checkmark & \checkmark \\
+    & EWK & LO & -- & -- & -- \\\hline\hline
+
+    \end{tabular}
+
+    \label{tab:higher_order_summary}
+\end{table}
 
 \subsubsection{Generator-level boson construction}
 All theory-based corrections of the W, DY and photon backgrounds are parametrized as a function of the generator-level \pt of the respective boson \ptv. For each simulated event, this quantity is calculated as follows. For DY and W samples, generator-level dilepton candidates are built from:
