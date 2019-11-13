@@ -34,63 +34,13 @@ used in the analysis (e.g. trigger turn-ons).
     \label{tab:DataSamples}
 \end{table}
 
-Events for the signal region are collected using a set of dedicated
-triggers designed to select events with large \ptmiss and large \mht based on
-the online particle flow (PF) algorithm. In these dedicated trigger algorithms,
-identified PF muons are removed from the event before the
-\ptmiss~and the \mht~objects are calculated. With this definition,
-the signal trigger paths can also be used to select single and double muon events for the W and Z control regions, respectively.
-
-Electron events for the W and Z regions are selected using a single electron trigger.
-To ensure the trigger efficiency also for high-\pt electrons, the single electron trigger is used in combination with
-a single photon trigger~\cite{CMS-EGM-TWIKI-HLT}. The same photon trigger is used to select events for the photon control region.
-
-The full list of triggers used, along with the L1 seeds and the associated primary datasets are shown in Table~\ref{tab:triggers}.
-
-\begin{table}[h]
-    \centering
-    \def\arraystretch{1.5}
-
-    \small
-    \caption{HLT paths and the associated L1 seeds used in the analysis for the 2017 and 2018 datasets. The HLT paths ending in ``\_HT60'' are backup triggers introduced  to mitigate noise rate problems in 2017. Their inclusion is not strictly necessary for 2018, but is done for consistency.}
-
-    \footnotesize
-    \begin{tabular}{l l c c}
-        \hline\hline
-        Year                   & HLT path                                                  & L1 seed                         & Primary dataset               \\\hline\hline
-        \multirow{5}{*}{2017}  & HLT\_PFMETNoMu120\_PFMHTNoMu120\_IDTight                  & \texttt{L1\_ETMHF70}            & MET                           \\
-                               & HLT\_PFMETNoMu120\_PFMHTNoMu120\_IDTight\_PFHT60          & \texttt{L1\_ETMHF80\_HTT60er }  & MET                           \\\cline{2-4}
-                               & HLT\_Ele35\_WPTight\_Gsf                                  & \texttt{L1\_SingleEG24}         & SingleElectron                \\\cline{2-4}
-                               & \multirow{3}{*}{HLT\_Photon200}                           & \texttt{L1\_SingleEG30}         & \multirow{3}{*}{SinglePhoton} \\
-                               &                                                           & \texttt{L1\_SingleJet170}       &                               \\
-                               &                                                           & \texttt{L1\_SingleTau100er2p1}  &                               \\\hline\hline
-
-        \multirow{11}{*}{2018} & \multirow{2}{*}{HLT\_PFMETNoMu120\_PFMHTNoMu120\_IDTight} & \texttt{L1\_ETMHF100}           & \multirow{3}{*}{MET}          \\
-                               &                                                           & \texttt{L1\_ETM150}             &                               \\
-                               & HLT\_PFMETNoMu120\_PFMHTNoMu120\_IDTight\_PFHT60          & \texttt{L1\_ETMHF90\_HTT60er}   &                               \\\cline{2-4}
-                               & \multirow{3}{*}{HLT\_Ele32\_WPTight\_Gsf}                 & \texttt{L1\_SingleIsoEG24er2p1} & \multirow{3}{*}{EGamma}       \\
-                               &                                                           & \texttt{L1\_SingleEG26er2p5}    &                               \\
-                               &                                                           & \texttt{L1\_SingleEG60}         &                               \\\cline{2-4}
-
-                               & \multirow{5}{*}{HLT\_Photon200}                           & \texttt{L1\_SingleEG34er2p5}    & \multirow{5}{*}{EGamma}       \\
-                               &                                                           & \texttt{L1\_SingleJet160er2p5}  &                               \\
-                               &                                                           & \texttt{L1\_SingleJet180}       &                               \\
-                               &                                                           & \texttt{L1\_SingleTau120er2p1}  &                               \\
-                               &                                                           & \texttt{L1\_SingleEG60}         &                               \\\hline
-
-        \hline\hline %--------------------------------------------------------------------------------------------------------------------------      \
-    \end{tabular}
-
-    \label{tab:triggers}
-\end{table}
-
 \subsection{Background Samples}
 
 
 Simulation datasets for the background processes are listed in
 Table~\ref{tab:BackgroundSamples} and~\ref{tab:BackgroundSamples_2}.
 There are several Standard Model processes that pose as backgrounds to the VBF $H_{inv}$ signal, experimental signature of the
-final state being two jets with large rapidity seperation and invariant mass, along with \ptmiss.
+final state being two jets with large rapidity seperation and invariant mass, along with $\ptmiss$.
 These processes are as follows:
 
 \begin{description}
