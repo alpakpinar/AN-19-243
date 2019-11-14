@@ -32,11 +32,23 @@ The effect of this requirement is demonstrated in the sub-leading jet $\eta$ dis
   \centering
         \includegraphics[width=0.45\textwidth]{fig/datamc/cr_1m_vbf/cr_1m_vbf_ak4_eta1_losf_2017_withpuid.png}
         \includegraphics[width=0.45\textwidth]{fig/datamc/cr_1m_vbf/cr_1m_vbf_ak4_eta1_losf_2017_withoutpuid.png}
-  \caption{Subleading AK4 jet $\eta$ distribution with pileup ID requirement (left) and without pileup ID requirement (right) in the single muon control region.}
+  \caption{Subleading AK4 jet $\eta$ distribution in single muon control region with pileup ID requirement (left) 
+  and without pileup ID requirement (right).}
   \label{fig:pileupid}
 \end{figure}
 
-{\color{red} Need to add information about JER correction usage}
+In addition to the pileup ID requirement, JER corrections are applied to all AK4 jets. Application of this correction on all 
+jets is observed to improve the modeling of the jets, especially near the horn regions near $|\eta| = 2.9$. The effect of JER 
+corrections on the subleading jet eta distribution is shown in Fig.~\ref{fig:jer_correction}.
+
+\begin{figure}[htbp]
+  \centering
+        \includegraphics[width=0.45\textwidth]{fig/datamc/jer_comparison/cr_1e_vbf_ak4_eta1_losf_2017_jer.pdf}
+        \includegraphics[width=0.45\textwidth]{fig/datamc/jer_comparison/cr_1e_vbf_ak4_eta1_losf_2017_nojer.pdf}
+  \caption{Subleading AK4 jet $\eta$ distribution in single electron control region with JER corrections applied (left) 
+  and without JER corrections applied (right).}
+  \label{fig:jer_correction}
+\end{figure}
 
 Lastly, to suppress the contributions due to non-collision backgrounds, the following
 requirements are applied on the leading AK4 jet:
