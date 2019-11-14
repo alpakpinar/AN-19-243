@@ -45,17 +45,6 @@ requirements are applied on the leading AK4 jet:
 \item Neutral hadron energy fraction $< 0.8$
 \end{itemize}
 
-The effect of these cleaning requirements are demonstrated in the jet $\phi$ distribution of
-the signal region events in Fig.~\ref{fig:jetcleaning}.
-
-\begin{figure}[htbp]
-  \centering
-        \includegraphics[width=0.45\textwidth]{placeholder.png}
-  \caption{Leading AK4 jet $\phi$ distribution before and after applying the jet cleaning
-requirements in the signal region.}
-  \label{fig:jetcleaning}
-\end{figure}
-
 \subsubsection{b-tagged jets}
 
 %{\color{red} Update the b-tagging working point when the new tagging working points are defined}
@@ -114,7 +103,7 @@ jets, leptons and unclustered energy. Each sub-component is then varied
 within its scale and resolution uncertainty. In this analysis, the largest
 contribution on the final \ptmiss uncertainty comes from the variations of the
 jet energy scale correction and the magnitude of the uncertainty is estimated
-to be 4\% for the \Zvvjets~events. {\color{red} Up to date?}
+to be 4\% for the \Zvvjets~events. This uncertainty is not the most recent one and it will be recalculated.
 
 Anomalous high-\ptmiss events can appear due to various phenomena.
 In the ECAL, spurious deposits may appear due to particles striking
@@ -152,26 +141,11 @@ A number of filters has been developed by the POG/DPG groups to identify and sup
     \label{tab:metfilters}
 \end{table}
 
-{\color{red} Currently not applying this cut}
 To further miminize the contribution of anomalous high-\ptmiss events
 (specifically due to spurious charged hadrons) in this analysis, a
 quantity based on the relative ratio of calorimetry based \ptmiss and
-PF based \ptmiss is employed. Examples of the distribution in
-single muon and single electron control regions can be found in
-Fig.~\ref{fig:calomet_pfmet}, which are produced after requiring the
-whole set of the standard \ptmiss filters provided by the POG.
-Events satisfying $|\metcalo - \metpf|/U < 0.5$ are selected in this analysis.
-
-\begin{figure}[htbp]
-  \centering
-        \includegraphics[width=0.45\textwidth]{fig/datamc/cr_1m_vbf/cr_1m_vbf_dpfcalo_2017.png}
-        \includegraphics[width=0.45\textwidth]{fig/datamc/cr_1e_vbf/cr_1e_vbf_dpfcalo_2017.png}
-  \caption{The difference between calorimeter-based and PF MET relative to the hadronic recoil
-in data and simulated events passing the analysis selection for the single muon (left) and
-single electron (right) control regions. Events with values of $< 0.5$ are considered in
-the analysis.}
-  \label{fig:calomet_pfmet}
-\end{figure}
+PF based \ptmiss is employed. Events satisfying $|\metcalo - \metpf|/U < 0.5$ 
+are selected in this analysis.
 
 \subsection{Leptons}
 
