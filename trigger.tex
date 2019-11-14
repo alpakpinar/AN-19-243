@@ -53,15 +53,24 @@ The full list of triggers used, along with the L1 seeds and the associated prima
 \end{table}
 
 \subsection{Efficiency measurement}
+\label{sec:efficiency}
 
-The performance of $\ptmiss + \htmiss$ based triggers is measured by using single muon events, i.e. sample enriched in
-$W \rightarrow \mu\nu$ decays. The measurement is performed by using both data and MC samples for 2017 and 2018, seperately.
+\subsubsection{\ptmiss+\mht triggers}
+The performance of the $\ptmiss+\mht$ triggers is measured using single muon events. The
+events are selected from the SingleMuon using the \texttt{HLT\_IsoMu27} (\texttt{HLT\_IsoMu24}) 
+trigger for 2017 (2018), and the offline muon is required to be well-identified and have \pt larger than 40 GeV. 
+The same selection is required as for the single-muon control region used in the final fit (cf. sec. ~\ref{sec:selection_cr_1m}):
 
-$W \rightarrow \mu\nu$ events are selected from Single Muon dataset and WJetsToLNu MC sample. 
-The muon must must pass the tight ID requirement. In addition, the transverse mass of the muon must not exceed $160 \ GeV$. 
-There should be no additional leptons or photons and b-jets identified in the event. In addition, there must be at least 
-two jets in the event, and the leading two jets must have $\pt$ higher than $80 \ GeV$ and $40 \ GeV$, respectively. 
-Finally, the two leading jets must satisty $\detajj > 1.0$ and $\dphijj < 1.5$.
+\begin{enumerate}
+    \item Veto on additional leptons, photons, b jets, $\tau_{had}$ candidates.
+    \item $\Delta\phi(jet,\ptvecmiss)>0.5$ for the four leading jets with $\pt>30~\GeV$.
+    \item (Calo \ptmiss - PF \ptmiss) / recoil < 0.5
+    \item $M_{T}(\ell,\ptmiss) < 160~\GeV$.
+    \item Leading AK4 jet with $\pt>80\ GeV$, passing the tight jet ID.
+    \item Subleading AK4 jet with $\pt>40\ GeV$.
+    \item $\detajj > 1.0$
+    \item $\dphijj < 1.5$
+\end{enumerate}
 
 To understand the dependence of the efficiencies on the jet kinematics, we measured the efficiency in three different categories:
 
@@ -80,7 +89,7 @@ Fig.~\ref{fig:eff_mjj_2017_1m} shows the efficiencies as a function of $\mjj$ in
 whereas Fig.~\ref{fig:eff_mjj_2018_1m} shows the efficiencies as a function of $\mjj$ in data and MC for the three categories in 2018. 
 Fig.~\ref{fig:eff_recoil_2017_1m} shows the efficiencies as a function of recoil in data and MC for the three categories, 
 for 2017 samples, whereas Fig.~\ref{fig:eff_recoil_2018_1m} shows the efficiencies as a function of recoil in data and MC 
-for the three categories, for 2018 samples. 
+for the three categories, for 2018 samples. % Also need to add the plot comparing scale factors across different jet kinematics
 
 \begin{figure}[htp]
     \begin{center}
@@ -125,3 +134,32 @@ for the three categories, for 2018 samples.
             two forward jets. These results are obtained from 2018 data and MC samples with the selection of single muon events.}
     \label{fig:eff_recoil_2018_1m}
 \end{figure}
+
+\subsubsection{Photon trigger}
+The photon trigger efficiency is measured using events from the JetHT dataset collected with the \texttt{HLT\_PFHT1050} 
+trigger, which was fully unprescaled in 2017 and 2018~\footnote{The other, prescaled \texttt{HLT\_PFHTXXX} 
+paths yield lower statistical precision.}. Events are selected in the same way as for the photon analysis control region 
+(cf. sec.~\ref{sec:selection_cr_g}), except for the photon \pt, recoil and trigger requirements. 
+The trigger efficiency $\epsilon$ is then determined as:
+
+$$\epsilon(\texttt{HLT\_Photon200}) = \frac{\text{Offline selection \&\& \texttt{HLT\_PFHT1050} \&\& \texttt{HLT\_Photon200}}}{\text{Offline selection \&\& \texttt{HLT\_PFHT1050}}} $$
+
+The resulting efficiency in data and \texttt{GJets} \HT-binned simulation is shown in Fig.~\ref{fig:hlteff_photon}. 
+The trigger efficiency in data is larger than $95\%$ for a photon \pt of larger than $215~\GeV$, and larger than $99\%$ 
+for photon \pt larger than $400~\GeV$. Between $250$ and $400~\GeV$, there is a slight inefficiency amounting to approximately 
+$1\%$ at the most, with a larger amplitude in 2017 than in 2018. In both years, the turn-on behavior is almost immediate in 
+simulated events, resulting in an MC-to-data scale factor almost entirely driven by the efficiency in data. 
+The scale factor is within $1\%$ of unity for all bins except the lowest 2017 bin at $215\~GeV$, where is deviates 
+from unity by about $4\%$.
+
+Based on these results, the offline \pt cut for the photon in the photon control region is chosen to be $215~\GeV$.
+
+\begin{figure*}[hbtp]\begin{center}
+    \includegraphics[width=0.49\textwidth]{fig/efficiency/trigger/photon/data_mc_comparison_g_HLT_PFHT1050_2017.pdf}
+    \includegraphics[width=0.49\textwidth]{fig/efficiency/trigger/photon/data_mc_comparison_g_HLT_PFHT1050_2018.pdf}
+    \caption{Efficiency of the \texttt{HLT\_Photon200} trigger in data (black) and \HT-binned \texttt{GJets} simulation (red) for 2017 (left) and 2018 (right) as a function of photon \pt. The bottom panel shows the MC-to-data efficiency scale factor. The blue vertical line indicates a photon \pt of $215~\GeV$, which is the requirement used in the analysis selection.}
+    \label{fig:hlteff_photon}
+ \end{center}\end{figure*}
+
+ \subsubsection{Electron trigger}
+{\color{red} We also need to add information about the single electron trigger efficiencies}

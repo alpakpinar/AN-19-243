@@ -4,57 +4,10 @@ Simulated signal and background samples are corrected for various effects throug
 
 \subsection{Trigger efficiency reweighting}
 
-\subsubsection{\ptmiss+\mht triggers}
-The performance of the \ptmiss+\mht triggers is measured using single muon events. The
-events are selected from the SingleMuon using the \texttt{HLT\_IsoMu27} (\texttt{HLT\_IsoMu24}) trigger for 2017 (2018), and the offline muon is required to be well-identified and have \pt larger than 40 GeV. The same selection is required as for the single-muon control region used in the final fit (cf. sec. ~\ref{sec:selection_cr_1m}):
-
-\begin{enumerate}
-\item Veto on additional leptons, photons, b jets, $\tau_{had}$ candidates.
-\item $\Delta\phi(jet,\ptvecmiss)>0.5$ for the four leading jets with $\pt>30~\GeV$.
-\item (Calo \ptmiss - PF \ptmiss) / recoil < 0.5
-\item $M_{T}(\ell,\ptmiss) > 160~\GeV$.
-\item Central AK4 jet with $\pt>100 GeV$, passing the tight jet ID.
-\end{enumerate}
-
-The efficiency is calculated as a function of the hadronic recoil \pt and is shown in Fig.~\ref{fig:hlteff_met}.
-The trigger is found to be more than $95\%$ efficient for events with a recoil larger than $250~\GeV$, and more than $99\%$ efficient for events with a recoil larger than $375~\GeV$. The MC-to-data scale factor is found to be within $1\%$ of unity everywhere except for the lowest recoil bin at $250~\GeV$, where it is within $2\%$.
-
-To investigate the stability of the measurement in single muon events, the same method is used to extract the efficiency from samples of double muon and single electron events. Again, an identical selection to the analysis control regions is used (cf. sec. ~\ref{sec:selection_cr_2m} and~\ref{sec:selection_cr_1e}), with the exception of requiring the leading muon \pt to be larger than 40~\GeV and omitting the \ptmiss cut in the electron region. The \HT-binned \texttt{WJets} and \texttt{DYJets} simulation samples are used. The resulting data-to-MC efficiency scale factors for all regions are shown in Fig.~\ref{fig:hltsf_met}. For 2017, a clear trend is present: The scale factor in dimuon events is larger in absolute terms then the one from the single muon region, and the scale factor from single electron events is the smallest. The difference between all regions is within $1\%$ relative to the single muon region. For 2018, -- clear trend is observed above a recoil of $250~\GeV$: The scale factors from all three regions agree within the available statistical precision. Finally, the scale factors obtained form the single muon region are used to reweight the simulation. The difference to the other regions is taken into account by assigning an overall $1\%$ uncertainty.
-
-\begin{figure*}[hbtp]\begin{center}
-    \includegraphics[width=0.49\textwidth]{fig/efficiency/trigger/met/data_mc_comparison_1m_2017.pdf}
-    \includegraphics[width=0.49\textwidth]{fig/efficiency/trigger/met/data_mc_comparison_1m_2018.pdf}
-    \caption{MET trigger turn-on curve measured in single muon events as a function of hadronic recoil \pt in the 2017 and 2018 \texttt{SingleMuon} datasets and \HT-binned \texttt{WJets} simulation samples. The vertical blue line indicates a recoil value of $250~\GeV$, which is the requirement used in the analysis selection. The bottom panel shows the MC-to-data scale factor, with the blue horizontal lines indicating deviations of $1\%$ and $2\%$ from unity, respectively.}
-    \label{fig:hlteff_met}
- \end{center}\end{figure*}
-
-\begin{figure*}[hbtp]\begin{center}
-    \includegraphics[width=0.49\textwidth]{fig/efficiency/trigger/met/sf_comparison_2017.pdf}
-    \includegraphics[width=0.49\textwidth]{fig/efficiency/trigger/met/sf_comparison_2018.pdf}
-    \caption{MC-to-data efficiency scale factors measured single muon events (`1m'), dimuon events (`2m') and single electron events (`1e'). For the single-lepton regions, the \HT-binned \texttt{WJets} are used, and the \HT-binned \texttt{DY} samples are used for the dimuon region. The bottom panel shows the ratio of the scale factors obtained from each individual region to the scale factor obtained from the single muon region. The vertical blue line indicates a recoil value of $250~\GeV$, which is the requirement used in the analysis selection, while the horizontal lines indicate deviations of $\pm1\%$ from unity.}
-    \label{fig:hltsf_met}
- \end{center}\end{figure*}
-
-
-
-\subsubsection{Photon trigger}
-The photon trigger efficiency is measured using events from the JetHT dataset collected with the \texttt{HLT\_PFHT1050} trigger, which was fully unprescaled in 2017 and 2018~\footnote{The other, prescaled \texttt{HLT\_PFHTXXX} paths yield lower statistical precision.}. Events are selected in the same way as for the photon analysis control region (cf. sec.~\ref{sec:selection_cr_g}), except for the photon \pt, recoil and trigger requirements. The trigger efficiency $\epsilon$ is then determined as:
-
-$$\epsilon(\texttt{HLT\_Photon200}) = \frac{\text{Offline selection \&\& \texttt{HLT\_PFHT1050} \&\& \texttt{HLT\_Photon200}}}{\text{Offline selection \&\& \texttt{HLT\_PFHT1050}}} $$
-
-The resulting efficiency in data and \texttt{GJets} \HT-binned simulation is shown in Fig.~\ref{fig:hlteff_photon}. The trigger efficiency in data is larger than $95\%$ for a photon \pt of larger than $215~\GeV$, and larger than $99\%$ for photon \pt larger than $400~\GeV$. Between $250$ and $400~\GeV$, there is a slight inefficiency amounting to approximately $1\%$ at the most, with a larger amplitude in 2017 than in 2018. In both years, the turn-on behavior is almost immediate in simulated events, resulting in an MC-to-data scale factor almost entirely driven by the efficiency in data. The scale factor is within $1\%$ of unity for all bins except the lowest 2017 bin at $215\~GeV$, where is deviates from unity by about $4\%$.
-
-Based on these results, the offline \pt cut for the photon in the photon control region is chosen to be $215~\GeV$.
-
-\begin{figure*}[hbtp]\begin{center}
-    \includegraphics[width=0.49\textwidth]{fig/efficiency/trigger/photon/data_mc_comparison_g_HLT_PFHT1050_2017.pdf}
-    \includegraphics[width=0.49\textwidth]{fig/efficiency/trigger/photon/data_mc_comparison_g_HLT_PFHT1050_2018.pdf}
-    \caption{Efficiency of the \texttt{HLT\_Photon200} trigger in data (black) and \HT-binned \texttt{GJets} simulation (red) for 2017 (left) and 2018 (right) as a function of photon \pt. The bottom panel shows the MC-to-data efficiency scale factor. The blue vertical line indicates a photon \pt of $215~\GeV$, which is the requirement used in the analysis selection.}
-    \label{fig:hlteff_photon}
- \end{center}\end{figure*}
-
-\subsubsection{Electron trigger}
-{\color{red} We also need to add information about the single electron trigger efficiencies}
+The efficiency is calculated as a function of the recoil and $\mjj$.
+The trigger is found to be more than $95\%$ efficient for events with a recoil larger than $250~\GeV$, and more than $99\%$ 
+efficient for events with a recoil larger than $375~\GeV$. The MC-to-data scale factor is found to be within $1\%$ of unity 
+everywhere except for the lowest recoil bin at $250~\GeV$, where it is within $2\%$ (c.f. sec. ~\ref{sec:efficiency}). 
 
 \subsection{Pileup reweighting}
 
