@@ -67,7 +67,7 @@ provided by the relevant POGs.
 
 The reconstruction scale factors for electrons are shown in Fig.~\ref{fig:sf_electron_reco}. The corresponding identification scale factors for veto and tight electrons are shown in Fig.~\ref{fig:sf_electron_id}, and include the effect of the isolation efficiency. 
 
-The identification scale factors for muons are shown in Fig.~\ref{fig:sf_muon_id}. Here, isolation scale factors are applied separately and are shown in Fig.~\ref{sf_muon_iso}. The corresponding corrections for muons are deemed negligible~\cite{CMS-MUO-TWIKI-SF}.
+The identification scale factors for muons are shown in Fig.~\ref{fig:sf_muon_id}. Here, isolation scale factors are applied separately and are shown in Fig.~\ref{fig:sf_muon_iso}. The corresponding corrections for muons are deemed negligible~\cite{CMS-MUO-TWIKI-SF}.
 
 \begin{figure}[ht!]
   \begin{center}
@@ -92,8 +92,6 @@ The identification scale factors for muons are shown in Fig.~\ref{fig:sf_muon_id
     \label{fig:sf_electron_id}
   \end{center}
 \end{figure}
-
-The scale factors for id and isolation for tight muons are shown in Fig.~\ref{fig:sfmuon}.
 
 \begin{figure}[ht!]
   \begin{center}
@@ -168,10 +166,10 @@ Scale factors corresponding to NLO QCD corrections for W and Z production are ob
 The scale factors are derived by obtaining the distribution of interest at the generator-level in both samples, normalizing the distributions to their respective cross sections, and then dividing them as SF = NLO / LO. Identical selection criteria are applied to both samples based on the generator-level boson and generator-level AK4 jets, which are clustered using all visible generator particles with status 1. Generator-level jets overlapping with a lepton or photon present in the LHE record are rejected. The event selection requirements are:
 
 \begin{enumerate}
-\item At least two generator-level jets must be present, with the leading (trailing) \pt of at least 80 GeV (40 GeV) and $|\eta|<4.7$.
+\item At least two generator-level jets must be present, with the leading (trailing) \pt of at least 80 GeV (40 GeV) and $|\eta|<5.0$.
 \item The angular difference in the transverse plane between the two jets is required to be small: $\Delta\phi(jj) < 1.5$.
 \item The two leading jets are required to be well separated in pseudorapidity, $|\eta_{1}-\eta_{2}| > 1$, and be located in opposite hemispheres of the detector, $\eta_{1}\times \eta_{2}<0$.
-\item The difference in the azimuthal angle ($\Delta\phi$) between the boson and the four leading jets in the event is required to be larger than 0.5. Only jets with $\pt>30~\GeV$ and $|\eta|<2.4$ are considered.
+\item The difference in the azimuthal angle ($\Delta\phi$) between the boson and the four leading jets in the event is required to be larger than 0.5. Only jets with $\pt>30~\GeV$ and $|\eta|<5.0$ are considered.
 \end{enumerate}
 
 Compared to an inclusive derivation of the SF, the inclusion of the selection criteria leads to an increase in the value of the SF of approximately five percentage points.
@@ -184,9 +182,9 @@ The scale factors are derived with a two-dimensional dependence on \ptv and \mjj
         \includegraphics[width=0.49\textwidth]{fig/theory/2d_dy_gen_vpt_vbf_dress.pdf}
         \includegraphics[width=0.49\textwidth]{fig/theory/2d_wjet_gen_vpt_vbf_dress.pdf} \\
         \caption{
-            Same as Fig.~\ref{fig:theory_sf_qcd_nlo}, but now binned in two dimensions of the generator-level boson \pt and \mjj.
+            LO-to-NLO theory scale factors binned in the generator-level boson \pt and \mjj.
             The k factors are derived within the generator-level VBF selection described in the text.
-            The uncertainties quoted in each bin are the statistical uncertainties due to the finite size of simulated samples.
+            The uncertainties quoted in each bin are the statistical uncertainties due to the finite size of the simulated samples.
           }
       \label{fig:theory_sf_qcd_nlo_2d_wz}
     \end{center}
