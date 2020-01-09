@@ -163,46 +163,21 @@ For photon events, the generator photon with highest \pt and status 1 is used.
 
 \subsubsection{QCD NLO corrections to QCD V processes}
 
-Scale factors corresponding to NLO QCD corrections for W and Z production are obtained from central CMS. For the DY and W processes, samples from ``Fall17'' campaign, while ``Summer16'' samples are used for the $\gamma$+jets process. In both cases, all samples are generated using \texttt{MadGraph5\_amc@NLO}. The LO samples are binned in HT and are equivalent to the ones used in in the analysis, and are generated with up to four partons in the matrix element. The NLO samples are generated with up to two additional partons in the matrix element calculation. Further jet multiplicities are handled by the parton shower, which in both cases is performed using \texttt{Pythia8} with tune \texttt{CP5}.
+Scale factors corresponding to NLO QCD corrections for W and Z production are obtained from centrally produced CMS samples. For the DY and W processes, samples from the ``Fall17'' campaign are used, while ``Summer16'' samples are used for the $\gamma$+jets process. In both cases, all samples are generated using \texttt{MadGraph5\_amc@NLO}. The LO samples are binned in HT and are equivalent to the ones used in in the analysis, and are generated with up to four partons in the matrix element. The NLO samples are generated with up to two additional partons in the matrix element calculation. Further jet multiplicities are handled by the parton shower, which in both cases is performed using \texttt{Pythia8} with tune \texttt{CP5} (\texttt{CUETP8M1}) for Fall17 (Summer16).
 
-The scale factors are derived by obtaining the distribution of interest at the generator-level in both samples, normalizing the distributions to their respective cross sections, and then dividing them as SF = NLO / LO. Identical selection criteria are applied to both samples based on the generator-level boson and generator-level AK4 jets, which are clustered using all visible generator particles with status 1. The requirements are:
+The scale factors are derived by obtaining the distribution of interest at the generator-level in both samples, normalizing the distributions to their respective cross sections, and then dividing them as SF = NLO / LO. Identical selection criteria are applied to both samples based on the generator-level boson and generator-level AK4 jets, which are clustered using all visible generator particles with status 1. Generator-level jets overlapping with a lepton or photon present in the LHE record are rejected. The event selection requirements are:
 
 \begin{enumerate}
-\item At least two generator-level jets, with the leading (trailing) \pt of at least 80 GeV (40 GeV) and $|\eta|<4.7$.
-\item The two leading jets must be in opposite hemispheres of the detector, $\eta_{1}\times \eta_{2}<0$.
-\item The difference in the azimuthal angle ($\Delta\phi$) between the boson and the four leading jets in the event is required to be larger than 0.5. Only jets with $\pt>30~\GeV$ are considered.
+\item At least two generator-level jets must be present, with the leading (trailing) \pt of at least 80 GeV (40 GeV) and $|\eta|<4.7$.
+\item The angular difference in the transverse plane between the two jets is required to be small: $\Delta\phi(jj) < 1.5$.
+\item The two leading jets are required to be well separated in pseudorapidity, $|\eta_{1}-\eta_{2}| > 1$, and be located in opposite hemispheres of the detector, $\eta_{1}\times \eta_{2}<0$.
+\item The difference in the azimuthal angle ($\Delta\phi$) between the boson and the four leading jets in the event is required to be larger than 0.5. Only jets with $\pt>30~\GeV$ and $|\eta|<2.4$ are considered.
 \end{enumerate}
 
-Compared to an inclusive derivation of the SF, the inclusion of the selection criteria leads to an increase in the value of the SF of about $10-12\%$.
+Compared to an inclusive derivation of the SF, the inclusion of the selection criteria leads to an increase in the value of the SF of approximately five percentage points.
 
 
-The scale factors are derived either as a one-dimensional function of the generator-level boson \ptv (``1D'')or two-dimensionally in \ptv and \mjj (``2D'').
-
-The 1D SFs are shown in Fig.~\ref{fig:theory_sf_qcd_nlo}. To protect the outcome of the reweighting procedure from binning effects, the binned scale factor is interpolated using a falling exponential function:
-\begin{equation}
-\mathtext{SF} = a\times \exp(-b\times\pt) + c,
-\end{equation}
-
-where \pt is the boson transverse momentum and a, b and c are determined by a fit to the scale factor histogram. The resulting values of the fit parameters, as well as the resulting interpolated shape are also shown in Fig.~\ref{fig:theory_sf_qcd_nlo}.
-
-The 2D versions of the SFs shown in Fig.~\ref{fig:theory_sf_qcd_nlo_2d_wz} for W and DY, and in Fig.~\ref{fig:theory_sf_qcd_nlo_2d_gamma} for photon production.
-
-
-\begin{figure}[ht!]
-    \begin{center}
-        \includegraphics[width=0.49\textwidth]{fig/theory/interpolation_vbf_dy.pdf}
-        \includegraphics[width=0.49\textwidth]{fig/theory/interpolation_vbf_wjet.pdf} \\
-        \includegraphics[width=0.49\textwidth]{fig/theory/interpolation_vbf_gjets.pdf}
-        \caption{
-            QCD NLO scale factors for the DY (top left), W (top right) and $\gamma$+jets processes.
-            The k factors are derived within the generator-level VBF selection described in the text.
-            In the top panel of each plot, the blue markers show the NLO SF derived from the simulated samples. The orange line shows a fit function used
-            to interpolate the SF. The functional form and resulting parameters are given in the figure. In the bottom panel, the blue markers
-            show the ratio of the histogram to the fit result in each bin.
-          }
-      \label{fig:theory_sf_qcd_nlo}
-    \end{center}
-  \end{figure}
+The scale factors are derived with a two-dimensional dependence on \ptv and \mjj, and are shown in Fig.~\ref{fig:theory_sf_qcd_nlo_2d_wz} for W and DY, and in Fig.~\ref{fig:theory_sf_qcd_nlo_2d_gamma} for photon production.
 
 \begin{figure}[ht!]
     \begin{center}

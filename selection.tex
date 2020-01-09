@@ -13,11 +13,8 @@ To be able to use the same triggers for selecting events in the muon control sam
 The trigger efficiency is measured to be $96\%$ for events passing the analysis selection for $\ptmiss > 250\GeV$ and becomes more than $99\%$ efficient for events with $\ptmiss > 350\GeV$.
 
 Candidate events are required to have $\ptmiss > 250\GeV$. 
-The leading AK4 jet in the signal event is required to have $ \pt > 80\GeV $ and $|\eta| < 4.7$, and the subleading AK4 jet is 
-required to have $ \pt > 40\GeV$ and $|\eta| < 4.7$. In addition, if the leading jet is within the tracker range, $|\eta| < 2.5$,
-it is required to have at least 10\% of its energy coming from charged particles and less than 80 \% of its energy attributed to 
-neutral hadrons, as discussed in section~\ref{sec:objects}. This selection helps to remove events originating from beam-induced backgrounds. 
-In addition, the analysis employs various event filters to reduce events with large misreconstructed \ptmiss~\cite{Sirunyan:2019kia} originating from noncollision backgrounds.
+The leading AK4 jet in the signal event is required to have $ \pt > 80\GeV $ and $|\eta| < 5.0$, and the subleading AK4 jet is 
+required to have $ \pt > 40\GeV$ and $|\eta| < 5.0$. In addition, the analysis employs various event filters to reduce events with large misreconstructed \ptmiss~\cite{Sirunyan:2019kia} originating from noncollision backgrounds.
 
 For the VBF signal events, two leading jets in opposite hemispheres are expected, with large dijet mass. Furthermore, these jets are 
 expected to have large rapidity seperation and small azimuthal seperation. Therefore, this analysis employs several requirements on 
@@ -26,7 +23,7 @@ $\mjj$, $\detajj$ and $\dphijj$, which can be found in Table~\ref{tab:selection}
 The main background processes in this search are the $\Zvvjets$ and $\Wlvjets$ processes. The $\Zvvjets$ process is an irreducible 
 background and constitutes the largest background in the search. In contrast, the background from $\Wlvjets$ is suppressed by 
 imposing a veto on events containing one or more loose muons or electrons with $ \pt >10\GeV$, or hadronically decaying $\tau$ 
-leptons with $\pt>18\GeV$. Events that contain a loose, isolated photon with $\pt>15\GeV$ and $|\eta| < 2.5$ are also rejected. 
+leptons with $\pt>20\GeV$. Events that contain a loose, isolated photon with $\pt>15\GeV$ and $|\eta| < 2.5$ are also rejected. 
 This helps to suppress electroweak (EW) backgrounds in which a photon is radiated from the initial state.
 To reduce the contamination from top quark backgrounds, events are rejected if they contain a b tagged jet with $\pt > 20\GeV$ 
 and $|\eta| < 2.4$. These jets are identified using the DeepCSV algorithm~\cite{CMS_NOTE_2018-323,Sirunyan:2017ezt}, 
@@ -34,7 +31,7 @@ adopting the ``medium'' working point, which corresponds to correctly identifyin
 a probability of 80\% and misidentifying a jet originating from a charm quark (light-flavor jet) with a probability of 12 (2)\%. 
 Lastly, QCD multijet background with \ETm arising from mismeasurements of the jet momenta is suppressed by requiring the minimum
 azimuthal angle between the \ptvecmiss direction and each of the first four leading jets with \pt greater than 30\GeV 
-and $|\eta| < 2.4$ to be larger than 0.5 radians.
+and $|\eta| < 4.7$ to be larger than 0.5 radians.
 
 The selection requirements for this analysis are summarized in Table~\ref{tab:selection}.
 
@@ -58,14 +55,14 @@ The selection requirements for this analysis are summarized in Table~\ref{tab:se
                 Variable                           & Selection                       & Target background \\
                 \hline
                 Muon (electron) veto               & $\pt > 10\GeV,~|\eta| < 2.4 (2.5)$  & \Zlljets,~\Wlvjets \\
-                $\tau$ lepton veto                 & $\pt > 18\GeV,~|\eta| < 2.3$        & \Zlljets,~\Wlvjets  \\
+                $\tau$ lepton veto                 & $\pt > 20\GeV,~|\eta| < 2.3$        & \Zlljets,~\Wlvjets  \\
                 Photon veto                        & $\pt > 15\GeV,~|\eta| < 2.5$        & \phojets \\
                 Bottom jet veto                    & DeepCSV medium $< 0.4941 / 0.4184$ (2017 / 2018) &  Top quark\\
                                                    & for all jets with $\pt > 20\GeV,~|\eta| < 2.4$ &\\
                 $\ptmiss$                          & ${>} 250\GeV$                          & QCD, top quark, \Zlljets \\
                 $\Delta\phi$($\ptvecjet$,$\ptvecmiss$)   &  $ {>} 0.5$ radians               & QCD \\
-                Leading AK4 jet $\pt$ and $\eta$   & ${>} 80\GeV$ and $ |\eta| < 4.7$      & All \\
-                Subleading AK4 jet $\pt$ and $\eta$   & ${>} 40\GeV$ and $ |\eta| < 4.7$      & All \\
+                Leading AK4 jet $\pt$ and $\eta$   & ${>} 80\GeV$ and $ |\eta| < 5.0$      & All \\
+                Subleading AK4 jet $\pt$ and $\eta$   & ${>} 40\GeV$ and $ |\eta| < 5.0$      & All \\
                 $\mjj$                               & ${>} 200\GeV$  \\       
                 $\detajj$                            & ${>} 1.0$  \\
                 $\dphijj$                            & ${<} 1.5$  \\
