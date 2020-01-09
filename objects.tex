@@ -30,9 +30,9 @@ The effect of this requirement is demonstrated in the sub-leading jet $\eta$ dis
 
 \begin{figure}[htbp]
   \centering
-        \includegraphics[width=0.45\textwidth]{fig/datamc/cr_1m_vbf/cr_1m_vbf_ak4_eta1_losf_2017_withpuid.png}
-        \includegraphics[width=0.45\textwidth]{fig/datamc/cr_1m_vbf/cr_1m_vbf_ak4_eta1_losf_2017_withoutpuid.png}
-  \caption{Subleading AK4 jet $\eta$ distribution in single muon control region with pileup ID requirement (left) 
+        \includegraphics[width=0.45\textwidth]{fig/datamc/puid_comparison/cr_1e_vbf_ak4_eta1_losf_2017_puid.png}
+        \includegraphics[width=0.45\textwidth]{fig/datamc/puid_comparison/cr_1e_vbf_ak4_eta1_losf_2017_nopuid.png}
+  \caption{Subleading AK4 jet $\eta$ distribution in single electron control region with pileup ID requirement (left) 
   and without pileup ID requirement (right).}
   \label{fig:pileupid}
 \end{figure}
@@ -49,13 +49,6 @@ corrections on the subleading jet eta distribution is shown in Fig.~\ref{fig:jer
   and without JER corrections applied (right).}
   \label{fig:jer_correction}
 \end{figure}
-
-Lastly, to suppress the contributions due to non-collision backgrounds, the following
-requirements are applied on the leading AK4 jet:
-\begin{itemize}
-\item Charged hadron energy fraction $> 0.1$
-\item Neutral hadron energy fraction $< 0.8$
-\end{itemize}
 
 \subsubsection{b-tagged jets}
 
@@ -112,10 +105,7 @@ where the sum takes into account the leptons and photons used to define the resp
 The uncertainty of \ptmiss has a strong dependence on the
 event topology. Therefore, the uncertainty on \ptmiss is often factorized into its components of
 jets, leptons and unclustered energy. Each sub-component is then varied
-within its scale and resolution uncertainty. In this analysis, the largest
-contribution on the final \ptmiss uncertainty comes from the variations of the
-jet energy scale correction and the magnitude of the uncertainty is estimated
-to be 4\% for the \Zvvjets~events. This uncertainty is not the most recent one and it will be recalculated.
+within its scale and resolution uncertainty. 
 
 Anomalous high-\ptmiss events can appear due to various phenomena.
 In the ECAL, spurious deposits may appear due to particles striking
@@ -152,12 +142,6 @@ A number of filters has been developed by the POG/DPG groups to identify and sup
 
     \label{tab:metfilters}
 \end{table}
-
-To further miminize the contribution of anomalous high-\ptmiss events
-(specifically due to spurious charged hadrons) in this analysis, a
-quantity based on the relative ratio of calorimetry based \ptmiss and
-PF based \ptmiss is employed. Events satisfying $|\metcalo - \metpf|/U < 0.5$ 
-are selected in this analysis.
 
 \subsection{Leptons}
 
@@ -257,8 +241,8 @@ event. The isolation requirement is computed by summing the \pt of the charged P
 candidates and PF photon candidates within an isolation cone of $\Delta R = 0.5 (0.3)$,
 around the tau candidate direction. The charged and photon candidates associated with the
 tau candidate are removed from this sum and further described in Ref.~\cite{Khachatryan:2015dfa}.
-The ``VLoose\_IsolationMVArun2v1DBnewDMwLT'' isolation working point~\cite{taupog_twiki} is employed in this analysis
-for tau candidates with \pt larger than 18~\GeV within $|\eta| < 2.3$.
+The ``VLoose\_IsolationMVArun2v1DBoldDMwLT'' isolation working point~\cite{taupog_twiki} is employed in this analysis
+for tau candidates with \pt larger than 20~\GeV within $|\eta| < 2.3$.
 
 
 \subsection{Photons}
@@ -319,7 +303,7 @@ Conversion safe electron veto              & Yes           \\
 \label{tab:PhotonIDTight}
 \end{table}
 
-\subsubsection{Photon purity studies}
+\subsubsection{Photon purity}
 Photons are reconstructed from ECAL clusters, and can discriminated from other sources of ECAL deposits due to the properties of the cluster, as well as their lack of other associated signatures such as tracks or HCAL deposits. This discrimination is not perfect, however, and in some cases, non-photon objects will incorrectly be identified as photons (``fakes''). The leading source of fake photons is QCD production of multijet events, where a jet is misidentified. This process is relevant mainly because of its large cross-section, which yields non-negligible contributions to the photon selection even if the per-jet probability of misreconstruction is small.
 
 To estimate the fake contribution to the photon control region, a purity measurement is performed. The photon purity is defined as the fraction of reconstructed photons that is actually due to an isolated photon from the hard scattering event, as opposed to a fake. The purity is obtained from a template fit to the distribution of the \sieie variable in data, which \sieie variable represents the width of the ECAL shower in the $\eta$ direction. Due to the different shower behavior of photons and hadrons, the \sieie distribution shows characteristically different behavior between these two classes of reconstructed photons: Real photons show a large peak with a cut-off around $\sieie\approx0.01$, while fake photons will have a smaller peak (stemming from actual photons inside jets), and an additional non-peaking bulk region at larger \sieie (stemming from hadrons interacting in the ECAL). The inputs to the fit are defined as follows:
